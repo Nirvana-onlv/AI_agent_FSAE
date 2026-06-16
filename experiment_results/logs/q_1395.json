@@ -1,0 +1,20 @@
+{
+    "question_number": 1395,
+    "timestamp": "2026-06-10 14:25:25",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12.4.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.12.4.4",
+            "retrieved_context": [
+                "\n            RULE: d.12.4.4\n            TITLE: if starts / restarts are not accomplished in the above times, the vehicle may be dnf.\n\n            CONTENT:\n            rule D.12.4.4: If starts / restarts are not accomplished in the above times, the vehicle may be DNF.\nD.12.4.4 If starts / restarts are not accomplished in the above times, the vehicle may be DNF.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "If starts / restarts are not accomplished in the above times, the vehicle may be DNF.",
+    "status": "success"
+}

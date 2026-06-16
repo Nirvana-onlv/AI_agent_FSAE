@@ -1,0 +1,20 @@
+{
+    "question_number": 588,
+    "timestamp": "2026-06-07 07:47:15",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.7.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.7.2",
+            "retrieved_context": [
+                "\n            RULE: t.2.7.2\n            TITLE: the anti-submarine belts of a 6 point harness must be mounted in one of the following ways:\n\n            CONTENT:\n            rule T.2.7.2: The Anti-Submarine Belts of a 6 point harness must be mounted in one of the following ways:\nT.2.7.2 The Anti-Submarine Belts of a 6 point harness must be mounted in one of the following ways: \na. With the belts going vertically down from the groin, or with an Anti-Submarine Belt Side \nView Angle up to 20° rearwards.  The Anti-Submarine Belt Mount Spacing should be \napproximately 100 mm apart.  \n \nb. With the Anti-Submarine Belt Mounting Points on the Primary Structure at or near the \nLap Belt anchorages, the driver sitting on the Anti-Submarine Belts, and the belts coming \nup around the groin to the release buckle.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.2.7.2: The Anti-Submarine Belts of a 6 point harness must be mounted in one of the following ways: T.2.7.2 The Anti-Submarine Belts of a 6 point harness must be mounted in one of the following ways: a. With the belts going vertically down from the groin, or with an Anti-Submarine Belt Side View Angle up to 20° rearwards. The Anti-Submarine Belt Mount Spacing should be approximately 100 mm apart. b. With the Anti-Submarine Belt Mounting Points on the Primary Structure at or near the Lap Belt anchorages, the driver sitting on the Anti-Submarine Belts, and the belts coming up around the groin to the release buckle.",
+    "status": "success"
+}

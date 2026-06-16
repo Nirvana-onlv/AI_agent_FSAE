@@ -1,0 +1,20 @@
+{
+    "question_number": 673,
+    "timestamp": "2026-06-07 10:24:24",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.6.1.6 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.6.1.6",
+            "retrieved_context": [
+                "\n            RULE: t.6.1.6\n            TITLE: cylinder material – gas cylinders/tanks in a position 150 mm or less from an exhaust system\n\n            CONTENT:\n            rule T.6.1.6: Cylinder Material – gas cylinders/tanks in a position 150 mm or less from an exhaust system\nT.6.1.6 Cylinder Material – gas cylinders/tanks in a position 150 mm or less from an exhaust system \nmust meet one of the two: \n• Made from metal\nFormula SAE® Rules 2024 © 2023 SAE International  Page 69 of 140   \nVersion 1.0   1 Sep 2023 \n• Meet the thermal protection requirements of T.1.6.3\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.6.1.6 Cylinder Material – gas cylinders/tanks in a position 150 mm or less from an exhaust system must meet one of the two: • Made from metal • Meet the thermal protection requirements of T.1.6.3",
+    "status": "success"
+}

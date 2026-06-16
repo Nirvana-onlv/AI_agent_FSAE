@@ -1,0 +1,20 @@
+{
+    "question_number": 589,
+    "timestamp": "2026-06-07 07:49:33",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.7.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.7.3",
+            "retrieved_context": [
+                "\n            RULE: t.2.7.3\n            TITLE: installation of all anti-submarine belts must go in a straight line from the anti-submarine belt\n\n            CONTENT:\n            rule T.2.7.3: Installation of all Anti-Submarine Belts must go in a straight line from the Anti-Submarine Belt\nT.2.7.3 Installation of all Anti-Submarine Belts must go in a straight line from the Anti-Submarine Belt \nMounting Point(s) without touching any hole in the seat or any other intermediate structure \nuntil they reach: \na. The release buckle for the 5 Point Harness mounting per T.2.7.1 \nb. The first point where the belt touches the driver’s body for the 6 Point Harness mounting \nper T.2.7.2\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.2.7.3: Installation of all Anti-Submarine Belts must go in a straight line from the Anti-Submarine Belt Mounting Point(s) without touching any hole in the seat or any other intermediate structure until they reach: a. The release buckle for the 5 Point Harness mounting per T.2.7.1 b. The first point where the belt touches the driver’s body for the 6 Point Harness mounting per T.2.7.2",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 751,
+    "timestamp": "2026-06-07 19:32:40",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule VE.3.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "VE.3.3.2",
+            "retrieved_context": [
+                "\n            RULE: ve.3.3.2\n            TITLE: underclothing\n\n            CONTENT:\n            rule VE.3.3.2: Underclothing\nVE.3.3.2 Underclothing \nAll competitors should wear fire retardant underwear (long pants and long sleeve shirt) under \ntheir approved Driver Suit.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule VE.3.3.2: Underclothing VE.3.3.2 Underclothing All competitors should wear fire retardant underwear (long pants and long sleeve shirt) under their approved Driver Suit.",
+    "status": "success"
+}

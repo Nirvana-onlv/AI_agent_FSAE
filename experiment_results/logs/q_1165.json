@@ -1,0 +1,20 @@
+{
+    "question_number": 1165,
+    "timestamp": "2026-06-09 15:34:26",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.11.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.11.2",
+            "retrieved_context": [
+                "\n            RULE: in.11.2\n            TITLE: rain test conduct\n\n            CONTENT:\n            rule IN.11.2: Rain Test Conduct\nIN.11.2 Rain Test Conduct \nThe water spray will be rain like, not a direct high pressure water jet \na. Spray water at the vehicle from any possible direction for 120 seconds \nb. Stop the water spray \nc. Observe the vehicle for 120 seconds\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IN.11.2: Rain Test Conduct IN.11.2 Rain Test Conduct The water spray will be rain like, not a direct high pressure water jet a. Spray water at the vehicle from any possible direction for 120 seconds b. Stop the water spray c. Observe the vehicle for 120 seconds",
+    "status": "success"
+}

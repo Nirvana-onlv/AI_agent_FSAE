@@ -1,0 +1,20 @@
+{
+    "question_number": 720,
+    "timestamp": "2026-06-07 11:47:55",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.9.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.9.3.2",
+            "retrieved_context": [
+                "\n            RULE: t.9.3.2\n            TITLE: characteristics\n\n            CONTENT:\n            rule T.9.3.2: Characteristics\nT.9.3.2 Characteristics \na. Be of the rotary mechanical type  \nb. Be rigidly mounted to the vehicle and must not be removed during maintenance \nc. Mounted where the rotary axis of the key is near horizontal and across the vehicle \nd. The ON position must be in the horizontal position and must be marked accordingly  \ne. The OFF position must be clearly marked  \nf. (EV Only) Operated with a red removable key that must only be removable in the \nelectrically open position\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.9.3.2: Characteristics T.9.3.2 Characteristics a. Be of the rotary mechanical type b. Be rigidly mounted to the vehicle and must not be removed during maintenance c. Mounted where the rotary axis of the key is near horizontal and across the vehicle d. The ON position must be in the horizontal position and must be marked accordingly e. The OFF position must be clearly marked f. (EV Only) Operated with a red removable key that must only be removable in the electrically open position",
+    "status": "success"
+}

@@ -1,0 +1,22 @@
+{
+    "question_number": 260,
+    "timestamp": "2026-06-06 19:06:02",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.1",
+            "retrieved_context": [
+                "\n            RULE: v.1\n            TITLE: configuration\n\n            CONTENT:\n            rule V.1: CONFIGURATION\nV.1 CONFIGURATION \nThe vehicle must be open wheeled and open cockpit (a formula style body) with four wheels \nthat are not in a straight line.\n            ",
+                "\n            RULE: v.1.1\n            TITLE: open wheel\n\n            CONTENT:\n            rule V.1.1: Open Wheel\nV.1.1 Open Wheel \nOpen Wheel vehicles must satisfy all of the following criteria: \na. The top 180° of the wheels/tires must be unobstructed when viewed from vertically \nabove the wheel. \nb. The wheels/tires must be unobstructed when viewed from the side. \nc. No part of the vehicle may enter a keep out zone defined by two lines extending \nvertically from positions 75 mm in front of and 75 mm aft of, the outer diameter of the \nfront and rear tires in the side view elevation of the vehicle, with tires steered straight \nahead. This keep out zone will extend laterally from the outside plane of the wheel/tire \nto the inboard plane of the wheel/tire.\n            ",
+                "\n            RULE: v.1.2\n            TITLE: wheelbase\n\n            CONTENT:\n            rule V.1.2: Wheelbase\nV.1.2 Wheelbase \nThe vehicle must have a minimum wheelbase of 1525 mm\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The vehicle must be open wheeled and open cockpit (a formula style body) with four wheels that are not in a straight line.",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 1390,
+    "timestamp": "2026-06-10 14:05:07",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12.3.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.12.3.1",
+            "retrieved_context": [
+                "\n            RULE: d.12.3.1\n            TITLE: the endurance run order:\n\n            CONTENT:\n            rule D.12.3.1: The Endurance Run Order:\nD.12.3.1 The Endurance Run Order:  \na. Should be primarily based on the Autocross event finish order \nb. Should include the teams eligible for Endurance which did not compete in the Autocross \nevent.   \nc. May be altered by the organizer to accommodate specific circumstances or event \nconsiderations\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "D.12.3.1 The Endurance Run Order: D.12.3.1 The Endurance Run Order: a. Should be primarily based on the Autocross event finish order b. Should include the teams eligible for Endurance which did not compete in the Autocross event. c. May be altered by the organizer to accommodate specific circumstances or event considerations",
+    "status": "success"
+}

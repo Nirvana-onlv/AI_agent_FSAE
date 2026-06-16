@@ -1,0 +1,20 @@
+{
+    "question_number": 543,
+    "timestamp": "2026-06-07 06:26:51",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.1.4.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.1.4.3",
+            "retrieved_context": [
+                "\n            RULE: t.1.4.3\n            TITLE: all vehicle controls (steering, gear change, cockpit main switch / cockpit shutdown button)\n\n            CONTENT:\n            rule T.1.4.3: All Vehicle Controls (steering, gear change, Cockpit Main Switch / Cockpit Shutdown Button)\nT.1.4.3 All Vehicle Controls (steering, gear change, Cockpit Main Switch / Cockpit Shutdown Button) \nmust be operated from inside the cockpit without any part of the driver, including hands, arms \nor elbows, being outside of: \na. The Side Impact Structure defined in F.6.4 / F.7.5 \nb. Two longitudinal vertical planes parallel to the centerline of the chassis touching the \nuppermost member of the Side Impact Structure\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "All Vehicle Controls (steering, gear change, Cockpit Main Switch / Cockpit Shutdown Button) T.1.4.3 All Vehicle Controls (steering, gear change, Cockpit Main Switch / Cockpit Shutdown Button) must be operated from inside the cockpit without any part of the driver, including hands, arms or elbows, being outside of: a. The Side Impact Structure defined in F.6.4 / F.7.5 b. Two longitudinal vertical planes parallel to the centerline of the chassis touching the uppermost member of the Side Impact Structure",
+    "status": "success"
+}

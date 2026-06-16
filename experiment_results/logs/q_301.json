@@ -1,0 +1,20 @@
+{
+    "question_number": 301,
+    "timestamp": "2026-06-06 22:24:30",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.1.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.1.2",
+            "retrieved_context": [
+                "\n            RULE: f.1.2\n            TITLE: frame member\n\n            CONTENT:\n            rule F.1.2: Frame Member\nF.1.2 Frame Member \nA minimum representative single piece of uncut, continuous tubing.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.1.2: Frame Member F.1.2 Frame Member A minimum representative single piece of uncut, continuous tubing.",
+    "status": "success"
+}

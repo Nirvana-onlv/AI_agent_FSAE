@@ -1,0 +1,20 @@
+{
+    "question_number": 875,
+    "timestamp": "2026-06-08 15:27:01",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.9.4.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.9.4.1",
+            "retrieved_context": [
+                "\n            RULE: ic.9.4.1\n            TITLE: configuration - the cockpit main switch must:\n\n            CONTENT:\n            rule IC.9.4.1: Configuration - The Cockpit Main Switch must:\nIC.9.4.1 Configuration - The Cockpit Main Switch must:  \na. Be a push-pull or push-rotate emergency switch (pushing the button is the OFF position) \nb. Have a diameter of 24 mm minimum\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "IC.9.4.1 Configuration - The Cockpit Main Switch must: a. Be a push-pull or push-rotate emergency switch (pushing the button is the OFF position) b. Have a diameter of 24 mm minimum",
+    "status": "success"
+}

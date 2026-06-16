@@ -1,0 +1,39 @@
+{
+    "question_number": 177,
+    "timestamp": "2026-06-06 10:03:45",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the front bulkhead or the front basket visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\10.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "front bulkhead visible",
+            "retrieved_context": [
+                "\n            RULE: f.6.1\n            TITLE: front bulkhead\n\n            CONTENT:\n            rule F.6.1: Front Bulkhead\nF.6.1 Front Bulkhead  \nThe Front Bulkhead must be constructed of closed section tubing meeting F.3.2.1.a\n            ",
+                "\n            RULE: f.1.8\n            TITLE: front bulkhead\n\n            CONTENT:\n            rule F.1.8: Front Bulkhead\nF.1.8 Front Bulkhead \nA planar structure that provides protection for the driver’s feet.\n            ",
+                "\n            RULE: f.8.4.3\n            TITLE: if the outside profile of the front bulkhead is more than 400 mm x 350 mm, or the team uses\n\n            CONTENT:\n            rule F.8.4.3: If the outside profile of the Front Bulkhead is more than 400 mm x 350 mm, or the team uses\nF.8.4.3 If the outside profile of the Front Bulkhead is more than 400 mm x 350 mm, or the team uses \nthe Standard Honeycomb Impact Attenuator, and then one of the two must be met: \na. The Front Bulkhead must include an additional support that is a diagonal or X-brace that \nmeets F.3.2.1.b or Equivalent (integral or attached) for Monocoque bulkheads  F.2.3.1 \n• The structure must go across the entire Front Bulkhead opening on the diagonal \n• Attachment points at both ends must carry a minimum load of 30 kN in any \ndirection \nb. Physical testing per F.8.8.6 and F.8.8.7 must be performed to prove that the Anti \nIntrusion Plate does not permanently deflect more than 25 mm.\n            ",
+                "\n            RULE: f.6.2.2\n            TITLE: the front bulkhead must be securely integrated into the frame.\n\n            CONTENT:\n            rule F.6.2.2: The Front Bulkhead must be securely integrated into the Frame.\nF.6.2.2 The Front Bulkhead must be securely integrated into the Frame.\n            ",
+                "\n            RULE: f.7.2.2\n            TITLE: the length of the section perpendicular to the front bulkhead may be a maximum of 25 mm\n\n            CONTENT:\n            rule F.7.2.2: The length of the section perpendicular to the Front Bulkhead may be a maximum of 25 mm\nF.7.2.2 The length of the section perpendicular to the Front Bulkhead may be a maximum of 25 mm \nmeasured from the rearmost face of the Front Bulkhead\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLO-world\",\n    \"slice_height\": 6000,\n    \"slice_width\": 8000,\n    \"overlap_height_ratio\": 0.5,\n    \"overlap_width_ratio\": 0.5,\n    \"keywords\": [\n        \"front bulkhead\",\n        \"chassis frame\",\n        \"structural member\",\n        \"component outline\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLO-world",
+            "slice_height": 6000,
+            "slice_width": 8000,
+            "overlap_height_ratio": 0.5,
+            "overlap_width_ratio": 0.5,
+            "keywords": [
+                "front bulkhead",
+                "chassis frame",
+                "structural member",
+                "component outline"
+            ]
+        },
+        "crop_image_path": "c:\\Users\\Nirvana\\NIR_project\\experiment_results\\q_177_focus.jpg",
+        "founded_objects": "chassis frame"
+    },
+    "final_answer": "yes",
+    "status": "success"
+}

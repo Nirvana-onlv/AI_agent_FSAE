@@ -1,0 +1,20 @@
+{
+    "question_number": 563,
+    "timestamp": "2026-06-07 07:01:43",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.2.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.2.3",
+            "retrieved_context": [
+                "\n            RULE: t.2.2.3\n            TITLE: the harness must be in or before the year of expiration shown on the labels.  harnesses\n\n            CONTENT:\n            rule T.2.2.3: The Harness must be in or before the year of expiration shown on the labels.  Harnesses\nT.2.2.3 The Harness must be in or before the year of expiration shown on the labels.  Harnesses \nexpiring on or before Dec 31 of the calendar year of the competition are permitted.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Harness must be in or before the year of expiration shown on the labels. Harnesses expiring on or before Dec 31 of the calendar year of the competition are permitted.",
+    "status": "success"
+}

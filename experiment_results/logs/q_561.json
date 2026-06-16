@@ -1,0 +1,20 @@
+{
+    "question_number": 561,
+    "timestamp": "2026-06-07 06:58:25",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.2.1",
+            "retrieved_context": [
+                "\n            RULE: t.2.2.1\n            TITLE: the vehicle must use a 5, 6 or 7 point harness meeting one or more of the following:\n\n            CONTENT:\n            rule T.2.2.1: The vehicle must use a 5, 6 or 7 Point Harness meeting one or more of the following:\nT.2.2.1 The vehicle must use a 5, 6 or 7 Point Harness meeting one or more of the following: \na. SFI Specification 16.1 \nb. SFI Specification 16.5 \nc. FIA specification 8853/2016\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.2.2.1 The vehicle must use a 5, 6 or 7 Point Harness meeting one or more of the following: a. SFI Specification 16.1 b. SFI Specification 16.5 c. FIA specification 8853/2016",
+    "status": "success"
+}

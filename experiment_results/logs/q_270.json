@@ -1,0 +1,20 @@
+{
+    "question_number": 270,
+    "timestamp": "2026-06-06 19:22:20",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.2.2",
+            "retrieved_context": [
+                "\n            RULE: v.2.2\n            TITLE: visibility\n\n            CONTENT:\n            rule V.2.2: Visibility\nV.2.2 Visibility \na. The driver must have sufficient visibility to the front and sides of the vehicle \nb. When seated in a normal driving position, the driver must have a minimum field of vision \nof 100° to both sides \nc. If mirrors are required for this rule, they must remain in place and adjusted to enable the \nrequired visibility throughout all dynamic events.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "V.2.2 Visibility a. The driver must have sufficient visibility to the front and sides of the vehicle b. When seated in a normal driving position, the driver must have a minimum field of vision of 100° to both sides c. If mirrors are required for this rule, they must remain in place and adjusted to enable the required visibility throughout all dynamic events.",
+    "status": "success"
+}

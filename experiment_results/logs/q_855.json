@@ -1,0 +1,20 @@
+{
+    "question_number": 855,
+    "timestamp": "2026-06-08 14:23:50",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.7.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.7.2.2",
+            "retrieved_context": [
+                "\n            RULE: ic.7.2.2\n            TITLE: the exhaust outlet(s) must be:\n\n            CONTENT:\n            rule IC.7.2.2: The Exhaust Outlet(s) must be:\nIC.7.2.2 The Exhaust Outlet(s) must be: \na. No more than 45 cm aft of the centerline of the rear axle \nb. No more than 60 cm above the ground.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "IC.7.2.2 The Exhaust Outlet(s) must be: a. No more than 45 cm aft of the centerline of the rear axle b. No more than 60 cm above the ground.",
+    "status": "success"
+}

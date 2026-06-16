@@ -1,0 +1,20 @@
+{
+    "question_number": 732,
+    "timestamp": "2026-06-07 18:51:26",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule VE.2.1.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "VE.2.1.2",
+            "retrieved_context": [
+                "\n            RULE: ve.2.1.2\n            TITLE: the jacking point must be:\n\n            CONTENT:\n            rule VE.2.1.2: The Jacking Point must be:\nVE.2.1.2 The Jacking Point must be:  \na. Capable of supporting the vehicle weight and of engaging the organizer Quick Jacks  \nb. Visible to a person standing 1 m behind the vehicle \nc. Color:  Orange \nd. Oriented laterally and perpendicular to the centerline of the vehicle \ne. Made from round, 25 - 30 mm OD aluminum or steel tube  \nf. Exposed around the lower 180° of its circumference over a minimum length of 280 mm  \ng. Access from the rear of the tube must be unobstructed for 300 mm or more of its length \nh. The height of the tube must allow 75 mm minimum clearance from the bottom of the \ntube to the ground \ni. When the vehicle is raised to where the bottom of the tube is 200 mm above ground, the \nwheels do not touch the ground when they are in full rebound\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "VE.2.1.2 The Jacking Point must be: a. Capable of supporting the vehicle weight and of engaging the organizer Quick Jacks b. Visible to a person standing 1 m behind the vehicle c. Color: Orange d. Oriented laterally and perpendicular to the centerline of the vehicle e. Made from round, 25 - 30 mm OD aluminum or steel tube f. Exposed around the lower 180° of its circumference over a minimum length of 280 mm g. Access from the rear of the tube must be unobstructed for 300 mm or more of its length h. The height of the tube must allow 75 mm minimum clearance from the bottom of the tube to the ground i. When the vehicle is raised to where the bottom of the tube is 200 mm above ground, the wheels do not touch the ground when they are in full rebound",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 1286,
+    "timestamp": "2026-06-10 05:13:08",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.2.1.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.2.1.2",
+            "retrieved_context": [
+                "\n            RULE: d.2.1.2\n            TITLE: the team may move the vehicle with\n\n            CONTENT:\n            rule D.2.1.2: The team may move the vehicle with\nD.2.1.2 The team may move the vehicle with \na. All four wheels on the ground  \nb. The rear wheels supported on dollies, by push bar mounted wheels   \nThe external wheels supporting the rear of the vehicle must be non pivoting so the \nvehicle travels only where the front wheels are steered.   The driver must always be able \nto steer and brake the vehicle normally.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.2.1.2: The team may move the vehicle with D.2.1.2 The team may move the vehicle with a. All four wheels on the ground b. The rear wheels supported on dollies, by push bar mounted wheels The external wheels supporting the rear of the vehicle must be non pivoting so the vehicle travels only where the front wheels are steered. The driver must always be able to steer and brake the vehicle normally.",
+    "status": "success"
+}

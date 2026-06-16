@@ -1,0 +1,20 @@
+{
+    "question_number": 1145,
+    "timestamp": "2026-06-09 14:30:31",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.9.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.9.1",
+            "retrieved_context": [
+                "\n            RULE: in.9.1\n            TITLE: tilt test requirements\n\n            CONTENT:\n            rule IN.9.1: Tilt Test Requirements\nIN.9.1 Tilt Test Requirements  \na. The vehicle must contain the maximum amount of fluids it may carry \nb. The tallest driver must be seated in the normal driving position  \nc. Tilt tests may be conducted in one or the other, or both directions in order to pass  \nd. (IC only) Engines fitted with mechanically actuated fuel pumps must be run to fill and \npressure the system downstream of the High Pressure pump.  See IC.6.2\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "IN.9.1 Tilt Test Requirements a. The vehicle must contain the maximum amount of fluids it may carry b. The tallest driver must be seated in the normal driving position c. Tilt tests may be conducted in one or the other, or both directions in order to pass d. (IC only) Engines fitted with mechanically actuated fuel pumps must be run to fill and pressure the system downstream of the High Pressure pump. See IC.6.2",
+    "status": "success"
+}

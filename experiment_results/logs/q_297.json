@@ -1,0 +1,20 @@
+{
+    "question_number": 297,
+    "timestamp": "2026-06-06 22:17:27",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.4.3.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.4.3.3",
+            "retrieved_context": [
+                "\n            RULE: v.4.3.3\n            TITLE: tire set\n\n            CONTENT:\n            rule V.4.3.3: Tire Set\nV.4.3.3 Tire Set  \na. All four Dry Tires and Wheels or all four Wet Tires and Wheels do not have to be \nidentical.   \nb. Once each tire set has been presented for Technical Inspection, any tire compound or \nsize, or wheel type or size must not be changed.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule V.4.3.3: Tire Set V.4.3.3 Tire Set a. All four Dry Tires and Wheels or all four Wet Tires and Wheels do not have to be identical. b. Once each tire set has been presented for Technical Inspection, any tire compound or size, or wheel type or size must not be changed.",
+    "status": "success"
+}

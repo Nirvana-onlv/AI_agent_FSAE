@@ -1,0 +1,21 @@
+{
+    "question_number": 342,
+    "timestamp": "2026-06-06 23:43:00",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.4.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.4.3.2",
+            "retrieved_context": [
+                "\n            RULE: f.4.3.2\n            TITLE: primary structure laminate testing\n\n            CONTENT:\n            rule F.4.3.2: Primary Structure Laminate Testing\nF.4.3.2 Primary Structure Laminate Testing \nTeams must build new representative test panels for each ply schedule used in the regulated \nregions of the new chassis as a flat panel and perform a 3 point bending test on these panels.  \nRefer to F.4.3.4 \na. Test panels must:  \n• Measure one of the two options:  138 mm x 500 mm  OR  275 mm x 500 mm   \n• Be supported by a span distance of 400 mm \n• Have equal surface area for the top and bottom skin \n• Have bare edges, without skin material \nb. The SES must include:  \n• Data from the 3 point bending tests \n• Pictures of the test samples\nFormula SAE® Rules 2024 © 2023 SAE International  Page 29 of 140   \nVersion 1.0   1 Sep 2023 \n• A picture of the test sample and test setup showing a measurement documenting \nthe supported span distance used in the SES \nc. Test panel results must be used to derive stiffness, yield strength, ultimate strength and \nabsorbed energy properties by the SES formula and limits for the purpose of calculating \nlaminate panels equivalency corresponding to Primary Structure regions of the chassis.   \nd. Test panels must use the thickest core associated with each skin layup.\n            ",
+                "\n            RULE: f.4.3.2\n            TITLE: primary structure laminate testing\n\n            CONTENT:\n            rule F.4.3.2: Primary Structure Laminate Testing\nlaminate panels equivalency corresponding to Primary Structure regions of the chassis.   \nd. Test panels must use the thickest core associated with each skin layup. \nDesigns may use core thickness that is 50% - 100% of the test panel core thickness \nassociated with each skin layup.  \ne. Calculation of derived properties must use the part of test data where deflection is 50 \nmm or less \nf. Calculation of absorbed energy must use the integral of force times displacement\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.4.3.2: Primary Structure Laminate Testing Teams must build new representative test panels for each ply schedule used in the regulated regions of the new chassis as a flat panel and perform a 3 point bending test on these panels. Refer to F.4.3.4 a. Test panels must: • Measure one of the two options: 138 mm x 500 mm OR 275 mm x 500 mm • Be supported by a span distance of 400 mm • Have equal surface area for the top and bottom skin • Have bare edges, without skin material b. The SES must include: • Data from the 3 point bending tests • Pictures of the test samples Formula SAE® Rules 2024 © 2023 SAE International Page 29 of 140 Version 1.0 1 Sep 2023 • A picture of the test sample and test setup showing a measurement documenting the supported span distance used in the SES c. Test panel results must be used to derive stiffness, yield strength, ultimate strength and absorbed energy properties by the SES formula and limits for the purpose of calculating laminate panels equivalency corresponding to Primary Structure regions of the chassis. d. Test panels must use the thickest core associated with each skin layup. | RULE INFO: RULE: f.4.3.2 TITLE: primary structure laminate testing CONTENT: rule F.4.3.2: Primary Structure Laminate Testing laminate panels equivalency corresponding to Primary Structure regions of the chassis. d. Test panels must use the thickest core associated with each skin layup. e. Calculation of derived properties must use the part of test data where deflection is 50 mm or less f. Calculation of absorbed energy must use the integral of force times displacement",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 857,
+    "timestamp": "2026-06-08 14:31:04",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.7.2.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.7.2.4",
+            "retrieved_context": [
+                "\n            RULE: ic.7.2.4\n            TITLE: fibrous/absorbent material, (such as header wrap), must not be used on the outside of an\n\n            CONTENT:\n            rule IC.7.2.4: Fibrous/absorbent material, (such as header wrap), must not be used on the outside of an\nIC.7.2.4 Fibrous/absorbent material, (such as header wrap), must not be used on the outside of an \nexhaust manifold or exhaust system.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Fibrous/absorbent material, (such as header wrap), must not be used on the outside of an exhaust manifold or exhaust system.",
+    "status": "success"
+}

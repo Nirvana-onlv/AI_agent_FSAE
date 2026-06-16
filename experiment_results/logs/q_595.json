@@ -1,0 +1,20 @@
+{
+    "question_number": 595,
+    "timestamp": "2026-06-07 08:01:21",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.8.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.8.4",
+            "retrieved_context": [
+                "\n            RULE: t.2.8.4\n            TITLE: the head restraint, attachment and mounting must be strong enough to withstand a\n\n            CONTENT:\n            rule T.2.8.4: The Head Restraint, attachment and mounting must be strong enough to withstand a\nT.2.8.4 The Head Restraint, attachment and mounting must be strong enough to withstand a \nminimum force of: \na. 900 N applied in a rearward direction \nb. 300 N applied in a lateral or vertical direction\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.2.8.4: The Head Restraint, attachment and mounting must be strong enough to withstand a minimum force of: a. 900 N applied in a rearward direction b. 300 N applied in a lateral or vertical direction",
+    "status": "success"
+}

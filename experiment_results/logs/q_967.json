@@ -1,0 +1,20 @@
+{
+    "question_number": 967,
+    "timestamp": "2026-06-09 02:35:29",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule EV.5.10 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "EV.5.10",
+            "retrieved_context": [
+                "\n            RULE: ev.5.10\n            TITLE: connectors\n\n            CONTENT:\n            rule EV.5.10: Connectors\nEV.5.10 Connectors \nTractive System connectors outside of a housing must meet one of the two: \n• Contain an Interlock EV.7.8 which must Open the Shutdown Circuit EV.7.2.2 \n• Be sealed at Tech Inspection  IN.4.7.1\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule EV.5.10: Connectors EV.5.10 Connectors Tractive System connectors outside of a housing must meet one of the two: • Contain an Interlock EV.7.8 which must Open the Shutdown Circuit EV.7.2.2 • Be sealed at Tech Inspection IN.4.7.1",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 1367,
+    "timestamp": "2026-06-10 12:44:13",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.10.4.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.10.4.1",
+            "retrieved_context": [
+                "\n            RULE: d.10.4.1\n            TITLE: scoring term definitions\n\n            CONTENT:\n            rule D.10.4.1: Scoring Term Definitions\nD.10.4.1 Scoring Term Definitions \n• Corrected Time = ( Right Lap Time + Left Lap Time ) / 2 + ( DOO * 0.125 ) \n• Tyour  -  the best Corrected Time for the team  \n• Tmin  -  is the lowest Corrected Time recorded for any team  \n• Tmax  -  125% of Tmin\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.10.4.1: Scoring Term Definitions D.10.4.1 Scoring Term Definitions • Corrected Time = ( Right Lap Time + Left Lap Time ) / 2 + ( DOO * 0.125 ) • Tyour - the best Corrected Time for the team • Tmin - is the lowest Corrected Time recorded for any team • Tmax - 125% of Tmin",
+    "status": "success"
+}

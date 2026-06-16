@@ -1,0 +1,20 @@
+{
+    "question_number": 830,
+    "timestamp": "2026-06-08 13:11:39",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.4.7 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.4.7",
+            "retrieved_context": [
+                "\n            RULE: ic.5.4.7\n            TITLE: the individual filling the tank must have complete direct access to the filler neck opening with\n\n            CONTENT:\n            rule IC.5.4.7: The individual filling the tank must have complete direct access to the filler neck opening with\nIC.5.4.7 The individual filling the tank must have complete direct access to the filler neck opening with \na standard two gallon gas can assembly. \nThe gas can is minimum 25 cm wide x 25 cm deep x 35 cm high, with a 25 cm spout at the top\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The individual filling the tank must have complete direct access to the filler neck opening with a standard two gallon gas can assembly. The gas can is minimum 25 cm wide x 25 cm deep x 35 cm high, with a 25 cm spout at the top",
+    "status": "success"
+}

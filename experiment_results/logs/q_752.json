@@ -1,0 +1,20 @@
+{
+    "question_number": 752,
+    "timestamp": "2026-06-07 19:35:44",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule VE.3.3.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "VE.3.3.3",
+            "retrieved_context": [
+                "\n            RULE: ve.3.3.3\n            TITLE: balaclava\n\n            CONTENT:\n            rule VE.3.3.3: Balaclava\nVE.3.3.3 Balaclava \nA Balaclava (head sock) which covers the driver’s head, hair and neck, made from Flame \nResistant Material\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule VE.3.3.3: Balaclava VE.3.3.3 Balaclava A Balaclava (head sock) which covers the driver’s head, hair and neck, made from Flame Resistant Material",
+    "status": "success"
+}

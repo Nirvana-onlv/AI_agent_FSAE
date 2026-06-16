@@ -1,0 +1,20 @@
+{
+    "question_number": 1363,
+    "timestamp": "2026-06-10 12:31:08",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.10.2.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.10.2.4",
+            "retrieved_context": [
+                "\n            RULE: d.10.2.4\n            TITLE: each driver may go to the front of the staging line immediately after their first run to make a\n\n            CONTENT:\n            rule D.10.2.4: Each driver may go to the front of the staging line immediately after their first run to make a\nD.10.2.4 Each driver may go to the front of the staging line immediately after their first run to make a \nsecond run\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Each driver may go to the front of the staging line immediately after their first run to make a second run",
+    "status": "success"
+}

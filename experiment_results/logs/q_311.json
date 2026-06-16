@@ -1,0 +1,20 @@
+{
+    "question_number": 311,
+    "timestamp": "2026-06-06 22:40:30",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.1.12 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.1.12",
+            "retrieved_context": [
+                "\n            RULE: f.1.12\n            TITLE: major structure\n\n            CONTENT:\n            rule F.1.12: Major Structure\nF.1.12 Major Structure \nThe portion of the Chassis that lies inside the Primary Structure Envelope, excluding the Main \nHoop Bracing and the portion of the Main Hoop above a horizontal plane located at the top of \nthe Upper Side Impact Member or top of the Side Impact Zone.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 24 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Major Structure The portion of the Chassis that lies inside the Primary Structure Envelope, excluding the Main Hoop Bracing and the portion of the Main Hoop above a horizontal plane located at the top of the Upper Side Impact Member or top of the Side Impact Zone.",
+    "status": "success"
+}

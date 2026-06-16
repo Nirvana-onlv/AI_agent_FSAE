@@ -1,0 +1,20 @@
+{
+    "question_number": 760,
+    "timestamp": "2026-06-08 10:01:29",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.1.1.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.1.1.4",
+            "retrieved_context": [
+                "\n            RULE: ic.1.1.4\n            TITLE: the engine may be modified within the restrictions of the rules.\n\n            CONTENT:\n            rule IC.1.1.4: The engine may be modified within the restrictions of the rules.\nIC.1.1.4 The engine may be modified within the restrictions of the rules.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.1.1.4: The engine may be modified within the restrictions of the rules. IC.1.1.4 The engine may be modified within the restrictions of the rules.",
+    "status": "success"
+}

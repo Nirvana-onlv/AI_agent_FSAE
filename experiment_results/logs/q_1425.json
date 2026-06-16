@@ -1,0 +1,20 @@
+{
+    "question_number": 1425,
+    "timestamp": "2026-06-10 16:07:12",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12.13.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.12.13.1",
+            "retrieved_context": [
+                "\n            RULE: d.12.13.1\n            TITLE: scoring term definitions:\n\n            CONTENT:\n            rule D.12.13.1: Scoring Term Definitions:\nD.12.13.1 Scoring Term Definitions: \n• Endurance Run Time  -  Total Time for both Drivers, minus the Driver Change lap, minus \nany Mechanical Black Flag Time, plus any Penalty time  D.14.2  \n• Corrected Time = Endurance Run Time + ( DOO * 2 ) + ( OC * 20 ) \n• Tyour  -  the Corrected Time for the team  \n• Tmin  -  the lowest Corrected Time recorded for any team \n• Tmax  - 145% of Tmin\nFormula SAE® Rules 2024 © 2023 SAE International  Page 138 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "D.12.13.1 Scoring Term Definitions: • Endurance Run Time - Total Time for both Drivers, minus the Driver Change lap, minus any Mechanical Black Flag Time, plus any Penalty time D.14.2 • Corrected Time = Endurance Run Time + ( DOO * 2 ) + ( OC * 20 ) • Tyour - the Corrected Time for the team • Tmin - the lowest Corrected Time recorded for any team • Tmax - 145% of Tmin",
+    "status": "success"
+}

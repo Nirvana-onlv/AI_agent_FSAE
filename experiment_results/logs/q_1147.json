@@ -1,0 +1,20 @@
+{
+    "question_number": 1147,
+    "timestamp": "2026-06-09 14:36:56",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.9.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.9.2.2",
+            "retrieved_context": [
+                "\n            RULE: in.9.2.2\n            TITLE: vehicle does not roll when tilted at an angle of 60° to the horizontal, corresponding to 1.7 g.\n\n            CONTENT:\n            rule IN.9.2.2: Vehicle does not roll when tilted at an angle of 60° to the horizontal, corresponding to 1.7 g.\nIN.9.2.2 Vehicle does not roll when tilted at an angle of 60° to the horizontal, corresponding to 1.7 g.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "IN.9.2.2 Vehicle does not roll when tilted at an angle of 60° to the horizontal, corresponding to 1.7 g.",
+    "status": "success"
+}

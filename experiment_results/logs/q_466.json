@@ -1,0 +1,20 @@
+{
+    "question_number": 466,
+    "timestamp": "2026-06-07 03:52:26",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.8.2.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.8.2.3",
+            "retrieved_context": [
+                "\n            RULE: f.8.2.3\n            TITLE: attachment of the anti intrusion plate directly to the front bulkhead must be documented in\n\n            CONTENT:\n            rule F.8.2.3: Attachment of the Anti Intrusion Plate directly to the Front Bulkhead must be documented in\nF.8.2.3 Attachment of the Anti Intrusion Plate directly to the Front Bulkhead must be documented in \nthe team’s SES submission. The accepted methods of attachment are: \na. Welding \n• All weld lengths must be 25 mm or longer  \n• If interrupted, the weld/space ratio must be 1:1 or higher  \nb. Bolted joints \n• Using no less than eight 8 mm or 5/16” minimum diameter Critical Fasteners, T.8.2.  \n• The distance between any two bolt centers must be 50 mm minimum. \n• Each bolt attachment must have pullout, tearout and bending capabilities of 15 kN \nc. Bonding \n• The Front Bulkhead must have no openings \n• The entire surface of the Anti Intrusion Plate must be bonded, with shear and peel \nstrength higher than 120 kN  \nd. Laminating \n• The Anti Intrusion Plate must be in front of the outer skin of the Front Bulkhead \n• The lamination must fully enclose the Anti Intrusion Plate and have shear capability \nhigher than 120 kN\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Attachment of the Anti Intrusion Plate directly to the Front Bulkhead must be documented in F.8.2.3 Attachment of the Anti Intrusion Plate directly to the Front Bulkhead must be documented in the team’s SES submission. The accepted methods of attachment are: a. Welding • All weld lengths must be 25 mm or longer • If interrupted, the weld/space ratio must be 1:1 or higher b. Bolted joints • Using no less than eight 8 mm or 5/16” minimum diameter Critical Fasteners, T.8.2. • The distance between any two bolt centers must be 50 mm minimum. • Each bolt attachment must have pullout, tearout and bending capabilities of 15 kN c. Bonding • The Front Bulkhead must have no openings • The entire surface of the Anti Intrusion Plate must be bonded, with shear and peel strength higher than 120 kN d. Laminating • The Anti Intrusion Plate must be in front of the outer skin of the Front Bulkhead • The lamination must fully enclose the Anti Intrusion Plate and have shear capability higher than 120 kN",
+    "status": "success"
+}

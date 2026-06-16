@@ -1,0 +1,24 @@
+{
+    "question_number": 622,
+    "timestamp": "2026-06-07 08:48:59",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.4.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.4.2",
+            "retrieved_context": [
+                "\n            RULE: t.4.2.9\n            TITLE: any failure of the apps or apps wiring must be detectable by the controller and must be\n\n            CONTENT:\n            rule T.4.2.9: Any failure of the APPS or APPS wiring must be detectable by the controller and must be\nT.4.2.9 Any failure of the APPS or APPS wiring must be detectable by the controller and must be \ntreated like an Implausibility, see T.4.2.4 above\n            ",
+                "\n            RULE: t.4.2.7\n            TITLE: each apps must be able to be checked during technical inspection by having one of the two:\n\n            CONTENT:\n            rule T.4.2.7: Each APPS must be able to be checked during Technical Inspection by having one of the two:\nT.4.2.7 Each APPS must be able to be checked during Technical Inspection by having one of the two: \n• A separate detachable connector that enables a check of functions by unplugging it  \n• An inline switchable breakout box available that allows disconnection of each APPS \nsignal.\n            ",
+                "\n            RULE: t.4.2.1\n            TITLE: the accelerator pedal must actuate the apps  t.1.4.1\n\n            CONTENT:\n            rule T.4.2.1: The Accelerator Pedal must actuate the APPS  T.1.4.1\nT.4.2.1 The Accelerator Pedal must actuate the APPS  T.1.4.1  \na. Two springs must be used to return the foot pedal to 0% Pedal Travel  \nb. Each spring must be capable of returning the pedal to 0% Pedal Travel with the other \ndisconnected.  The springs in the APPS are not acceptable pedal return springs.\n            ",
+                "\n            RULE: t.4.2.12\n            TITLE: the current rules are written to only apply to the apps (pedal), but the integrity of the torque\n\n            CONTENT:\n            rule T.4.2.12: The current rules are written to only apply to the APPS (pedal), but the integrity of the torque\nT.4.2.12 The current rules are written to only apply to the APPS (pedal), but the integrity of the torque \ncommand signal is important in all stages.\n            ",
+                "\n            RULE: t.4.2.2\n            TITLE: two or more electrically separate sensors must be used as appss.  a single oem type apps\n\n            CONTENT:\n            rule T.4.2.2: Two or more electrically separate sensors must be used as APPSs.  A single OEM type APPS\nT.4.2.2 Two or more electrically separate sensors must be used as APPSs.  A single OEM type APPS \nwith two completely separate sensors in a single housing is acceptable.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Two or more electrically separate sensors must be used as APPSs. A single OEM type APPS with two completely separate sensors in a single housing is acceptable.",
+    "status": "success"
+}

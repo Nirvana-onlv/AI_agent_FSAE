@@ -1,0 +1,20 @@
+{
+    "question_number": 381,
+    "timestamp": "2026-06-07 01:10:57",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.8.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.8.4",
+            "retrieved_context": [
+                "\n            RULE: f.5.8.4\n            TITLE: in the front view of the vehicle, the vertical members of the main hoop must be minimum 380\n\n            CONTENT:\n            rule F.5.8.4: In the front view of the vehicle, the vertical members of the Main Hoop must be minimum 380\nF.5.8.4 In the front view of the vehicle, the vertical members of the Main Hoop must be minimum 380 \nmm apart (inside dimension) at the location where the Main Hoop is attached to the bottom \ntubes of the Major Structure of the Chassis.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "In the front view of the vehicle, the vertical members of the Main Hoop must be minimum 380 mm apart (inside dimension) at the location where the Main Hoop is attached to the bottom tubes of the Major Structure of the Chassis.",
+    "status": "success"
+}

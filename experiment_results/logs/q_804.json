@@ -1,0 +1,20 @@
+{
+    "question_number": 804,
+    "timestamp": "2026-06-08 12:00:03",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.4.7.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.4.7.2",
+            "retrieved_context": [
+                "\n            RULE: ic.4.7.2\n            TITLE: throttle position vs target\n\n            CONTENT:\n            rule IC.4.7.2: Throttle Position vs Target\nIC.4.7.2 Throttle Position vs Target \na. The power to the electronic throttle must be immediately shut down, if throttle position \ndiffers by more than 10% from the expected target TPS position for more than one \nsecond.  \nb. An interval of one second is allowed for the difference to reduce to less than 10%, failure \nto achieve this in the required interval must result in immediate shut down of fuel flow \nand the ignition system. \nc. An error in TPS position and the resultant system shutdown must be demonstrated at \nTechnical Inspection.   \nTeams must have a method to demonstrate that the actions in IC.4.7.2.b above are met. \nSystem states displayed using calibration software must be accompanied by a detailed \nexplanation of the control system.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.4.7.2: Throttle Position vs Target IC.4.7.2 Throttle Position vs Target a. The power to the electronic throttle must be immediately shut down, if throttle position differs by more than 10% from the expected target TPS position for more than one second. b. An interval of one second is allowed for the difference to reduce to less than 10%, failure to achieve this in the required interval must result in immediate shut down of fuel flow and the ignition system. c. An error in TPS position and the resultant system shutdown must be demonstrated at Technical Inspection. Teams must have a method to demonstrate that the actions in IC.4.7.2.b above are met. System states displayed using calibration software must be accompanied by a detailed explanation of the control system.",
+    "status": "success"
+}

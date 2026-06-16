@@ -1,0 +1,20 @@
+{
+    "question_number": 391,
+    "timestamp": "2026-06-07 01:32:28",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.10.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.10.2",
+            "retrieved_context": [
+                "\n            RULE: f.5.10.2\n            TITLE: the head restraint or mounting t.2.8 must not attach to the head restraint protection\n\n            CONTENT:\n            rule F.5.10.2: The Head Restraint or mounting T.2.8 must not attach to the Head Restraint Protection\nF.5.10.2 The Head Restraint or mounting T.2.8 must not attach to the Head Restraint Protection\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Head Restraint or mounting T.2.8 must not attach to the Head Restraint Protection",
+    "status": "success"
+}

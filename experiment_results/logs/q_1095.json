@@ -1,0 +1,20 @@
+{
+    "question_number": 1095,
+    "timestamp": "2026-06-09 11:45:15",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.2.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.2.1.1",
+            "retrieved_context": [
+                "\n            RULE: in.2.1.1\n            TITLE: vehicles must be presented for technical inspection in finished condition, fully assembled,\n\n            CONTENT:\n            rule IN.2.1.1: Vehicles must be presented for Technical Inspection in finished condition, fully assembled,\nIN.2.1.1 Vehicles must be presented for Technical Inspection in finished condition, fully assembled, \ncomplete and ready to run.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Vehicles must be presented for Technical Inspection in finished condition, fully assembled, complete and ready to run.",
+    "status": "success"
+}

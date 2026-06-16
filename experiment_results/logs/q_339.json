@@ -1,0 +1,20 @@
+{
+    "question_number": 339,
+    "timestamp": "2026-06-06 23:37:36",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.4.1.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.4.1.4",
+            "retrieved_context": [
+                "\n            RULE: f.4.1.4\n            TITLE: construction dates of the test panel(s) and monocoque, and approximate age(s) of the\n\n            CONTENT:\n            rule F.4.1.4: Construction dates of the test panel(s) and monocoque, and approximate age(s) of the\nF.4.1.4 Construction dates of the test panel(s) and monocoque, and approximate age(s) of the \nmaterials used. \nThe intent is for the test panel to use the same material batch, material age, material storage, \nand student layup quality as the monocoque.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.4.1.4: Construction dates of the test panel(s) and monocoque, and approximate age(s) of the F.4.1.4 Construction dates of the test panel(s) and monocoque, and approximate age(s) of the materials used.",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 568,
+    "timestamp": "2026-06-07 07:10:08",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.3.2",
+            "retrieved_context": [
+                "\n            RULE: t.2.3.2\n            TITLE: all lap belts must incorporate a tilt lock adjuster (“quick adjuster”).\n\n            CONTENT:\n            rule T.2.3.2: All Lap Belts must incorporate a tilt lock adjuster (“quick adjuster”).\nT.2.3.2 All Lap Belts must incorporate a tilt lock adjuster (“quick adjuster”).   \nLap Belts with “pull-up” adjusters are recommended over “pull-down” adjusters.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "All Lap Belts must incorporate a tilt lock adjuster (“quick adjuster”). T.2.3.2 All Lap Belts must incorporate a tilt lock adjuster (“quick adjuster”). Lap Belts with “pull-up” adjusters are recommended over “pull-down” adjusters.",
+    "status": "success"
+}

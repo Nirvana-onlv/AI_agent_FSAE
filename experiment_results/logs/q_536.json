@@ -1,0 +1,20 @@
+{
+    "question_number": 536,
+    "timestamp": "2026-06-07 06:14:29",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.1.2.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.1.2.3",
+            "retrieved_context": [
+                "\n            RULE: t.1.2.3\n            TITLE: during this test:\n\n            CONTENT:\n            rule T.1.2.3: During this test:\nT.1.2.3 During this test:   \na. If the pedals are adjustable, they must be in their most forward position. \nb. The steering wheel may be removed \nc. Padding may be removed if it can be easily removed without the use of tools with the \ndriver in the seat \nd. The seat and any seat insert(s) that may be used must stay in the cockpit \ne. Cables, wires, hoses, tubes, etc. must not block movement of the template \nf. The steering column and associated components may pass through the 50 mm wide \ncenter band of the template.    \nFor ease of use, the template may contain a full or partial slot in the shaded area shown on the \nfigure\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.1.2.3: During this test: T.1.2.3 During this test: a. If the pedals are adjustable, they must be in their most forward position. b. The steering wheel may be removed c. Padding may be removed if it can be easily removed without the use of tools with the driver in the seat d. The seat and any seat insert(s) that may be used must stay in the cockpit e. Cables, wires, hoses, tubes, etc. must not block movement of the template f. The steering column and associated components may pass through the 50 mm wide center band of the template. For ease of use, the template may contain a full or partial slot in the shaded area shown on the figure",
+    "status": "success"
+}

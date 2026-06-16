@@ -1,0 +1,20 @@
+{
+    "question_number": 291,
+    "timestamp": "2026-06-06 22:08:01",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.4.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.4.2.1",
+            "retrieved_context": [
+                "\n            RULE: v.4.2.1\n            TITLE: any wheel mounting system that uses a single retaining nut must incorporate a device to\n\n            CONTENT:\n            rule V.4.2.1: Any wheel mounting system that uses a single retaining nut must incorporate a device to\nV.4.2.1 Any wheel mounting system that uses a single retaining nut must incorporate a device to \nretain the nut and the wheel if the nut loosens.   \nA second nut (jam nut) does not meet this requirement\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Any wheel mounting system that uses a single retaining nut must incorporate a device to retain the nut and the wheel if the nut loosens. A second nut (jam nut) does not meet this requirement",
+    "status": "success"
+}

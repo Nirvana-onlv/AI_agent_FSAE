@@ -1,0 +1,40 @@
+{
+    "question_number": 170,
+    "timestamp": "2026-06-06 09:46:05",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the pedal box or the pedal assembly visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\3.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "pedal box pedal assembly visible",
+            "retrieved_context": [
+                "\n            RULE: t.3.2.3\n            TITLE: failure of non-loadbearing components in the brake system or pedal box must not interfere\n\n            CONTENT:\n            rule T.3.2.3: Failure of non-loadbearing components in the Brake System or pedal box must not interfere\nT.3.2.3 Failure of non-loadbearing components in the Brake System or pedal box must not interfere \nwith Brake Pedal operation or Brake System function\n            ",
+                "\n            RULE: in.14.2.2\n            TITLE: changes to fit the vehicle to different drivers are allowed.  permitted changes are:\n\n            CONTENT:\n            rule IN.14.2.2: Changes to fit the vehicle to different drivers are allowed.  Permitted changes are:\nIN.14.2.2 Changes to fit the vehicle to different drivers are allowed.  Permitted changes are: \n• Adjustment of the driver restraint system, Head Restraint, seat and pedal assembly \n• Substitution of the Head Restraint or seat insert  \n• Adjustment of mirrors\nFormula SAE® Rules 2024 © 2023 SAE International  Page 117 of 140   \nVersion 1.0   1 Sep 2023\n            ",
+                "\n            RULE: t.4.3.1\n            TITLE: the vehicle must have a sensor or switch to measure brake pedal position or brake system\n\n            CONTENT:\n            rule T.4.3.1: The vehicle must have a sensor or switch to measure brake pedal position or brake system\nT.4.3.1 The vehicle must have a sensor or switch to measure brake pedal position or brake system \npressure\n            ",
+                "\n            RULE: f.8.6.3\n            TITLE: pedal assembly at full travel and adjustment must have a minimum 25 mm clearance to the:\n\n            CONTENT:\n            rule F.8.6.3: Pedal assembly at full travel and adjustment must have a minimum 25 mm clearance to the:\nF.8.6.3 Pedal assembly at full travel and adjustment must have a minimum 25 mm clearance to the:  \na. Rear face of the Anti Intrusion Plate  \nb. All Front Bulkhead structure F.6.1, F.7.2, F.8.4.3 \nc. All Non Crushable Items inside the Primary Structure \nNon Crushable Items include, but are not limited to batteries, master cylinders, hydraulic \nreservoirs\n            ",
+                "\n            RULE: t.3.2.2\n            TITLE: the brake pedal and associated components design must withstand a minimum force of 2000\n\n            CONTENT:\n            rule T.3.2.2: The Brake Pedal and associated components design must withstand a minimum force of 2000\nT.3.2.2 The Brake Pedal and associated components design must withstand a minimum force of 2000 \nN without any failure of the Brake System, pedal box, chassis mounting, or pedal adjustment \nThis is not a design criteria.  The Brake Pedal and Brake System may be tested by pressing the \npedal with the maximum force that can be exerted by any official when seated normally\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLOv26\",\n    \"slice_height\": 640,\n    \"slice_width\": 4000,\n    \"overlap_height_ratio\": 0.9,\n    \"overlap_width_ratio\": 0.9,\n    \"keywords\": [\n        \"pedal assembly\",\n        \"pedal box\",\n        \"dimension line\",\n        \"component label\",\n        \"mounting point\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLOv26",
+            "slice_height": 640,
+            "slice_width": 4000,
+            "overlap_height_ratio": 0.9,
+            "overlap_width_ratio": 0.9,
+            "keywords": [
+                "pedal assembly",
+                "pedal box",
+                "dimension line",
+                "component label",
+                "mounting point"
+            ]
+        },
+        "crop_image_path": "c:\\Users\\Nirvana\\NIR_project\\experiment_results\\q_170_focus.jpg",
+        "founded_objects": "mounting point"
+    },
+    "final_answer": "No",
+    "status": "success"
+}

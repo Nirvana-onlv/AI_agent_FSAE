@@ -1,0 +1,40 @@
+{
+    "question_number": 187,
+    "timestamp": "2026-06-06 10:24:40",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the uprights or the upright visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\20.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "upright visible",
+            "retrieved_context": [
+                "\n            RULE: t.3.4.1\n            TITLE: the vehicle must have a brake light that is clearly visible from the rear in very bright sunlight.\n\n            CONTENT:\n            rule T.3.4.1: The vehicle must have a Brake Light that is clearly visible from the rear in very bright sunlight.\nT.3.4.1 The vehicle must have a Brake Light that is clearly visible from the rear in very bright sunlight.\n            ",
+                "\n            RULE: v.3.1.3\n            TITLE: all suspension mounting points must be visible at technical inspection by direct view or by\n\n            CONTENT:\n            rule V.3.1.3: All suspension mounting points must be visible at Technical Inspection by direct view or by\nV.3.1.3 All suspension mounting points must be visible at Technical Inspection by direct view or by \nremoving any covers.\n            ",
+                "\n            RULE: in.2.3\n            TITLE: visible access\n\n            CONTENT:\n            rule IN.2.3: Visible Access\nIN.2.3 Visible Access  \nAll items on the Technical Inspection Form must be clearly visible to the technical inspectors \nwithout using instruments such as endoscopes or mirrors.  \nMethods to provide visible access include but are not limited to removable body panels, access \npanels, and other components\n            ",
+                "\n            RULE: ic.5.4.6\n            TITLE: the sight tube and fuel level line must be clearly visible to two individuals (one to fill the tank,\n\n            CONTENT:\n            rule IC.5.4.6: The sight tube and fuel level line must be clearly visible to two individuals (one to fill the tank,\nIC.5.4.6 The sight tube and fuel level line must be clearly visible to two individuals (one to fill the tank, \nthe other to visually verify fill) without the need of assistance (artificial lighting, magnifiers, \netc) or the need to remove any parts (body panels, etc).\n            ",
+                "\n            RULE: ev.5.9.6\n            TITLE: the tsal must be visible:\n\n            CONTENT:\n            rule EV.5.9.6: The TSAL must be visible:\nEV.5.9.6 The TSAL must be visible: \na. From every horizontal direction, except small angles which are blocked by the Main Hoop \nb. From a point 1.6 m vertically from ground level, inside a 3 m horizontal radius from the \nTSAL \nc. In direct sunlight\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLOv26\",\n    \"slice_height\": 640,\n    \"slice_width\": 4000,\n    \"overlap_height_ratio\": 0.9,\n    \"overlap_width_ratio\": 0.9,\n    \"keywords\": [\n        \"upright\",\n        \"suspension mounting point\",\n        \"dimension line\",\n        \"component label\",\n        \"CAD view\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLOv26",
+            "slice_height": 640,
+            "slice_width": 4000,
+            "overlap_height_ratio": 0.9,
+            "overlap_width_ratio": 0.9,
+            "keywords": [
+                "upright",
+                "suspension mounting point",
+                "dimension line",
+                "component label",
+                "CAD view"
+            ]
+        },
+        "crop_image_path": "c:\\Users\\Nirvana\\NIR_project\\experiment_results\\q_187_focus.jpg",
+        "founded_objects": "suspension mounting point, CAD view"
+    },
+    "final_answer": "Yes",
+    "status": "success"
+}

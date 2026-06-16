@@ -1,0 +1,20 @@
+{
+    "question_number": 585,
+    "timestamp": "2026-06-07 07:41:09",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.6.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.6.3",
+            "retrieved_context": [
+                "\n            RULE: t.2.6.3\n            TITLE: the shoulder belts must attach by one of the four:\n\n            CONTENT:\n            rule T.2.6.3: The Shoulder Belts must attach by one of the four:\nT.2.6.3 The Shoulder Belts must attach by one of the four: \na. Wrap around the Shoulder Harness Mounting bar \nb. Bolt through a welded tube insert or tested monocoque attachment  F.7.9 \nc. Bolt or clip to a tab or bracket ( T.2.4.3 ) on the Shoulder Harness Mounting bar \nd. Wrap around physically tested hardware attached to a monocoque\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.2.6.3: The Shoulder Belts must attach by one of the four: T.2.6.3 The Shoulder Belts must attach by one of the four: a. Wrap around the Shoulder Harness Mounting bar b. Bolt through a welded tube insert or tested monocoque attachment F.7.9 c. Bolt or clip to a tab or bracket ( T.2.4.3 ) on the Shoulder Harness Mounting bar d. Wrap around physically tested hardware attached to a monocoque",
+    "status": "success"
+}

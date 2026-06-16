@@ -1,0 +1,20 @@
+{
+    "question_number": 1182,
+    "timestamp": "2026-06-09 16:28:52",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.14.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.14.2.1",
+            "retrieved_context": [
+                "\n            RULE: in.14.2.1\n            TITLE: the vehicle must maintain all required specifications (including but not limited to ride height,\n\n            CONTENT:\n            rule IN.14.2.1: The vehicle must maintain all required specifications (including but not limited to ride height,\nIN.14.2.1 The vehicle must maintain all required specifications (including but not limited to ride height, \nsuspension travel, braking capacity (pad material/composition), sound level and wing location) \nthroughout the competition.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The vehicle must maintain all required specifications (including but not limited to ride height, suspension travel, braking capacity (pad material/composition), sound level and wing location) throughout the competition.",
+    "status": "success"
+}

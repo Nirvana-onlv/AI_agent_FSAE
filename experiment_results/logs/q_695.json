@@ -1,0 +1,20 @@
+{
+    "question_number": 695,
+    "timestamp": "2026-06-07 11:03:00",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.7.6.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.7.6.1",
+            "retrieved_context": [
+                "\n            RULE: t.7.6.1\n            TITLE: when forward of the centerline of the front wheel axles:\n\n            CONTENT:\n            rule T.7.6.1: When forward of the centerline of the front wheel axles:\nT.7.6.1 When forward of the centerline of the front wheel axles:   \nInboard of two vertical planes parallel to the centerline of the chassis touching the outside of \nthe front tires at the height of the hubs.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "When forward of the centerline of the front wheel axles: Inboard of two vertical planes parallel to the centerline of the chassis touching the outside of the front tires at the height of the hubs.",
+    "status": "success"
+}

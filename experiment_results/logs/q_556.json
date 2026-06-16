@@ -1,0 +1,20 @@
+{
+    "question_number": 556,
+    "timestamp": "2026-06-07 06:50:27",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.1.8.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.1.8.4",
+            "retrieved_context": [
+                "\n            RULE: t.1.8.4\n            TITLE: details\n\n            CONTENT:\n            rule T.1.8.4: Details\nT.1.8.4 Details \na. Firewalls composed of multiple panels must overlap and be sealed at the joints \nSealing between firewalls must not be a stressed part of the Firewall \nb. Grommets must be used to seal any pass through for wiring, cables, etc\nFormula SAE® Rules 2024 © 2023 SAE International  Page 58 of 140   \nVersion 1.0   1 Sep 2023 \nc. Any seals or adhesives used with the Firewall must be rated for the application \nenvironment\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.1.8.4: Details T.1.8.4 Details a. Firewalls composed of multiple panels must overlap and be sealed at the joints Sealing between firewalls must not be a stressed part of the Firewall b. Grommets must be used to seal any pass through for wiring, cables, etc c. Any seals or adhesives used with the Firewall must be rated for the application environment",
+    "status": "success"
+}

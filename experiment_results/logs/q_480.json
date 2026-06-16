@@ -1,0 +1,20 @@
+{
+    "question_number": 480,
+    "timestamp": "2026-06-07 04:20:56",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.8.6.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.8.6.3",
+            "retrieved_context": [
+                "\n            RULE: f.8.6.3\n            TITLE: pedal assembly at full travel and adjustment must have a minimum 25 mm clearance to the:\n\n            CONTENT:\n            rule F.8.6.3: Pedal assembly at full travel and adjustment must have a minimum 25 mm clearance to the:\nF.8.6.3 Pedal assembly at full travel and adjustment must have a minimum 25 mm clearance to the:  \na. Rear face of the Anti Intrusion Plate  \nb. All Front Bulkhead structure F.6.1, F.7.2, F.8.4.3 \nc. All Non Crushable Items inside the Primary Structure \nNon Crushable Items include, but are not limited to batteries, master cylinders, hydraulic \nreservoirs\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Pedal assembly at full travel and adjustment must have a minimum 25 mm clearance to the: a. Rear face of the Anti Intrusion Plate b. All Front Bulkhead structure F.6.1, F.7.2, F.8.4.3 c. All Non Crushable Items inside the Primary Structure Non Crushable Items include, but are not limited to batteries, master cylinders, hydraulic reservoirs",
+    "status": "success"
+}

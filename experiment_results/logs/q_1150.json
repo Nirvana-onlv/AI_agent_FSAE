@@ -1,0 +1,20 @@
+{
+    "question_number": 1150,
+    "timestamp": "2026-06-09 14:46:40",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.10.1.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.10.1.2",
+            "retrieved_context": [
+                "\n            RULE: in.10.1.2\n            TITLE: measurements will be made with a free field microphone placed:\n\n            CONTENT:\n            rule IN.10.1.2: Measurements will be made with a free field microphone placed:\nIN.10.1.2 Measurements will be made with a free field microphone placed:  \n• free from obstructions  \n• at the Exhaust Outlet vertical level  IC.7.2.2 \n• 0.5 m from the end of the Exhaust Outlet  IC.7.2.2 \n• at an angle of 45° with the outlet in the horizontal plane (see IN.10.2.2 below)\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Measurements will be made with a free field microphone placed: • free from obstructions • at the Exhaust Outlet vertical level IC.7.2.2 • 0.5 m from the end of the Exhaust Outlet IC.7.2.2 • at an angle of 45° with the outlet in the horizontal plane (see IN.10.2.2 below)",
+    "status": "success"
+}

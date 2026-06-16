@@ -1,0 +1,20 @@
+{
+    "question_number": 773,
+    "timestamp": "2026-06-08 10:36:11",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.2.5.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.2.5.2",
+            "retrieved_context": [
+                "\n            RULE: ic.2.5.2\n            TITLE: if pop-off valves, recirculation valves, or heat exchangers (intercoolers) are used, they must be\n\n            CONTENT:\n            rule IC.2.5.2: If pop-off valves, recirculation valves, or heat exchangers (intercoolers) are used, they must be\nIC.2.5.2 If pop-off valves, recirculation valves, or heat exchangers (intercoolers) are used, they must be \npositioned in the intake system as shown in IC.2.4.2.b\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "If pop-off valves, recirculation valves, or heat exchangers (intercoolers) are used, they must be positioned in the intake system as shown in IC.2.4.2.b",
+    "status": "success"
+}

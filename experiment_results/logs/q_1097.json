@@ -1,0 +1,20 @@
+{
+    "question_number": 1097,
+    "timestamp": "2026-06-09 11:51:30",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.2.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.2.2.1",
+            "retrieved_context": [
+                "\n            RULE: in.2.2.1\n            TITLE: allowable dimensions are absolute, and do not have any tolerance unless specifically stated.\n\n            CONTENT:\n            rule IN.2.2.1: Allowable dimensions are absolute, and do not have any tolerance unless specifically stated.\nIN.2.2.1 Allowable dimensions are absolute, and do not have any tolerance unless specifically stated.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Allowable dimensions are absolute, and do not have any tolerance unless specifically stated.",
+    "status": "success"
+}

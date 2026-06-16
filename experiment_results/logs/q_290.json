@@ -1,0 +1,20 @@
+{
+    "question_number": 290,
+    "timestamp": "2026-06-06 22:06:06",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.4.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.4.1",
+            "retrieved_context": [
+                "\n            RULE: v.4.1\n            TITLE: wheel size\n\n            CONTENT:\n            rule V.4.1: Wheel Size\nV.4.1 Wheel Size \nWheels must be 203.2 mm (8.0 inches) or more in diameter.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Wheels must be 203.2 mm (8.0 inches) or more in diameter.",
+    "status": "success"
+}

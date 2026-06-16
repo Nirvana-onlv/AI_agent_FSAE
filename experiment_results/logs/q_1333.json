@@ -1,0 +1,20 @@
+{
+    "question_number": 1333,
+    "timestamp": "2026-06-10 10:45:47",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.6.2.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.6.2.4",
+            "retrieved_context": [
+                "\n            RULE: d.6.2.4\n            TITLE: time allowed to change tires:\n\n            CONTENT:\n            rule D.6.2.4: Time allowed to change tires:\nD.6.2.4 Time allowed to change tires: \na. Change to Wet Tires - Any time in excess of 10 minutes without driver change, or 13 \nminutes with Driver Change, will be added to the team's total time for Endurance\nFormula SAE® Rules 2024 © 2023 SAE International  Page 129 of 140   \nVersion 1.0   1 Sep 2023 \nb. Change to Dry Tires - The time used to change to Dry Tires will be added to the team’s \ntotal time for Endurance\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.6.2.4: Time allowed to change tires: a. Change to Wet Tires - Any time in excess of 10 minutes without driver change, or 13 minutes with Driver Change, will be added to the team's total time for Endurance Formula SAE® Rules 2024 © 2023 SAE International Page 129 of 140 Version 1.0 1 Sep 2023 b. Change to Dry Tires - The time used to change to Dry Tires will be added to the team’s total time for Endurance",
+    "status": "success"
+}

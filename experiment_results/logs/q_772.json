@@ -1,0 +1,20 @@
+{
+    "question_number": 772,
+    "timestamp": "2026-06-08 10:33:23",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.2.5.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.2.5.1",
+            "retrieved_context": [
+                "\n            RULE: ic.2.5.1\n            TITLE: the intake air may be cooled with an intercooler (a charge air cooler).\n\n            CONTENT:\n            rule IC.2.5.1: The intake air may be cooled with an intercooler (a charge air cooler).\nIC.2.5.1 The intake air may be cooled with an intercooler (a charge air cooler).  \na. It must be located downstream of the throttle body  \nb. Only ambient air may be used to remove heat from the intercooler system  \nc. Air to air and water to air intercoolers are permitted  \nd. The coolant of a water to air intercooler system must meet T.5.4.1\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.2.5.1: The intake air may be cooled with an intercooler (a charge air cooler). IC.2.5.1 The intake air may be cooled with an intercooler (a charge air cooler). a. It must be located downstream of the throttle body b. Only ambient air may be used to remove heat from the intercooler system c. Air to air and water to air intercoolers are permitted d. The coolant of a water to air intercooler system must meet T.5.4.1",
+    "status": "success"
+}

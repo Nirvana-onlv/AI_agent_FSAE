@@ -1,0 +1,20 @@
+{
+    "question_number": 852,
+    "timestamp": "2026-06-08 14:13:16",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.6.2.6 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.6.2.6",
+            "retrieved_context": [
+                "\n            RULE: ic.6.2.6\n            TITLE: pressure regulator – must be fitted between the high pressure and low pressure sides of the\n\n            CONTENT:\n            rule IC.6.2.6: Pressure Regulator – must be fitted between the High Pressure and Low Pressure sides of the\nIC.6.2.6 Pressure Regulator – must be fitted between the High Pressure and Low Pressure sides of the \nfuel system in parallel with the DI boost pump.  The external regulator must be used even if \nthe DI boost pump comes equipped with an internal regulator.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 87 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Pressure Regulator – must be fitted between the High Pressure and Low Pressure sides of the fuel system in parallel with the DI boost pump. The external regulator must be used even if the DI boost pump comes equipped with an internal regulator.",
+    "status": "success"
+}

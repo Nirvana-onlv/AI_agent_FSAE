@@ -1,0 +1,20 @@
+{
+    "question_number": 848,
+    "timestamp": "2026-06-08 14:02:05",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.6.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.6.2.2",
+            "retrieved_context": [
+                "\n            RULE: ic.6.2.2\n            TITLE: all high pressure fuel lines must:\n\n            CONTENT:\n            rule IC.6.2.2: All High Pressure Fuel Lines must:\nIC.6.2.2 All High Pressure Fuel Lines must:  \na. Be stainless steel rigid line or Aeroquip FC807 smooth bore PTFE hose with stainless steel \nreinforcement and visible Nomex tracer yarn.  Equivalent products may be used with \nprior approval.   \nb. Not incorporate elastomeric seals \nc. Be rigidly connected every 100 mm by mechanical fasteners to structural engine \ncomponents such as cylinder heads or block\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "IC.6.2.2 All High Pressure Fuel Lines must: a. Be stainless steel rigid line or Aeroquip FC807 smooth bore PTFE hose with stainless steel reinforcement and visible Nomex tracer yarn. Equivalent products may be used with prior approval. b. Not incorporate elastomeric seals c. Be rigidly connected every 100 mm by mechanical fasteners to structural engine components such as cylinder heads or block",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 265,
+    "timestamp": "2026-06-06 19:14:23",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.1.4.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.1.4.1",
+            "retrieved_context": [
+                "\n            RULE: v.1.4.1\n            TITLE: ground clearance must be sufficient to prevent any portion of the vehicle except the tires\n\n            CONTENT:\n            rule V.1.4.1: Ground clearance must be sufficient to prevent any portion of the vehicle except the tires\nV.1.4.1 Ground clearance must be sufficient to prevent any portion of the vehicle except the tires \nfrom touching the ground during dynamic events\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Ground clearance must be sufficient to prevent any portion of the vehicle except the tires from touching the ground during dynamic events",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 725,
+    "timestamp": "2026-06-07 18:38:33",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule VE.1.1.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "VE.1.1.2",
+            "retrieved_context": [
+                "\n            RULE: ve.1.1.2\n            TITLE: additional letters or numerals must not show before or after the vehicle number\n\n            CONTENT:\n            rule VE.1.1.2: Additional letters or numerals must not show before or after the vehicle number\nVE.1.1.2 Additional letters or numerals must not show before or after the vehicle number\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Additional letters or numerals must not show before or after the vehicle number",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 1156,
+    "timestamp": "2026-06-09 15:05:22",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.10.4.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.10.4.1",
+            "retrieved_context": [
+                "\n            RULE: in.10.4.1\n            TITLE: maximum test speed\n\n            CONTENT:\n            rule IN.10.4.1: Maximum Test Speed\nIN.10.4.1 Maximum Test Speed \nThe engine speed that corresponds to an average piston speed of: \na. Automotive / Motorcycle engines  914.4 m/min (3,000 ft/min) \nb. Industrial Engines    731.5 m/min (2,400 ft/min) \nThe calculated speed will be rounded to the nearest 500 rpm.  \nTest Speeds for typical engines are published on the FSAE Online website\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IN.10.4.1: Maximum Test Speed IN.10.4.1 Maximum Test Speed The engine speed that corresponds to an average piston speed of: a. Automotive / Motorcycle engines 914.4 m/min (3,000 ft/min) b. Industrial Engines 731.5 m/min (2,400 ft/min) The calculated speed will be rounded to the nearest 500 rpm. Test Speeds for typical engines are published on the FSAE Online website",
+    "status": "success"
+}

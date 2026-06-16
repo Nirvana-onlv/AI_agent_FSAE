@@ -1,0 +1,20 @@
+{
+    "question_number": 384,
+    "timestamp": "2026-06-07 01:18:03",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.9.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.9.3",
+            "retrieved_context": [
+                "\n            RULE: f.5.9.3\n            TITLE: in the side view of the frame, the main hoop and the main hoop braces must not lie on the\n\n            CONTENT:\n            rule F.5.9.3: In the side view of the Frame, the Main Hoop and the Main Hoop Braces must not lie on the\nF.5.9.3 In the side view of the Frame, the Main Hoop and the Main Hoop Braces must not lie on the \nsame side of the vertical line through the top of the Main Hoop.   \n(If the Main Hoop leans forward, the Braces must be forward of the Main Hoop, and if the \nMain Hoop leans rearward, the Braces must be rearward of the Main Hoop)\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "In the side view of the Frame, the Main Hoop and the Main Hoop Braces must not lie on the same side of the vertical line through the top of the Main Hoop. (If the Main Hoop leans forward, the Braces must be forward of the Main Hoop, and if the Main Hoop leans rearward, the Braces must be rearward of the Main Hoop)",
+    "status": "success"
+}

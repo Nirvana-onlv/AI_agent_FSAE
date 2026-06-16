@@ -1,0 +1,20 @@
+{
+    "question_number": 1184,
+    "timestamp": "2026-06-09 16:35:25",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.14.2.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.14.2.3",
+            "retrieved_context": [
+                "\n            RULE: in.14.2.3\n            TITLE: once the vehicle receives inspection approval, the only modifications permitted to the\n\n            CONTENT:\n            rule IN.14.2.3: Once the vehicle receives Inspection Approval, the ONLY modifications permitted to the\nIN.14.2.3 Once the vehicle receives Inspection Approval, the ONLY modifications permitted to the \nvehicle are the following:  \n• Adjustment of belts, chains and clutches  \n• Adjustment of brake bias  \n• Adjustment to engine / powertrain operating parameters, including fuel mixture and \nignition timing, and any software calibration changes \n• Adjustment of the suspension  \n• Changing springs, sway bars and shims in the suspension  \n• Adjustment of Tire Pressure, subject to V.4.3.4 \n• Adjustment of wing or wing element(s) angle, but not the location  T.7.1 \n• Replenishment of fluids  \n• Replacement of worn tires or brake pads.  Replacement tires and brake pads must be \nidentical in material/composition/size to those presented and approved at Technical \nInspection.  \n• Changing of wheels and tires for weather conditions  D.6 \n• Recharging Low Voltage batteries \n• Recharging High Voltage Accumulators\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Once the vehicle receives Inspection Approval, the ONLY modifications permitted to the IN.14.2.3 Once the vehicle receives Inspection Approval, the ONLY modifications permitted to the vehicle are the following: • Adjustment of belts, chains and clutches • Adjustment of brake bias • Adjustment to engine / powertrain operating parameters, including fuel mixture and ignition timing, and any software calibration changes • Adjustment of the suspension • Changing springs, sway bars and shims in the suspension • Adjustment of Tire Pressure, subject to V.4.3.4 • Adjustment of wing or wing element(s) angle, but not the location T.7.1 • Replenishment of fluids • Replacement of worn tires or brake pads. Replacement tires and brake pads must be identical in material/composition/size to those presented and approved at Technical Inspection. • Changing of wheels and tires for weather conditions D.6 • Recharging Low Voltage batteries • Recharging High Voltage Accumulators",
+    "status": "success"
+}

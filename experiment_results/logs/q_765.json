@@ -1,0 +1,20 @@
+{
+    "question_number": 765,
+    "timestamp": "2026-06-08 10:14:34",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.2.3.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.2.3.3",
+            "retrieved_context": [
+                "\n            RULE: ic.2.3.3\n            TITLE: intake systems with significant mass or cantilever from the cylinder head must be supported\n\n            CONTENT:\n            rule IC.2.3.3: Intake systems with significant mass or cantilever from the cylinder head must be supported\nIC.2.3.3 Intake systems with significant mass or cantilever from the cylinder head must be supported \nto prevent stress to the intake system.   \na. Supports to the engine must be rigid.   \nb. Supports to the Chassis must incorporate some isolation to allow for engine movement \nand chassis flex.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Intake systems with significant mass or cantilever from the cylinder head must be supported to prevent stress to the intake system. a. Supports to the engine must be rigid. b. Supports to the Chassis must incorporate some isolation to allow for engine movement and chassis flex.",
+    "status": "success"
+}

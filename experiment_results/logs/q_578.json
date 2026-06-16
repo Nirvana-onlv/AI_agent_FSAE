@@ -1,0 +1,20 @@
+{
+    "question_number": 578,
+    "timestamp": "2026-06-07 07:28:29",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.5.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.5.4",
+            "retrieved_context": [
+                "\n            RULE: t.2.5.4\n            TITLE: with an upright driving position:\n\n            CONTENT:\n            rule T.2.5.4: With an Upright Driving Position:\nT.2.5.4 With an Upright Driving Position:  \na. The Lap Belt Side View Angle must be between 45° and 65° to the horizontal.  \nb. The centerline of the Lap Belt at the seat bottom should be between 0 – 75 mm forward \nof the seat back to seat bottom junction.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 60 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.2.5.4 With an Upright Driving Position: a. The Lap Belt Side View Angle must be between 45° and 65° to the horizontal. b. The centerline of the Lap Belt at the seat bottom should be between 0 – 75 mm forward of the seat back to seat bottom junction.",
+    "status": "success"
+}

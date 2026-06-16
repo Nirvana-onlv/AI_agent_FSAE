@@ -1,0 +1,20 @@
+{
+    "question_number": 1371,
+    "timestamp": "2026-06-10 12:59:20",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.11.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.11.2.1",
+            "retrieved_context": [
+                "\n            RULE: d.11.2.1\n            TITLE: each team may attempt up to four runs, using two drivers, limited to two runs for each driver\n\n            CONTENT:\n            rule D.11.2.1: Each team may attempt up to four runs, using two drivers, limited to two runs for each driver\nD.11.2.1 Each team may attempt up to four runs, using two drivers, limited to two runs for each driver\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Each team may attempt up to four runs, using two drivers, limited to two runs for each driver",
+    "status": "success"
+}

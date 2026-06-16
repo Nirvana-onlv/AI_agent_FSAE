@@ -1,0 +1,20 @@
+{
+    "question_number": 1443,
+    "timestamp": "2026-06-10 17:08:10",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.13.4.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.13.4.3",
+            "retrieved_context": [
+                "\n            RULE: d.13.4.3\n            TITLE: scoring term definitions:\n\n            CONTENT:\n            rule D.13.4.3: Scoring Term Definitions:\nD.13.4.3 Scoring Term Definitions: \n• CO2 min  -  the smallest mass of CO2 used by any competitor who is eligible for Efficiency \n• CO2 your  -  the mass of CO2 used by the team being scored \n• Tmin  -  the lowest Endurance time of the fastest team which is eligible for Efficiency  \n• Tyour  -  same as Endurance (D.12.13.1)  \n• Lapyours   -  the number of laps driven by the team being scored \n• Laptotal Tmin and Latptotal CO2 min  -   be the number of laps completed by the teams \nwhich set Tmin and CO2min, respectively\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "D.13.4.3 Scoring Term Definitions: • CO2 min - the smallest mass of CO2 used by any competitor who is eligible for Efficiency • CO2 your - the mass of CO2 used by the team being scored • Tmin - the lowest Endurance time of the fastest team which is eligible for Efficiency • Tyour - same as Endurance (D.12.13.1) • Lapyours - the number of laps driven by the team being scored • Laptotal Tmin and Latptotal CO2 min - be the number of laps completed by the teams which set Tmin and CO2min, respectively",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 594,
+    "timestamp": "2026-06-07 07:58:59",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.8.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.8.3",
+            "retrieved_context": [
+                "\n            RULE: t.2.8.3\n            TITLE: all material and structure of the head restraint must be inside one or both of:\n\n            CONTENT:\n            rule T.2.8.3: All material and structure of the Head Restraint must be inside one or both of:\nT.2.8.3 All material and structure of the Head Restraint must be inside one or both of:  \na. Rollover Protection Envelope  F.1.13  \nb. Head Restraint Protection (if used)  F.5.10\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.2.8.3: All material and structure of the Head Restraint must be inside one or both of: a. Rollover Protection Envelope F.1.13 b. Head Restraint Protection (if used) F.5.10",
+    "status": "success"
+}

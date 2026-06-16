@@ -1,0 +1,20 @@
+{
+    "question_number": 314,
+    "timestamp": "2026-06-06 22:47:37",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.1.15 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.1.15",
+            "retrieved_context": [
+                "\n            RULE: f.1.15\n            TITLE: component envelope\n\n            CONTENT:\n            rule F.1.15: Component Envelope\nF.1.15 Component Envelope \nThe area that is inside a plane from the top of the Main Hoop to the top of the Front \nBulkhead, plus a plane from the top of the Main Hoop to the rearmost Triangulated structural \ntube, or monocoque equivalent.      * see note in step F.1.13 above\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.1.15: Component Envelope F.1.15 Component Envelope The area that is inside a plane from the top of the Main Hoop to the top of the Front Bulkhead, plus a plane from the top of the Main Hoop to the rearmost Triangulated structural tube, or monocoque equivalent. * see note in step F.1.13 above",
+    "status": "success"
+}

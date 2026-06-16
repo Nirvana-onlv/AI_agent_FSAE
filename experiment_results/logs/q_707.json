@@ -1,0 +1,20 @@
+{
+    "question_number": 707,
+    "timestamp": "2026-06-07 11:23:40",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.8.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.8.3.2",
+            "retrieved_context": [
+                "\n            RULE: t.8.3.2\n            TITLE: examples of acceptable positive locking mechanisms include, but are not limited to:\n\n            CONTENT:\n            rule T.8.3.2: Examples of acceptable Positive Locking Mechanisms include, but are not limited to:\nT.8.3.2 Examples of acceptable Positive Locking Mechanisms include, but are not limited to: \na. Correctly installed safety wiring  \nb. Cotter pins  \nc. Nylon lock nuts (where temperature does not exceed 80°C) \nd. Prevailing torque lock nuts  \nLock washers, bolts with nylon patches and thread locking compounds (Loctite®), DO NOT \nmeet the positive locking requirement.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.8.3.2: Examples of acceptable Positive Locking Mechanisms include, but are not limited to: T.8.3.2 Examples of acceptable Positive Locking Mechanisms include, but are not limited to: a. Correctly installed safety wiring b. Cotter pins c. Nylon lock nuts (where temperature does not exceed 80°C) d. Prevailing torque lock nuts Lock washers, bolts with nylon patches and thread locking compounds (Loctite®), DO NOT meet the positive locking requirement.",
+    "status": "success"
+}

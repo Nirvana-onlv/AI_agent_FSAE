@@ -1,0 +1,20 @@
+{
+    "question_number": 1185,
+    "timestamp": "2026-06-09 16:38:57",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.14.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.14.3",
+            "retrieved_context": [
+                "\n            RULE: in.14.3\n            TITLE: repairs or changes after inspection approval\n\n            CONTENT:\n            rule IN.14.3: Repairs or Changes After Inspection Approval\nIN.14.3 Repairs or Changes After Inspection Approval \nThe Inspection Approval may be voided for any reason including, but not limited to: \na. Damage to the vehicle  IN.13.1.3 \nb. Changes beyond those allowed per IN.14.2 above\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IN.14.3: Repairs or Changes After Inspection Approval IN.14.3 Repairs or Changes After Inspection Approval The Inspection Approval may be voided for any reason including, but not limited to: a. Damage to the vehicle IN.13.1.3 b. Changes beyond those allowed per IN.14.2 above",
+    "status": "success"
+}

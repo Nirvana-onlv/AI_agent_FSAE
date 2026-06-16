@@ -1,0 +1,20 @@
+{
+    "question_number": 325,
+    "timestamp": "2026-06-06 23:08:10",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.2.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.2.4",
+            "retrieved_context": [
+                "\n            RULE: f.2.4\n            TITLE: tolerance\n\n            CONTENT:\n            rule F.2.4: Tolerance\nF.2.4 Tolerance \nTolerance on dimensions given in the rules is allowed and is addressed in the SES.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.2.4: Tolerance F.2.4 Tolerance Tolerance on dimensions given in the rules is allowed and is addressed in the SES.",
+    "status": "success"
+}

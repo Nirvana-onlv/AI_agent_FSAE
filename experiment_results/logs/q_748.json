@@ -1,0 +1,20 @@
+{
+    "question_number": 748,
+    "timestamp": "2026-06-07 19:26:13",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule VE.3.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "VE.3.2.2",
+            "retrieved_context": [
+                "\n            RULE: ve.3.2.2\n            TITLE: acceptable helmet standards are listed below.  any additional approved standards are shown\n\n            CONTENT:\n            rule VE.3.2.2: Acceptable helmet standards are listed below.  Any additional approved standards are shown\nVE.3.2.2 Acceptable helmet standards are listed below.  Any additional approved standards are shown \non the Technical Inspection Form or the FAQ on the FSAE Online website.   \na. Snell K2010, K2015, K2020, M2010, M2015, M2020, SA2010, SAH2010, SA2015, SA2020 \nb. SFI Specs 31.1/2010, 31.1/2015, 41.1/2010, 41.1/2015 \nc. FIA Standards  FIA 8860-2004, FIA 8860-2010, FIA 8860-2018, FIA 8859-2015\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "VE.3.2.2: Acceptable helmet standards are listed below. Any additional approved standards are shown VE.3.2.2 Acceptable helmet standards are listed below. Any additional approved standards are shown on the Technical Inspection Form or the FAQ on the FSAE Online website. a. Snell K2010, K2015, K2020, M2010, M2015, M2020, SA2010, SAH2010, SA2015, SA2020 b. SFI Specs 31.1/2010, 31.1/2015, 41.1/2010, 41.1/2015 c. FIA Standards FIA 8860-2004, FIA 8860-2010, FIA 8860-2018, FIA 8859-2015",
+    "status": "success"
+}

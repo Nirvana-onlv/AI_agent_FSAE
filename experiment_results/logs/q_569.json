@@ -1,0 +1,20 @@
+{
+    "question_number": 569,
+    "timestamp": "2026-06-07 07:12:01",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.3.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.3.3",
+            "retrieved_context": [
+                "\n            RULE: t.2.3.3\n            TITLE: the shoulder belts must be the over the shoulder type.  only separate shoulder straps are\n\n            CONTENT:\n            rule T.2.3.3: The Shoulder Belts must be the over the shoulder type.  Only separate shoulder straps are\nT.2.3.3 The Shoulder Belts must be the over the shoulder type.  Only separate shoulder straps are \npermitted.  “Y” type shoulder straps are not allowed.  The “H” type configuration is allowed.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Shoulder Belts must be the over the shoulder type. Only separate shoulder straps are permitted. “Y” type shoulder straps are not allowed. The “H” type configuration is allowed.",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 436,
+    "timestamp": "2026-06-07 02:57:13",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.7.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.7.2.2",
+            "retrieved_context": [
+                "\n            RULE: f.7.2.2\n            TITLE: the length of the section perpendicular to the front bulkhead may be a maximum of 25 mm\n\n            CONTENT:\n            rule F.7.2.2: The length of the section perpendicular to the Front Bulkhead may be a maximum of 25 mm\nF.7.2.2 The length of the section perpendicular to the Front Bulkhead may be a maximum of 25 mm \nmeasured from the rearmost face of the Front Bulkhead\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The length of the section perpendicular to the Front Bulkhead may be a maximum of 25 mm measured from the rearmost face of the Front Bulkhead",
+    "status": "success"
+}

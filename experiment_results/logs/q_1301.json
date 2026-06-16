@@ -1,0 +1,20 @@
+{
+    "question_number": 1301,
+    "timestamp": "2026-06-10 06:02:32",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.3.5.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.3.5.1",
+            "retrieved_context": [
+                "\n            RULE: d.3.5.1\n            TITLE: all driver equipment and harness must be worn by the driver anytime in the cockpit with:\n\n            CONTENT:\n            rule D.3.5.1: All Driver Equipment and Harness must be worn by the driver anytime in the cockpit with:\nD.3.5.1 All Driver Equipment and Harness must be worn by the driver anytime in the cockpit with:  \na. (IC) Engine running or (EV) Tractive System Active  \nb. Anytime between starting a Dynamic run and finishing or abandoning that Dynamic run.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "D.3.5.1 All Driver Equipment and Harness must be worn by the driver anytime in the cockpit with: a. (IC) Engine running or (EV) Tractive System Active b. Anytime between starting a Dynamic run and finishing or abandoning that Dynamic run.",
+    "status": "success"
+}

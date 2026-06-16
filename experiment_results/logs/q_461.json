@@ -1,0 +1,20 @@
+{
+    "question_number": 461,
+    "timestamp": "2026-06-07 03:42:48",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.7.9.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.7.9.1",
+            "retrieved_context": [
+                "\n            RULE: f.7.9.1\n            TITLE: required loads\n\n            CONTENT:\n            rule F.7.9.1: Required Loads\nF.7.9.1 Required Loads \na. Each attachment point for the Shoulder Belts must support a minimum load of 15 kN \nbefore failure with a required load of 30 kN distributed across both belt attachments.   \nb. Each attachment point for the Lap Belts must support a minimum load of 15 kN before \nfailure.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 43 of 140   \nVersion 1.0   1 Sep 2023 \nc. Each attachment point for the Anti-Submarine Belts must support a minimum load of 15 \nkN before failure. \nd. If the Lap Belt and Anti-Submarine Belt mounting points are less than 125 mm apart, or \nare attached to the same attachment point, then each mounting point must support a \nminimum load of 30 kN before failure.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "**F.7.9.1 Required Loads**\n\na. Each attachment point for the Shoulder Belts must support a minimum load of 15 kN before failure with a required load of 30 kN distributed across both belt attachments.\nb. Each attachment point for the Lap Belts must support a minimum load of 15 kN before failure.\nc. Each attachment point for the Anti-Submarine Belts must support a minimum load of 15 kN before failure.\nd. If the Lap Belt and Anti-Submarine Belt mounting points are less than 125 mm apart, or are attached to the same attachment point, then each mounting point must support a minimum load of 30 kN before failure.",
+    "status": "success"
+}

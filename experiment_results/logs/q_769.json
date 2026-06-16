@@ -1,0 +1,20 @@
+{
+    "question_number": 769,
+    "timestamp": "2026-06-08 10:25:31",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.2.4.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.2.4.4",
+            "retrieved_context": [
+                "\n            RULE: ic.2.4.4\n            TITLE: the restrictor must be located to facilitate measurement during technical inspection\n\n            CONTENT:\n            rule IC.2.4.4: The restrictor must be located to facilitate measurement during Technical Inspection\nIC.2.4.4 The restrictor must be located to facilitate measurement during Technical Inspection\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The restrictor must be located to facilitate measurement during Technical Inspection",
+    "status": "success"
+}

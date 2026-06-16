@@ -1,0 +1,20 @@
+{
+    "question_number": 280,
+    "timestamp": "2026-06-06 19:41:34",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.3.2.5 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.3.2.5",
+            "retrieved_context": [
+                "\n            RULE: v.3.2.5\n            TITLE: allowable steering system free play is limited to seven degrees (7°) total measured at the\n\n            CONTENT:\n            rule V.3.2.5: Allowable steering system free play is limited to seven degrees (7°) total measured at the\nV.3.2.5 Allowable steering system free play is limited to seven degrees (7°) total measured at the \nsteering wheel.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Allowable steering system free play is limited to seven degrees (7°) total measured at the steering wheel.",
+    "status": "success"
+}

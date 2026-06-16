@@ -1,0 +1,40 @@
+{
+    "question_number": 194,
+    "timestamp": "2026-06-06 10:39:21",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the steering rack visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\27.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "steering rack visibility",
+            "retrieved_context": [
+                "\n            RULE: v.3.2.7\n            TITLE: joints between all components attaching the steering wheel to the steering rack must be\n\n            CONTENT:\n            rule V.3.2.7: Joints between all components attaching the Steering Wheel to the steering rack must be\nV.3.2.7 Joints between all components attaching the Steering Wheel to the steering rack must be \nmechanical and be visible at Technical Inspection. Bonded joints without a mechanical backup \nare not permitted.\n            ",
+                "\n            RULE: v.3.2.6\n            TITLE: the steering rack must be mechanically attached to the chassis  f.5.14\n\n            CONTENT:\n            rule V.3.2.6: The steering rack must be mechanically attached to the Chassis  F.5.14\nV.3.2.6 The steering rack must be mechanically attached to the Chassis  F.5.14\n            ",
+                "\n            RULE: v.2.2\n            TITLE: visibility\n\n            CONTENT:\n            rule V.2.2: Visibility\nV.2.2 Visibility \na. The driver must have sufficient visibility to the front and sides of the vehicle \nb. When seated in a normal driving position, the driver must have a minimum field of vision \nof 100° to both sides \nc. If mirrors are required for this rule, they must remain in place and adjusted to enable the \nrequired visibility throughout all dynamic events.\n            ",
+                "\n            RULE: v.3.2.4\n            TITLE: the steering system must have positive steering stops that prevent the steering linkages from\n\n            CONTENT:\n            rule V.3.2.4: The steering system must have positive steering stops that prevent the steering linkages from\nV.3.2.4 The steering system must have positive steering stops that prevent the steering linkages from \nlocking up (the inversion of a four bar linkage at one of the pivots). The stops: \na. Must prevent the wheels and tires from contacting suspension, bodywork, or Chassis \nduring the track events \nb. May be placed on the uprights or on the rack\n            ",
+                "\n            RULE: f.5.7.5\n            TITLE: the front hoop must be no more than 250 mm forward of the steering wheel.\n\n            CONTENT:\n            rule F.5.7.5: The Front Hoop must be no more than 250 mm forward of the steering wheel.\nF.5.7.5 The Front Hoop must be no more than 250 mm forward of the steering wheel.  \nThis distance is measured horizontally, on the vehicle centerline, from the rear surface of the \nFront Hoop to the forward most surface of the steering wheel rim with the steering in the \nstraight ahead position.\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\"detection_model\": \"YOLOv26\", \"slice_height\": 640, \"slice_width\": 4000, \"overlap_height_ratio\": 0.85, \"overlap_width_ratio\": 0.95, \"keywords\": [\"steering rack\", \"steering wheel\", \"component\", \"joint\", \"linkage\"]}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLOv26",
+            "slice_height": 640,
+            "slice_width": 4000,
+            "overlap_height_ratio": 0.85,
+            "overlap_width_ratio": 0.95,
+            "keywords": [
+                "steering rack",
+                "steering wheel",
+                "component",
+                "joint",
+                "linkage"
+            ]
+        },
+        "crop_image_path": "c:\\Users\\Nirvana\\NIR_project\\experiment_results\\q_194_focus.jpg",
+        "founded_objects": "steering wheel"
+    },
+    "final_answer": "Yes",
+    "status": "success"
+}

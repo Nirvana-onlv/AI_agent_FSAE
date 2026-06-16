@@ -1,0 +1,22 @@
+{
+    "question_number": 843,
+    "timestamp": "2026-06-08 13:48:36",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.6.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.6.1",
+            "retrieved_context": [
+                "\n            RULE: ic.6.1.1\n            TITLE: any low pressure flexible fuel lines must be one of:\n\n            CONTENT:\n            rule IC.6.1.1: Any Low Pressure flexible fuel lines must be one of:\nIC.6.1.1 Any Low Pressure flexible fuel lines must be one of: \n• Metal braided hose with threaded fittings (crimped on or reusable) \n• Reinforced rubber hose with some form of abrasion resistant protection\n            ",
+                "\n            RULE: ic.6.1.2\n            TITLE: fuel rail and mounting requirements:\n\n            CONTENT:\n            rule IC.6.1.2: Fuel rail and mounting requirements:\nIC.6.1.2 Fuel rail and mounting requirements:\nFormula SAE® Rules 2024 © 2023 SAE International  Page 86 of 140   \nVersion 1.0   1 Sep 2023 \na. Unmodified OEM Fuel Rails are acceptable, regardless of material.   \nb. Non OEM fuel rails made from plastic, carbon fiber or rapid prototyping flammable \nmaterials are prohibited.   \nc. The fuel rail must be securely attached to the manifold, engine block or cylinder head \nwith brackets and mechanical fasteners.   \nHose clamps, plastic ties, or safety wires do not meet this requirement.  \nd. Threaded fasteners used to secure the fuel rail are Critical Fasteners, see T.8.2\n            ",
+                "\n            RULE: ic.6.1\n            TITLE: low pressure injection (lpi)\n\n            CONTENT:\n            rule IC.6.1: Low Pressure Injection (LPI)\nIC.6.1 Low Pressure Injection (LPI) \nLow Pressure fuel injection systems are those functioning at a pressure below 10 Bar.  Most \nPort Fuel Injected (PFI) fuel systems are low pressure.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Low Pressure Injection (LPI) Low Pressure fuel injection systems are those functioning at a pressure below 10 Bar. Most Port Fuel Injected (PFI) fuel systems are low pressure.",
+    "status": "success"
+}

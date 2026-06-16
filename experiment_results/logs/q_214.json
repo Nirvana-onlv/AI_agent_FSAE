@@ -1,0 +1,39 @@
+{
+    "question_number": 214,
+    "timestamp": "2026-06-06 12:59:34",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the toe rod or the toe rods visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\47.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "toe rod visibility",
+            "retrieved_context": [
+                "\n            RULE: v.2.2\n            TITLE: visibility\n\n            CONTENT:\n            rule V.2.2: Visibility\nV.2.2 Visibility \na. The driver must have sufficient visibility to the front and sides of the vehicle \nb. When seated in a normal driving position, the driver must have a minimum field of vision \nof 100° to both sides \nc. If mirrors are required for this rule, they must remain in place and adjusted to enable the \nrequired visibility throughout all dynamic events.\n            ",
+                "\n            RULE: v.3.1.5\n            TITLE: all spherical rod ends and spherical bearings on the suspension and steering must be one of:\n\n            CONTENT:\n            rule V.3.1.5: All spherical rod ends and spherical bearings on the suspension and steering must be one of:\nV.3.1.5 All spherical rod ends and spherical bearings on the suspension and steering must be one of: \n• Mounted in double shear  \n• Captured by having a screw/bolt head or washer with an outside diameter that is larger \nthan spherical bearing housing inside diameter.\n            ",
+                "\n            RULE: ic.3.3.1\n            TITLE: the throttle cable or rod must:\n\n            CONTENT:\n            rule IC.3.3.1: The throttle cable or rod must:\nIC.3.3.1 The throttle cable or rod must: \na. Have smooth operation \nb. Have no possibility of binding or sticking \nc. Be minimum 50 mm from any exhaust system component and out of the exhaust stream \nd. Be protected from being bent or kinked by the driver’s foot when it is operated by the \ndriver or when the driver enters or exits the vehicle\n            ",
+                "\n            RULE: d.3.2.3\n            TITLE: the organizer may establish requirements for persons in the dynamic area, such as closed toe\n\n            CONTENT:\n            rule D.3.2.3: The organizer may establish requirements for persons in the Dynamic Area, such as closed toe\nD.3.2.3 The organizer may establish requirements for persons in the Dynamic Area, such as closed toe \nshoes or long pants.\n            ",
+                "\n            RULE: f.5.12.1\n            TITLE: when roll hoop bracing is mechanically attached:\n\n            CONTENT:\n            rule F.5.12.1: When Roll Hoop Bracing is mechanically attached:\nF.5.12.1 When Roll Hoop Bracing is mechanically attached:  \na. The threaded fasteners used to secure non permanent joints are Critical Fasteners, see \nT.8.2.  Additional requirements apply in F.5.12.5 and F.5.12.7 \nb. No spherical rod ends are allowed.  \nc. The attachment holes in the lugs, the attached bracing and the sleeves and tubes must \nbe a close fit with the pin or bolt.\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLOv26\",\n    \"slice_height\": 4000,\n    \"slice_width\": 640,\n    \"overlap_height_ratio\": 0.9,\n    \"overlap_width_ratio\": 0.9,\n    \"keywords\": [\n        \"dimension line\",\n        \"bolt head\",\n        \"fastener\",\n        \"component label\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLOv26",
+            "slice_height": 4000,
+            "slice_width": 640,
+            "overlap_height_ratio": 0.9,
+            "overlap_width_ratio": 0.9,
+            "keywords": [
+                "dimension line",
+                "bolt head",
+                "fastener",
+                "component label"
+            ]
+        },
+        "crop_image_path": null,
+        "founded_objects": null
+    },
+    "final_answer": "No",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 693,
+    "timestamp": "2026-06-07 10:59:58",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.7.5 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.7.5",
+            "retrieved_context": [
+                "\n            RULE: t.7.5\n            TITLE: length\n\n            CONTENT:\n            rule T.7.5: Length\nT.7.5 Length \nIn plan view, any part of any Aerodynamic Device must be:  \na. No more than 700 mm forward of the fronts of the front tires \nb. No more than 250 mm rearward of the rear of the rear tires\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.7.5: Length In plan view, any part of any Aerodynamic Device must be: a. No more than 700 mm forward of the fronts of the front tires b. No more than 250 mm rearward of the rear of the rear tires",
+    "status": "success"
+}

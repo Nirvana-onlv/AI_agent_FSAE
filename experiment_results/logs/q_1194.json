@@ -1,0 +1,20 @@
+{
+    "question_number": 1194,
+    "timestamp": "2026-06-09 17:08:27",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule S.2.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "S.2.2.1",
+            "retrieved_context": [
+                "\n            RULE: s.2.2.1\n            TITLE: the concept for the presentation event will be provided on the fsae online website.\n\n            CONTENT:\n            rule S.2.2.1: The concept for the Presentation Event will be provided on the FSAE Online website.\nS.2.2.1 The concept for the Presentation Event will be provided on the FSAE Online website.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The concept for the Presentation Event will be provided on the FSAE Online website.",
+    "status": "success"
+}

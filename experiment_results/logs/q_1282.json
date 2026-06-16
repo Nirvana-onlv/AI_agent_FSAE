@@ -1,0 +1,20 @@
+{
+    "question_number": 1282,
+    "timestamp": "2026-06-10 04:58:52",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.1.1",
+            "retrieved_context": [
+                "\n            RULE: d.1.1\n            TITLE: dynamic events and maximum scores\n\n            CONTENT:\n            rule D.1.1: Dynamic Events and Maximum Scores\nD.1.1 Dynamic Events and Maximum Scores \nAcceleration  100 points \nSkid Pad    75 points \nAutocross  125 points \nEfficiency  100 points \nEndurance  275 points \nTotal       675 points\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.1.1: Dynamic Events and Maximum Scores D.1.1 Dynamic Events and Maximum Scores Acceleration 100 points Skid Pad 75 points Autocross 125 points Efficiency 100 points Endurance 275 points Total 675 points",
+    "status": "success"
+}

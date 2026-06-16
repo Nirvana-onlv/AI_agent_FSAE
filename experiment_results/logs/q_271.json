@@ -1,0 +1,20 @@
+{
+    "question_number": 271,
+    "timestamp": "2026-06-06 19:23:58",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.3.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.3.1.1",
+            "retrieved_context": [
+                "\n            RULE: v.3.1.1\n            TITLE: the vehicle must have a fully operational suspension system with shock absorbers, front and\n\n            CONTENT:\n            rule V.3.1.1: The vehicle must have a fully operational suspension system with shock absorbers, front and\nV.3.1.1 The vehicle must have a fully operational suspension system with shock absorbers, front and \nrear, with usable minimum wheel travel of 50 mm, with a driver seated.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The vehicle must have a fully operational suspension system with shock absorbers, front and rear, with usable minimum wheel travel of 50 mm, with a driver seated.",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 599,
+    "timestamp": "2026-06-07 08:09:48",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.3.1.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.3.1.2",
+            "retrieved_context": [
+                "\n            RULE: t.3.1.2\n            TITLE: the brake system must:\n\n            CONTENT:\n            rule T.3.1.2: The Brake System must:\nT.3.1.2 The Brake System must:  \na. Act on all four wheels  \nb. Be operated by a single control \nc. Be capable of locking all four wheels\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.3.1.2 The Brake System must: a. Act on all four wheels b. Be operated by a single control c. Be capable of locking all four wheels",
+    "status": "success"
+}

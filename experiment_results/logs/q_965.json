@@ -1,0 +1,20 @@
+{
+    "question_number": 965,
+    "timestamp": "2026-06-09 02:28:30",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule EV.5.9.5 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "EV.5.9.5",
+            "retrieved_context": [
+                "\n            RULE: ev.5.9.5\n            TITLE: the tsal mounting location must:\n\n            CONTENT:\n            rule EV.5.9.5: The TSAL mounting location must:\nEV.5.9.5 The TSAL mounting location must: \na. Be near the Main Hoop at the highest point of the vehicle. \nb. Be inside the Rollover Protection Envelope  F.1.13   \nc. Be no lower than 150 mm from the highest point of the Main Hoop. \nd. Not allow contact with the driver’s helmet in any circumstances.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 97 of 140   \nVersion 1.0   1 Sep 2023 \ne. Not be in proximity to other lights.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The TSAL mounting location must: a. Be near the Main Hoop at the highest point of the vehicle. b. Be inside the Rollover Protection Envelope F.1.13 c. Be no lower than 150 mm from the highest point of the Main Hoop. d. Not allow contact with the driver’s helmet in any circumstances. e. Not be in proximity to other lights.",
+    "status": "success"
+}

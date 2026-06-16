@@ -1,0 +1,20 @@
+{
+    "question_number": 867,
+    "timestamp": "2026-06-08 15:02:03",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.8.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.8.3.2",
+            "retrieved_context": [
+                "\n            RULE: ic.8.3.2\n            TITLE: this voltage limit does not apply to the following systems:\n\n            CONTENT:\n            rule IC.8.3.2: This voltage limit does not apply to the following systems:\nIC.8.3.2 This voltage limit does not apply to the following systems: \n• High Voltage systems for ignition \n• High Voltage systems for injectors\nFormula SAE® Rules 2024 © 2023 SAE International  Page 88 of 140   \nVersion 1.0   1 Sep 2023 \n• Voltages internal to OEM charging systems designed for <60 V DC output.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.8.3.2: This voltage limit does not apply to the following systems: IC.8.3.2 This voltage limit does not apply to the following systems: • High Voltage systems for ignition • High Voltage systems for injectors • Voltages internal to OEM charging systems designed for <60 V DC output.",
+    "status": "success"
+}

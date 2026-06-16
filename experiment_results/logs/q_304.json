@@ -1,0 +1,20 @@
+{
+    "question_number": 304,
+    "timestamp": "2026-06-06 22:29:25",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.1.5 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.1.5",
+            "retrieved_context": [
+                "\n            RULE: f.1.5\n            TITLE: front hoop\n\n            CONTENT:\n            rule F.1.5: Front Hoop\nF.1.5 Front Hoop \nA roll bar located above the driver’s legs, in proximity to the steering wheel.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Front Hoop A roll bar located above the driver’s legs, in proximity to the steering wheel.",
+    "status": "success"
+}

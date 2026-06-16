@@ -1,0 +1,40 @@
+{
+    "question_number": 190,
+    "timestamp": "2026-06-06 10:30:39",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the steering wheel visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\23.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "steering wheel visible",
+            "retrieved_context": [
+                "\n            RULE: v.3.2.7\n            TITLE: joints between all components attaching the steering wheel to the steering rack must be\n\n            CONTENT:\n            rule V.3.2.7: Joints between all components attaching the Steering Wheel to the steering rack must be\nV.3.2.7 Joints between all components attaching the Steering Wheel to the steering rack must be \nmechanical and be visible at Technical Inspection. Bonded joints without a mechanical backup \nare not permitted.\n            ",
+                "\n            RULE: v.3.2.10\n            TITLE: rear wheel steering may be used.\n\n            CONTENT:\n            rule V.3.2.10: Rear wheel steering may be used.\nV.3.2.10 Rear wheel steering may be used.   \na. Rear wheel steering must incorporate mechanical stops to limit the range of angular \nmovement of the rear wheels to a maximum of six degrees (6°).  \nb. The team must provide the ability for the steering angle range to be verified at Technical \nInspection with a driver in the vehicle.  \nc. Rear wheel steering may be electrically actuated.\n            ",
+                "\n            RULE: f.5.7.5\n            TITLE: the front hoop must be no more than 250 mm forward of the steering wheel.\n\n            CONTENT:\n            rule F.5.7.5: The Front Hoop must be no more than 250 mm forward of the steering wheel.\nF.5.7.5 The Front Hoop must be no more than 250 mm forward of the steering wheel.  \nThis distance is measured horizontally, on the vehicle centerline, from the rear surface of the \nFront Hoop to the forward most surface of the steering wheel rim with the steering in the \nstraight ahead position.\n            ",
+                "\n            RULE: ev.7.10.4\n            TITLE: one shutdown button must be mounted in the cockpit which:\n\n            CONTENT:\n            rule EV.7.10.4: One Shutdown Button must be mounted in the cockpit which:\nEV.7.10.4 One Shutdown Button must be mounted in the cockpit which:  \na. Is located in easy reach of the belted in driver, adjacent to the steering wheel, and \nunobstructed by the steering wheel or any other part of the vehicle \nb. Has diameter of 24 mm minimum\n            ",
+                "\n            RULE: v.3.2.1\n            TITLE: the steering wheel must be mechanically connected to the front wheels\n\n            CONTENT:\n            rule V.3.2.1: The Steering Wheel must be mechanically connected to the front wheels\nV.3.2.1 The Steering Wheel must be mechanically connected to the front wheels\nFormula SAE® Rules 2024 © 2023 SAE International  Page 21 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLOv26\",\n    \"slice_height\": 4000,\n    \"slice_width\": 640,\n    \"overlap_height_ratio\": 0.9,\n    \"overlap_width_ratio\": 0.9,\n    \"keywords\": [\n        \"steering wheel\",\n        \"steering rack\",\n        \"component joint\",\n        \"dimension line\",\n        \"CAD view\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLOv26",
+            "slice_height": 4000,
+            "slice_width": 640,
+            "overlap_height_ratio": 0.9,
+            "overlap_width_ratio": 0.9,
+            "keywords": [
+                "steering wheel",
+                "steering rack",
+                "component joint",
+                "dimension line",
+                "CAD view"
+            ]
+        },
+        "crop_image_path": "c:\\Users\\Nirvana\\NIR_project\\experiment_results\\q_190_focus.jpg",
+        "founded_objects": "CAD view, component joint"
+    },
+    "final_answer": "no",
+    "status": "success"
+}

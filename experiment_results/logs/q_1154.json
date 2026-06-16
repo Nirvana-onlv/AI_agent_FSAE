@@ -1,0 +1,20 @@
+{
+    "question_number": 1154,
+    "timestamp": "2026-06-09 14:58:29",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.10.2.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.10.2.4",
+            "retrieved_context": [
+                "\n            RULE: in.10.2.4\n            TITLE: when the exhaust has a manually adjustable tuning device(s):\n\n            CONTENT:\n            rule IN.10.2.4: When the exhaust has a manually adjustable tuning device(s):\nIN.10.2.4 When the exhaust has a manually adjustable tuning device(s): \na. The position of the device must be visible to the officials for the noise test \nb. The device must be manually operable by the officials during the noise test \nc. The device must not be moved or modified after the noise test is passed\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "When the exhaust has a manually adjustable tuning device(s): IN.10.2.4 When the exhaust has a manually adjustable tuning device(s): a. The position of the device must be visible to the officials for the noise test b. The device must be manually operable by the officials during the noise test c. The device must not be moved or modified after the noise test is passed",
+    "status": "success"
+}

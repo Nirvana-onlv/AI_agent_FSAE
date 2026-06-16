@@ -1,0 +1,20 @@
+{
+    "question_number": 560,
+    "timestamp": "2026-06-07 06:56:05",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.1",
+            "retrieved_context": [
+                "\n            RULE: t.2.1\n            TITLE: harness definitions\n\n            CONTENT:\n            rule T.2.1: Harness Definitions\nT.2.1 Harness Definitions \na. 5 Point Harness – consists of two Lap Belts, two Shoulder Belts and one Anti-Submarine \nBelt.  \nb. 6 Point Harness – consists of two Lap Belts, two Shoulder Belts and two leg or Anti-\nSubmarine Belts.  \nc. 7 Point Harness – consists of two Lap Belts, two Shoulder Belts, two leg or Anti-\nSubmarine Belts and a negative g or Z Belt.   \nd. Upright Driving Position - with a seat back angled at 30° or less from the vertical as \nmeasured along the line joining the two 200 mm circles of the template of the 95th \npercentile male as defined in F.5.6.4 and positioned per F.5.6.5 \ne. Reclined Driving Position - with a seat back angled at more than 30° from the vertical as \nmeasured along the line joining the two 200 mm circles of the template of the 95th \npercentile male as defined in F.5.6.4 and positioned per F.5.6.5 \nf. Chest to Groin Line - the straight line that in side view follows the line of the Shoulder \nBelts from the chest to the release buckle.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.2.1: Harness Definitions T.2.1 Harness Definitions a. 5 Point Harness – consists of two Lap Belts, two Shoulder Belts and one Anti-Submarine Belt. b. 6 Point Harness – consists of two Lap Belts, two Shoulder Belts and two leg or Anti- Submarine Belts. c. 7 Point Harness – consists of two Lap Belts, two Shoulder Belts, two leg or Anti- Submarine Belts and a negative g or Z Belt. d. Upright Driving Position - with a seat back angled at 30° or less from the vertical as measured along the line joining the two 200 mm circles of the template of the 95th percentile male as defined in F.5.6.4 and positioned per F.5.6.5 e. Reclined Driving Position - with a seat back angled at more than 30° from the vertical as measured along the line joining the two 200 mm circles of the template of the 95th percentile male as defined in F.5.6.4 and positioned per F.5.6.5 f. Chest to Groin Line - the straight line that in side view follows the line of the Shoulder Belts from the chest to the release buckle.",
+    "status": "success"
+}

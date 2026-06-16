@@ -1,0 +1,20 @@
+{
+    "question_number": 815,
+    "timestamp": "2026-06-08 12:28:51",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.1.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.1.3",
+            "retrieved_context": [
+                "\n            RULE: ic.5.1.3\n            TITLE: no agents other than the provided fuel and air may go into the combustion chamber.\n\n            CONTENT:\n            rule IC.5.1.3: No agents other than the provided fuel and air may go into the combustion chamber.\nIC.5.1.3 No agents other than the provided fuel and air may go into the combustion chamber.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "No agents other than the provided fuel and air may go into the combustion chamber.",
+    "status": "success"
+}

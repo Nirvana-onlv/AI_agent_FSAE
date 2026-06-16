@@ -1,0 +1,20 @@
+{
+    "question_number": 422,
+    "timestamp": "2026-06-07 02:30:57",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.6.4.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.6.4.4",
+            "retrieved_context": [
+                "\n            RULE: f.6.4.4\n            TITLE: the upper side impact member must:\n\n            CONTENT:\n            rule F.6.4.4: The Upper Side Impact Member must:\nF.6.4.4 The Upper Side Impact Member must: \na. Connect the Main Hoop and the Front Hoop.  \nb. Be entirely in a zone that is parallel to the ground between 240 mm and 320 mm above \nthe lowest point of the top surface of the Lower Side Impact Member\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "F.6.4.4 The Upper Side Impact Member must: a. Connect the Main Hoop and the Front Hoop. b. Be entirely in a zone that is parallel to the ground between 240 mm and 320 mm above the lowest point of the top surface of the Lower Side Impact Member",
+    "status": "success"
+}

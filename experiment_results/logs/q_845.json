@@ -1,0 +1,20 @@
+{
+    "question_number": 845,
+    "timestamp": "2026-06-08 13:54:15",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.6.1.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.6.1.2",
+            "retrieved_context": [
+                "\n            RULE: ic.6.1.2\n            TITLE: fuel rail and mounting requirements:\n\n            CONTENT:\n            rule IC.6.1.2: Fuel rail and mounting requirements:\nIC.6.1.2 Fuel rail and mounting requirements:\nFormula SAE® Rules 2024 © 2023 SAE International  Page 86 of 140   \nVersion 1.0   1 Sep 2023 \na. Unmodified OEM Fuel Rails are acceptable, regardless of material.   \nb. Non OEM fuel rails made from plastic, carbon fiber or rapid prototyping flammable \nmaterials are prohibited.   \nc. The fuel rail must be securely attached to the manifold, engine block or cylinder head \nwith brackets and mechanical fasteners.   \nHose clamps, plastic ties, or safety wires do not meet this requirement.  \nd. Threaded fasteners used to secure the fuel rail are Critical Fasteners, see T.8.2\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "IC.6.1.2 Fuel rail and mounting requirements: Formula SAE® Rules 2024 © 2023 SAE International Page 86 of 140 Version 1.0 1 Sep 2023 a. Unmodified OEM Fuel Rails are acceptable, regardless of material. b. Non OEM fuel rails made from plastic, carbon fiber or rapid prototyping flammable materials are prohibited. c. The fuel rail must be securely attached to the manifold, engine block or cylinder head with brackets and mechanical fasteners. Hose clamps, plastic ties, or safety wires do not meet this requirement. d. Threaded fasteners used to secure the fuel rail are Critical Fasteners, see T.8.2",
+    "status": "success"
+}

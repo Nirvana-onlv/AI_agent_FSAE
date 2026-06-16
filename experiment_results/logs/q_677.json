@@ -1,0 +1,22 @@
+{
+    "question_number": 677,
+    "timestamp": "2026-06-07 10:31:23",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.6.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.6.2",
+            "retrieved_context": [
+                "\n            RULE: t.6.2\n            TITLE: high pressure hydraulic pumps and lines\n\n            CONTENT:\n            rule T.6.2: High Pressure Hydraulic Pumps and Lines\nT.6.2 High Pressure Hydraulic Pumps and Lines  \nThis section T.6.2 does not apply to Brake lines or hydraulic clutch lines\n            ",
+                "\n            RULE: t.6.2.2\n            TITLE: the shields must be steel or aluminum with a minimum thickness of 1 mm.\n\n            CONTENT:\n            rule T.6.2.2: The shields must be steel or aluminum with a minimum thickness of 1 mm.\nT.6.2.2 The shields must be steel or aluminum with a minimum thickness of 1 mm.\n            ",
+                "\n            RULE: t.6.2.1\n            TITLE: the driver and anyone standing outside the vehicle must be shielded from any hydraulic\n\n            CONTENT:\n            rule T.6.2.1: The driver and anyone standing outside the vehicle must be shielded from any hydraulic\nT.6.2.1 The driver and anyone standing outside the vehicle must be shielded from any hydraulic \npumps and lines with line pressures of 2100 kPa or higher.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.6.2: High Pressure Hydraulic Pumps and Lines T.6.2 High Pressure Hydraulic Pumps and Lines This section T.6.2 does not apply to Brake lines or hydraulic clutch lines",
+    "status": "success"
+}

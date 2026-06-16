@@ -1,0 +1,20 @@
+{
+    "question_number": 812,
+    "timestamp": "2026-06-08 12:20:34",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.4.8.7 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.4.8.7",
+            "retrieved_context": [
+                "\n            RULE: ic.4.8.7\n            TITLE: the bspd signals and function must be able to be checked during technical inspection by\n\n            CONTENT:\n            rule IC.4.8.7: The BSPD signals and function must be able to be checked during Technical Inspection by\nIC.4.8.7 The BSPD signals and function must be able to be checked during Technical Inspection by \nhaving one of:  \na. A separate set of detachable connectors for any signals from the braking sensor(s), \nthrottle sensor(s) and removal of power to only the BSPD device.  \nb. An inline switchable breakout box available that allows disconnection of the brake \nsensor(s), throttle sensor(s) individually and power to only the BSPD device.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.4.8.7: The BSPD signals and function must be able to be checked during Technical Inspection by IC.4.8.7 The BSPD signals and function must be able to be checked during Technical Inspection by having one of: a. A separate set of detachable connectors for any signals from the braking sensor(s), throttle sensor(s) and removal of power to only the BSPD device. b. An inline switchable breakout box available that allows disconnection of the brake sensor(s), throttle sensor(s) individually and power to only the BSPD device.",
+    "status": "success"
+}

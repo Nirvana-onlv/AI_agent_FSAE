@@ -1,0 +1,20 @@
+{
+    "question_number": 1387,
+    "timestamp": "2026-06-10 13:54:38",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.12.2.2",
+            "retrieved_context": [
+                "\n            RULE: d.12.2.2\n            TITLE: the endurance course will be designed with the following specifications.  average speed\n\n            CONTENT:\n            rule D.12.2.2: The Endurance course will be designed with the following specifications.  Average speed\nD.12.2.2 The Endurance course will be designed with the following specifications.  Average speed \nshould be 48 km/hr to 57 km/hr with top speeds of approximately 105 km/hr.   \na. Straights:  No longer than 77 m with hairpins at both ends  \nb. Straights:  No longer than 61 m with wide turns on the ends \nc. Constant Turns:  30 m to 54 m diameter \nd. Hairpin Turns:  9 m minimum outside diameter (of the turn) \ne. Slaloms: Cones in a straight line with 9 m to 15 m spacing \nf. Miscellaneous:  Chicanes, multiple turns, decreasing radius turns, etc. \ng. Minimum track width:  4.5 m \nh. Designated passing zones at several locations\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Endurance course will be designed with the following specifications. Average speed should be 48 km/hr to 57 km/hr with top speeds of approximately 105 km/hr. a. Straights: No longer than 77 m with hairpins at both ends b. Straights: No longer than 61 m with wide turns on the ends c. Constant Turns: 30 m to 54 m diameter d. Hairpin Turns: 9 m minimum outside diameter (of the turn) e. Slaloms: Cones in a straight line with 9 m to 15 m spacing f. Miscellaneous: Chicanes, multiple turns, decreasing radius turns, etc. g. Minimum track width: 4.5 m h. Designated passing zones at several locations",
+    "status": "success"
+}

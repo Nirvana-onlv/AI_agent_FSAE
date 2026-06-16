@@ -1,0 +1,20 @@
+{
+    "question_number": 797,
+    "timestamp": "2026-06-08 11:40:29",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.4.4.6 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.4.4.6",
+            "retrieved_context": [
+                "\n            RULE: ic.4.4.6\n            TITLE: each tps must be able to be checked during technical inspection by having one of:\n\n            CONTENT:\n            rule IC.4.4.6: Each TPS must be able to be checked during Technical Inspection by having one of:\nIC.4.4.6 Each TPS must be able to be checked during Technical Inspection by having one of: \na. A separate detachable connector(s) for any TPS signal(s) to the main ECU without \naffecting any other connections \nb. An inline switchable breakout box available that allows disconnection of each TPS \nsignal(s) to the main ECU without affecting any other connections\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.4.4.6: Each TPS must be able to be checked during Technical Inspection by having one of: a. A separate detachable connector(s) for any TPS signal(s) to the main ECU without affecting any other connections b. An inline switchable breakout box available that allows disconnection of each TPS signal(s) to the main ECU without affecting any other connections",
+    "status": "success"
+}

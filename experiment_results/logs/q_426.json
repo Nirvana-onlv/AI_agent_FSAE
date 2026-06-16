@@ -1,0 +1,20 @@
+{
+    "question_number": 426,
+    "timestamp": "2026-06-07 02:37:39",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.6.5.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.6.5.2",
+            "retrieved_context": [
+                "\n            RULE: f.6.5.2\n            TITLE: bent shoulder harness mounting bars must:\n\n            CONTENT:\n            rule F.6.5.2: Bent Shoulder Harness Mounting Bars must:\nF.6.5.2 Bent Shoulder Harness Mounting Bars must:  \na. Meet F.5.2.1 and F.5.2.2 \nb. Have bracing members attached at the bend(s) and to the Main Hoop.   \n• Material for this Shoulder Harness Mounting Bar Bracing must meet F.3.2.1.l \n• The included angle in side view between the Shoulder Harness Bar and the braces \nmust be no less than 30°.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "F.6.5.2 Bent Shoulder Harness Mounting Bars must: a. Meet F.5.2.1 and F.5.2.2 b. Have bracing members attached at the bend(s) and to the Main Hoop. • Material for this Shoulder Harness Mounting Bar Bracing must meet F.3.2.1.l • The included angle in side view between the Shoulder Harness Bar and the braces must be no less than 30°.",
+    "status": "success"
+}

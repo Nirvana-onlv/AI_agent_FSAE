@@ -1,0 +1,20 @@
+{
+    "question_number": 368,
+    "timestamp": "2026-06-07 00:38:20",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.6.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.6.3",
+            "retrieved_context": [
+                "\n            RULE: f.5.6.3\n            TITLE: roll hoop and driver position\n\n            CONTENT:\n            rule F.5.6.3: Roll Hoop and Driver Position\nF.5.6.3 Roll Hoop and Driver Position \nWhen seated normally and restrained by the Driver Restraint System, the helmet of a 95th \npercentile male (see V.2.1.1) and all of the team’s drivers must: \na. Be a minimum of 50 mm from the straight line drawn from the top of the Main Hoop to \nthe top of the Front Hoop. \nb. Be a minimum of 50 mm from the straight line drawn from the top of the Main Hoop to \nthe lower end of the Main Hoop Bracing if the bracing extends rearwards.  \nc. Be no further rearwards than the rear surface of the Main Hoop if the Main Hoop Bracing \nextends forwards.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "When seated normally and restrained by the Driver Restraint System, the helmet of a 95th percentile male (see V.2.1.1) and all of the team’s drivers must: a. Be a minimum of 50 mm from the straight line drawn from the top of the Main Hoop to the top of the Front Hoop. b. Be a minimum of 50 mm from the straight line drawn from the top of the Main Hoop to the lower end of the Main Hoop Bracing if the bracing extends rearwards. c. Be no further rearwards than the rear surface of the Main Hoop if the Main Hoop Bracing extends forwards.",
+    "status": "success"
+}

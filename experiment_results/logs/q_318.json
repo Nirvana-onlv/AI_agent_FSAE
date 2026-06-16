@@ -1,0 +1,22 @@
+{
+    "question_number": 318,
+    "timestamp": "2026-06-06 22:55:56",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.2.1",
+            "retrieved_context": [
+                "\n            RULE: f.2.1\n            TITLE: see below xlsx tech\n\n            CONTENT:\n            rule F.2.1: see below XLSX Tech\nF.2.1 see below XLSX Tech \n \nETC - Notice of Intent IC.4.3 see below PDF ETC  \nETC – Systems Form (ETCSF) IC.4.3 see below XLSX ETC  \nEV – Electrical Systems Officer and \nElectrical Systems Advisor Form \nAD.5.2,\n            ",
+                "\n            RULE: f.2.1.2\n            TITLE: the ses provides the means to:\n\n            CONTENT:\n            rule F.2.1.2: The SES provides the means to:\nF.2.1.2 The SES provides the means to: \na. Document the Primary Structure and show compliance with the Formula SAE Rules \nb. Determine Equivalence to Formula SAE Rules using an accepted basis\n            ",
+                "\n            RULE: f.2.1.1\n            TITLE: the ses is a supplement to the formula sae rules and may provide guidance or further details\n\n            CONTENT:\n            rule F.2.1.1: The SES is a supplement to the Formula SAE Rules and may provide guidance or further details\nF.2.1.1 The SES is a supplement to the Formula SAE Rules and may provide guidance or further details \nin addition to those of the Formula SAE Rules.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.2.1: see below XLSX Tech F.2.1 see below XLSX Tech",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 309,
+    "timestamp": "2026-06-06 22:37:02",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.1.10 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.1.10",
+            "retrieved_context": [
+                "\n            RULE: f.1.10\n            TITLE: primary structure\n\n            CONTENT:\n            rule F.1.10: Primary Structure\nF.1.10 Primary Structure   \nThe combination of the following components:  \n• Front Bulkhead and Front Bulkhead Support  \n• Front Hoop, Main Hoop, Roll Hoop Braces and Supports \n• Side Impact Structure \n• (EV Only)  Tractive System Protection and Rear Impact Protection  \n• Any Frame Members, guides, or supports that transfer load from the Driver Restraint \nSystem\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.1.10: Primary Structure F.1.10 Primary Structure The combination of the following components: • Front Bulkhead and Front Bulkhead Support • Front Hoop, Main Hoop, Roll Hoop Braces and Supports • Side Impact Structure • (EV Only) Tractive System Protection and Rear Impact Protection • Any Frame Members, guides, or supports that transfer load from the Driver Restraint System",
+    "status": "success"
+}

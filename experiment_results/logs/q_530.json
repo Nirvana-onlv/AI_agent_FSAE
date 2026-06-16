@@ -1,0 +1,20 @@
+{
+    "question_number": 530,
+    "timestamp": "2026-06-07 06:03:33",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.1.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.1.1.1",
+            "retrieved_context": [
+                "\n            RULE: t.1.1.1\n            TITLE: the template shown below must pass through the cockpit opening\n\n            CONTENT:\n            rule T.1.1.1: The template shown below must pass through the cockpit opening\nT.1.1.1 The template shown below must pass through the cockpit opening\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The template shown below must pass through the cockpit opening",
+    "status": "success"
+}

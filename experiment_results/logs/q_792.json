@@ -1,0 +1,20 @@
+{
+    "question_number": 792,
+    "timestamp": "2026-06-08 11:27:46",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.4.4.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.4.4.1",
+            "retrieved_context": [
+                "\n            RULE: ic.4.4.1\n            TITLE: the tps must measure the position of the throttle or the throttle actuator.\n\n            CONTENT:\n            rule IC.4.4.1: The TPS must measure the position of the throttle or the throttle actuator.\nIC.4.4.1 The TPS must measure the position of the throttle or the throttle actuator.  \nThrottle position is defined as percent of travel from fully closed to wide open where 0% is \nfully closed and 100% is fully open.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The TPS must measure the position of the throttle or the throttle actuator. Throttle position is defined as percent of travel from fully closed to wide open where 0% is fully closed and 100% is fully open.",
+    "status": "success"
+}

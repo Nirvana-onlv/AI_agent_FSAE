@@ -1,0 +1,20 @@
+{
+    "question_number": 825,
+    "timestamp": "2026-06-08 12:55:31",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.4.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.4.2",
+            "retrieved_context": [
+                "\n            RULE: ic.5.4.2\n            TITLE: the portion of the fuel filler neck nearest to the fuel filler cap must be:\n\n            CONTENT:\n            rule IC.5.4.2: The portion of the Fuel Filler Neck nearest to the Fuel Filler cap must be:\nIC.5.4.2 The portion of the Fuel Filler Neck nearest to the Fuel Filler cap must be: \na. Minimum 125 mm vertical height above the top level of the Fuel Tank \nb. Angled no more than 30° from the vertical\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "IC.5.4.2 The portion of the Fuel Filler Neck nearest to the Fuel Filler cap must be: a. Minimum 125 mm vertical height above the top level of the Fuel Tank b. Angled no more than 30° from the vertical",
+    "status": "success"
+}

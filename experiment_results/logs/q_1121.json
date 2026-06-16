@@ -1,0 +1,20 @@
+{
+    "question_number": 1121,
+    "timestamp": "2026-06-09 13:09:53",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.5.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.5.1",
+            "retrieved_context": [
+                "\n            RULE: in.5.1\n            TITLE: driver clearance\n\n            CONTENT:\n            rule IN.5.1: Driver Clearance\nIN.5.1 Driver Clearance \nEach driver in the normal driving position is checked for the three: \n• Helmet clearance  F.5.6.3 \n• Head Restraint positioning  T.2.8.5  \n• Harness fit and adjustment  T.2.5, T.2.6, T.2.7\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IN.5.1: Driver Clearance IN.5.1 Driver Clearance Each driver in the normal driving position is checked for the three: • Helmet clearance F.5.6.3 • Head Restraint positioning T.2.8.5 • Harness fit and adjustment T.2.5, T.2.6, T.2.7",
+    "status": "success"
+}

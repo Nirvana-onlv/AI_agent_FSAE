@@ -1,0 +1,20 @@
+{
+    "question_number": 286,
+    "timestamp": "2026-06-06 21:59:51",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.3.3.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.3.3.1",
+            "retrieved_context": [
+                "\n            RULE: v.3.3.1\n            TITLE: in any angular position, the steering wheel must meet t.1.4.4\n\n            CONTENT:\n            rule V.3.3.1: In any angular position, the Steering Wheel must meet T.1.4.4\nV.3.3.1 In any angular position, the Steering Wheel must meet T.1.4.4\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "In any angular position, the Steering Wheel must meet T.1.4.4",
+    "status": "success"
+}

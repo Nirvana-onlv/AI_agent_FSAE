@@ -1,0 +1,20 @@
+{
+    "question_number": 531,
+    "timestamp": "2026-06-07 06:05:21",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.1.1.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.1.1.2",
+            "retrieved_context": [
+                "\n            RULE: t.1.1.2\n            TITLE: the template will be held horizontally, parallel to the ground, and inserted vertically from a\n\n            CONTENT:\n            rule T.1.1.2: The template will be held horizontally, parallel to the ground, and inserted vertically from a\nT.1.1.2 The template will be held horizontally, parallel to the ground, and inserted vertically from a \nheight above any Primary Structure or bodywork that is between the Front Hoop and the \nMain Hoop until it meets both of:   ( refer to F.6.4 and F.7.5.1 ) \na. Has passed 25 mm below the lowest point of the top of the Side Impact Structure   \nb. Is less than or equal to 320 mm above the lowest point inside the cockpit\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.1.1.2 The template will be held horizontally, parallel to the ground, and inserted vertically from a height above any Primary Structure or bodywork that is between the Front Hoop and the Main Hoop until it meets both of: ( refer to F.6.4 and F.7.5.1 ) a. Has passed 25 mm below the lowest point of the top of the Side Impact Structure b. Is less than or equal to 320 mm above the lowest point inside the cockpit",
+    "status": "success"
+}

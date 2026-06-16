@@ -1,0 +1,20 @@
+{
+    "question_number": 345,
+    "timestamp": "2026-06-06 23:50:37",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.4.3.5 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.4.3.5",
+            "retrieved_context": [
+                "\n            RULE: f.4.3.5\n            TITLE: perimeter shear test\n\n            CONTENT:\n            rule F.4.3.5: Perimeter Shear Test\nF.4.3.5 Perimeter Shear Test \na. The Perimeter Shear Test must be completed by measuring the force required to push or \npull a 25 mm diameter flat punch through a flat laminate sample. \nb. The sample must: \n• Measure 100 mm x 100 mm minimum \n• Have core and skin thicknesses identical to those used in the actual application \n• Be manufactured using the same materials and processes\nFormula SAE® Rules 2024 © 2023 SAE International  Page 30 of 140   \nVersion 1.0   1 Sep 2023 \nc. The fixture must support the entire sample, except for a 32 mm hole aligned coaxially \nwith the punch.  \nd. The sample must not be clamped to the fixture \ne. The edge of the punch and hole in the fixture may include an optional fillet up to a \nmaximum radius of 1 mm. \nf. The SES must include force and displacement data and photos of the test setup. \ng. The first peak in the load-deflection curve must be used to determine the skin shear \nstrength; this may be less than the minimum force required by F.7.3.3 / F.7.5.5 \nh. The maximum force recorded must meet the requirements of F.7.3.3 / F.7.5.5\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.4.3.5: Perimeter Shear Test F.4.3.5 Perimeter Shear Test a. The Perimeter Shear Test must be completed by measuring the force required to push or pull a 25 mm diameter flat punch through a flat laminate sample. b. The sample must: • Measure 100 mm x 100 mm minimum • Have core and skin thicknesses identical to those used in the actual application • Be manufactured using the same materials and processes Formula SAE® Rules 2024 © 2023 SAE International Page 30 of 140 Version 1.0 1 Sep 2023 c. The fixture must support the entire sample, except for a 32 mm hole aligned coaxially with the punch. d. The sample must not be clamped to the fixture e. The edge of the punch and hole in the fixture may include an optional fillet up to a maximum radius of 1 mm. f. The SES must include force and displacement data and photos of the test setup. g. The first peak in the load-deflection curve must be used to determine the skin shear strength; this may be less than the minimum force required by F.7.3.3 / F.7.5.5 h. The maximum force recorded must meet the requirements of F.7.3.3 / F.7.5.5",
+    "status": "success"
+}

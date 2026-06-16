@@ -1,0 +1,20 @@
+{
+    "question_number": 920,
+    "timestamp": "2026-06-08 17:46:16",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule EV.4.9.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "EV.4.9.1",
+            "retrieved_context": [
+                "\n            RULE: ev.4.9.1\n            TITLE: every housing or enclosure containing parts of the tractive system other than motor\n\n            CONTENT:\n            rule EV.4.9.1: Every housing or enclosure containing parts of the Tractive System other than Motor\nEV.4.9.1 Every housing or enclosure containing parts of the Tractive System other than Motor \nhousings, must be labelled with the:   \na. Symbol specified in ISO 7010-W012  (triangle with black lightning bolt on yellow \nbackground)  \nb. Text “High Voltage” if the voltage meets T.9.1.1\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule EV.4.9.1: Every housing or enclosure containing parts of the Tractive System other than Motor EV.4.9.1 Every housing or enclosure containing parts of the Tractive System other than Motor housings, must be labelled with the: a. Symbol specified in ISO 7010-W012 (triangle with black lightning bolt on yellow background) b. Text “High Voltage” if the voltage meets T.9.1.1",
+    "status": "success"
+}

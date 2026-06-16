@@ -1,0 +1,20 @@
+{
+    "question_number": 295,
+    "timestamp": "2026-06-06 22:14:21",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.4.3.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.4.3.1",
+            "retrieved_context": [
+                "\n            RULE: v.4.3.1\n            TITLE: dry tires\n\n            CONTENT:\n            rule V.4.3.1: Dry Tires\nV.4.3.1 Dry Tires \na. The tires on the vehicle when it is presented for Technical Inspection.  \nb. May be any size or type, slicks or treaded.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule V.4.3.1: Dry Tires V.4.3.1 Dry Tires a. The tires on the vehicle when it is presented for Technical Inspection. b. May be any size or type, slicks or treaded.",
+    "status": "success"
+}

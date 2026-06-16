@@ -1,0 +1,20 @@
+{
+    "question_number": 395,
+    "timestamp": "2026-06-07 01:40:39",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.12.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.12.1",
+            "retrieved_context": [
+                "\n            RULE: f.5.12.1\n            TITLE: when roll hoop bracing is mechanically attached:\n\n            CONTENT:\n            rule F.5.12.1: When Roll Hoop Bracing is mechanically attached:\nF.5.12.1 When Roll Hoop Bracing is mechanically attached:  \na. The threaded fasteners used to secure non permanent joints are Critical Fasteners, see \nT.8.2.  Additional requirements apply in F.5.12.5 and F.5.12.7 \nb. No spherical rod ends are allowed.  \nc. The attachment holes in the lugs, the attached bracing and the sleeves and tubes must \nbe a close fit with the pin or bolt.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "F.5.12.1 When Roll Hoop Bracing is mechanically attached: a. The threaded fasteners used to secure non permanent joints are Critical Fasteners, see T.8.2. Additional requirements apply in F.5.12.5 and F.5.12.7 b. No spherical rod ends are allowed. c. The attachment holes in the lugs, the attached bracing and the sleeves and tubes must be a close fit with the pin or bolt.",
+    "status": "success"
+}

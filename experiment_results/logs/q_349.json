@@ -1,0 +1,20 @@
+{
+    "question_number": 349,
+    "timestamp": "2026-06-06 23:59:15",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.4.4.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.4.4.2",
+            "retrieved_context": [
+                "\n            RULE: f.4.4.2\n            TITLE: the curvature of the panel and geometric cross section of the chassis must be ignored for\n\n            CONTENT:\n            rule F.4.4.2: The curvature of the panel and geometric cross section of the chassis must be ignored for\nF.4.4.2 The curvature of the panel and geometric cross section of the chassis must be ignored for \nthese calculations.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The curvature of the panel and geometric cross section of the chassis must be ignored for these calculations.",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 329,
+    "timestamp": "2026-06-06 23:15:54",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.3.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.3.3.2",
+            "retrieved_context": [
+                "\n            RULE: f.3.3.2\n            TITLE: applicability\n\n            CONTENT:\n            rule F.3.3.2: Applicability\nF.3.3.2 Applicability \nNon Structural Tubing is ignored when assessing compliance to any rule\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Applicability Non Structural Tubing is ignored when assessing compliance to any rule",
+    "status": "success"
+}

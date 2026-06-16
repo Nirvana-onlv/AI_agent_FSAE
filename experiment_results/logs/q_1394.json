@@ -1,0 +1,20 @@
+{
+    "question_number": 1394,
+    "timestamp": "2026-06-10 14:21:06",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12.4.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.12.4.3",
+            "retrieved_context": [
+                "\n            RULE: d.12.4.3\n            TITLE: if a vehicle stalls on the track, it will be allowed one lap by the vehicle that is following it\n\n            CONTENT:\n            rule D.12.4.3: If a vehicle stalls on the track, it will be allowed one lap by the vehicle that is following it\nD.12.4.3 If a vehicle stalls on the track, it will be allowed one lap by the vehicle that is following it \n(approximately 60 seconds) to restart.   This time counts toward the Endurance time.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.12.4.3: If a vehicle stalls on the track, it will be allowed one lap by the vehicle that is following it D.12.4.3 If a vehicle stalls on the track, it will be allowed one lap by the vehicle that is following it (approximately 60 seconds) to restart. This time counts toward the Endurance time.",
+    "status": "success"
+}

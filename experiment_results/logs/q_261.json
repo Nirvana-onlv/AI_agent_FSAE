@@ -1,0 +1,20 @@
+{
+    "question_number": 261,
+    "timestamp": "2026-06-06 19:07:12",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.1.1",
+            "retrieved_context": [
+                "\n            RULE: v.1.1\n            TITLE: open wheel\n\n            CONTENT:\n            rule V.1.1: Open Wheel\nV.1.1 Open Wheel \nOpen Wheel vehicles must satisfy all of the following criteria: \na. The top 180° of the wheels/tires must be unobstructed when viewed from vertically \nabove the wheel. \nb. The wheels/tires must be unobstructed when viewed from the side. \nc. No part of the vehicle may enter a keep out zone defined by two lines extending \nvertically from positions 75 mm in front of and 75 mm aft of, the outer diameter of the \nfront and rear tires in the side view elevation of the vehicle, with tires steered straight \nahead. This keep out zone will extend laterally from the outside plane of the wheel/tire \nto the inboard plane of the wheel/tire.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule V.1.1: Open Wheel V.1.1 Open Wheel Open Wheel vehicles must satisfy all of the following criteria: a. The top 180° of the wheels/tires must be unobstructed when viewed from vertically above the wheel. b. The wheels/tires must be unobstructed when viewed from the side. c. No part of the vehicle may enter a keep out zone defined by two lines extending vertically from positions 75 mm in front of and 75 mm aft of, the outer diameter of the front and rear tires in the side view elevation of the vehicle, with tires steered straight ahead. This keep out zone will extend laterally from the outside plane of the wheel/tire to the inboard plane of the wheel/tire.",
+    "status": "success"
+}

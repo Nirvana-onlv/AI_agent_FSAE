@@ -1,0 +1,20 @@
+{
+    "question_number": 1288,
+    "timestamp": "2026-06-10 05:19:55",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.2.1.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.2.1.4",
+            "retrieved_context": [
+                "\n            RULE: d.2.1.4\n            TITLE: vehicles must be shutdown when being moved around the paddock\n\n            CONTENT:\n            rule D.2.1.4: Vehicles must be Shutdown when being moved around the paddock\nD.2.1.4 Vehicles must be Shutdown when being moved around the paddock\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Vehicles must be Shutdown when being moved around the paddock",
+    "status": "success"
+}

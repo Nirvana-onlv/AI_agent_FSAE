@@ -1,0 +1,24 @@
+{
+    "question_number": 819,
+    "timestamp": "2026-06-08 12:38:51",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.3",
+            "retrieved_context": [
+                "\n            RULE: ic.5.3\n            TITLE: fuel tank\n\n            CONTENT:\n            rule IC.5.3: Fuel Tank\nIC.5.3 Fuel Tank \nThe part(s) of the fuel containment device that is in contact with the fuel.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 84 of 140   \nVersion 1.0   1 Sep 2023\n            ",
+                "\n            RULE: ic.5.3.5\n            TITLE: the fuel system must have a provision for emptying the fuel tank if required.\n\n            CONTENT:\n            rule IC.5.3.5: The Fuel System must have a provision for emptying the Fuel Tank if required.\nIC.5.3.5 The Fuel System must have a provision for emptying the Fuel Tank if required.\n            ",
+                "\n            RULE: ic.5.3.4\n            TITLE: the fuel tank, by design, must not have a variable capacity.\n\n            CONTENT:\n            rule IC.5.3.4: The Fuel Tank, by design, must not have a variable capacity.\nIC.5.3.4 The Fuel Tank, by design, must not have a variable capacity.\n            ",
+                "\n            RULE: ic.5.3.1\n            TITLE: fuel tanks made of a rigid material must:\n\n            CONTENT:\n            rule IC.5.3.1: Fuel Tanks made of a rigid material must:\nIC.5.3.1 Fuel Tanks made of a rigid material must: \na. Be securely attached to the vehicle structure.  The mounting method must not allow \nchassis flex to load the Fuel Tank. \nb. Not be used to carry any structural loads; from Roll Hoops, suspension, engine or \ngearbox mounts\n            ",
+                "\n            RULE: ic.5.3.2\n            TITLE: any fuel tank that is made from a flexible material, for example a bladder fuel cell or a bag\n\n            CONTENT:\n            rule IC.5.3.2: Any Fuel Tank that is made from a flexible material, for example a bladder fuel cell or a bag\nIC.5.3.2 Any Fuel Tank that is made from a flexible material, for example a bladder fuel cell or a bag \ntank: \na. Must be enclosed inside a rigid fuel tank container which is securely attached to the \nvehicle structure.   \nb. The Fuel Tank container may be load carrying\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Fuel Tank IC.5.3 Fuel Tank The part(s) of the fuel containment device that is in contact with the fuel.",
+    "status": "success"
+}

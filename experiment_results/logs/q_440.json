@@ -1,0 +1,20 @@
+{
+    "question_number": 440,
+    "timestamp": "2026-06-07 03:03:42",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.7.3.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.7.3.3",
+            "retrieved_context": [
+                "\n            RULE: f.7.3.3\n            TITLE: the perimeter shear strength of the monocoque laminate in the front bulkhead support\n\n            CONTENT:\n            rule F.7.3.3: The perimeter shear strength of the monocoque laminate in the Front Bulkhead support\nF.7.3.3 The perimeter shear strength of the monocoque laminate in the Front Bulkhead support \nstructure must be 4 kN or more for a section with a diameter of 25 mm.    \nThis must be proven by a physical test completed per F.4.3.5 and the results included in the \nSES.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.7.3.3: The perimeter shear strength of the monocoque laminate in the Front Bulkhead support structure must be 4 kN or more for a section with a diameter of 25 mm. This must be proven by a physical test completed per F.4.3.5 and the results included in the SES.",
+    "status": "success"
+}

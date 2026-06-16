@@ -1,0 +1,20 @@
+{
+    "question_number": 758,
+    "timestamp": "2026-06-08 09:56:22",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.1.1.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.1.1.2",
+            "retrieved_context": [
+                "\n            RULE: ic.1.1.2\n            TITLE: hybrid powertrains, such as those using electric motors running off stored energy, are\n\n            CONTENT:\n            rule IC.1.1.2: Hybrid powertrains, such as those using electric motors running off stored energy, are\nIC.1.1.2 Hybrid powertrains, such as those using electric motors running off stored energy, are \nprohibited.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Hybrid powertrains, such as those using electric motors running off stored energy, are prohibited.",
+    "status": "success"
+}

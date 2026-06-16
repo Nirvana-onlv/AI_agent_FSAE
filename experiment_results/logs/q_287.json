@@ -1,0 +1,20 @@
+{
+    "question_number": 287,
+    "timestamp": "2026-06-06 22:01:17",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.3.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.3.3.2",
+            "retrieved_context": [
+                "\n            RULE: v.3.3.2\n            TITLE: the steering wheel must be attached to the column with a quick disconnect.\n\n            CONTENT:\n            rule V.3.3.2: The Steering Wheel must be attached to the column with a quick disconnect.\nV.3.3.2 The Steering Wheel must be attached to the column with a quick disconnect.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Steering Wheel must be attached to the column with a quick disconnect.",
+    "status": "success"
+}

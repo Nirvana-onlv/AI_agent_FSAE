@@ -1,0 +1,20 @@
+{
+    "question_number": 675,
+    "timestamp": "2026-06-07 10:28:07",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.6.1.8 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.6.1.8",
+            "retrieved_context": [
+                "\n            RULE: t.6.1.8\n            TITLE: protection – the gas cylinder/tank and lines must be protected from rollover, collision from\n\n            CONTENT:\n            rule T.6.1.8: Protection – The gas cylinder/tank and lines must be protected from rollover, collision from\nT.6.1.8 Protection – The gas cylinder/tank and lines must be protected from rollover, collision from \nany direction, or damage resulting from the failure of rotating equipment\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Protection – The gas cylinder/tank and lines must be protected from rollover, collision from any direction, or damage resulting from the failure of rotating equipment",
+    "status": "success"
+}

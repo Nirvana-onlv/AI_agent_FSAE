@@ -1,0 +1,20 @@
+{
+    "question_number": 533,
+    "timestamp": "2026-06-07 06:08:44",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.1.1.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.1.1.4",
+            "retrieved_context": [
+                "\n            RULE: t.1.1.4\n            TITLE: during this test:\n\n            CONTENT:\n            rule T.1.1.4: During this test:\nT.1.1.4 During this test:  \na. The steering wheel, steering column, seat and all padding may be removed \nb. The shifter, shift mechanism, or clutch mechanism must not be removed unless it is \nintegral with the steering wheel and is removed with the steering wheel \nc. The firewall must not be moved or removed \nd. Cables, wires, hoses, tubes, etc. must not block movement of the template \nDuring inspection, the steering column, for practical purposes, will not be removed.  The \ntemplate may be maneuvered around the steering column, but not any fixed supports.   \nFor ease of use, the template may contain a slot at the front center that the steering column \nmay pass through.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 55 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "During this test: T.1.1.4 During this test: a. The steering wheel, steering column, seat and all padding may be removed b. The shifter, shift mechanism, or clutch mechanism must not be removed unless it is integral with the steering wheel and is removed with the steering wheel c. The firewall must not be moved or removed d. Cables, wires, hoses, tubes, etc. must not block movement of the template During inspection, the steering column, for practical purposes, will not be removed. The template may be maneuvered around the steering column, but not any fixed supports. For ease of use, the template may contain a slot at the front center that the steering column may pass through.",
+    "status": "success"
+}

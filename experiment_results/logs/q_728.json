@@ -1,0 +1,20 @@
+{
+    "question_number": 728,
+    "timestamp": "2026-06-07 18:44:12",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule VE.1.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "VE.1.4",
+            "retrieved_context": [
+                "\n            RULE: ve.1.4\n            TITLE: inspection sticker\n\n            CONTENT:\n            rule VE.1.4: Inspection Sticker\nVE.1.4 Inspection Sticker \nThe vehicle must have space for the Inspection Sticker(s) IN.13.2 that is: \n• A clear and unobstructed area, minimum 25 cm wide x 20 cm high \n• Located on the upper front surface of the nose along the vehicle centerline\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule VE.1.4: Inspection Sticker VE.1.4 Inspection Sticker The vehicle must have space for the Inspection Sticker(s) IN.13.2 that is: • A clear and unobstructed area, minimum 25 cm wide x 20 cm high • Located on the upper front surface of the nose along the vehicle centerline",
+    "status": "success"
+}

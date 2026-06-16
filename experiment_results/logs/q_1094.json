@@ -1,0 +1,20 @@
+{
+    "question_number": 1094,
+    "timestamp": "2026-06-09 11:41:43",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.1.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.1.4",
+            "retrieved_context": [
+                "\n            RULE: in.1.4\n            TITLE: reinspection\n\n            CONTENT:\n            rule IN.1.4: Reinspection\nIN.1.4 Reinspection \nOfficials may Reinspect any vehicle at any time during the competition  IN.15\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "IN.1.4 Reinspection Officials may Reinspect any vehicle at any time during the competition IN.15",
+    "status": "success"
+}

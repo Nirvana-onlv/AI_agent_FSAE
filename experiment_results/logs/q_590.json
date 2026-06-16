@@ -1,0 +1,20 @@
+{
+    "question_number": 590,
+    "timestamp": "2026-06-07 07:51:54",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.7.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.7.4",
+            "retrieved_context": [
+                "\n            RULE: t.2.7.4\n            TITLE: the anti submarine belts must attach by one of the three:\n\n            CONTENT:\n            rule T.2.7.4: The Anti Submarine Belts must attach by one of the three:\nT.2.7.4 The Anti Submarine Belts must attach by one of the three: \na. Bolt or eyebolt through a welded tube insert or tested monocoque attachment  F.7.9 \nb. Bolt or clip to a tab or bracket ( T.2.4.3 ) on a tube frame\nFormula SAE® Rules 2024 © 2023 SAE International  Page 62 of 140   \nVersion 1.0   1 Sep 2023 \nc. Wrap around a tube meeting F.3.2.1.j that connects the Lower Side Impact tubes F.6.4.5.  \nThe belt must not be able to touch the ground.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Anti Submarine Belts must attach by one of the three:\na. Bolt or eyebolt through a welded tube insert or tested monocoque attachment F.7.9\nb. Bolt or clip to a tab or bracket ( T.2.4.3 ) on a tube frame\nc. Wrap around a tube meeting F.3.2.1.j that connects the Lower Side Impact tubes F.6.4.5.\nThe belt must not be able to touch the ground.",
+    "status": "success"
+}

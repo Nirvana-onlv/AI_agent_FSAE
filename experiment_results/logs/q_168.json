@@ -1,0 +1,40 @@
+{
+    "question_number": 168,
+    "timestamp": "2026-06-06 09:38:12",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the front hoop or the front roll hoop visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\1.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "front hoop visibility",
+            "retrieved_context": [
+                "\n            RULE: f.5.7.6\n            TITLE: in side view, any part of the front hoop above the upper side impact structure must be\n\n            CONTENT:\n            rule F.5.7.6: In side view, any part of the Front Hoop above the Upper Side Impact Structure must be\nF.5.7.6 In side view, any part of the Front Hoop above the Upper Side Impact Structure must be \ninclined less than 20° from the vertical.\n            ",
+                "\n            RULE: f.5.6.2\n            TITLE: the main hoop and front hoop must be triangulated into the primary structure with\n\n            CONTENT:\n            rule F.5.6.2: The Main Hoop and Front Hoop must be Triangulated into the Primary Structure with\nF.5.6.2 The Main Hoop and Front Hoop must be Triangulated into the Primary Structure with \nStructural Tubing  \nThe Triangulation must be at a node in side view for: \na. Bends in side view \nb. Bends in front view below the Upper Side Impact Structure  F.6.4, F.7.5\n            ",
+                "\n            RULE: f.5.7.5\n            TITLE: the front hoop must be no more than 250 mm forward of the steering wheel.\n\n            CONTENT:\n            rule F.5.7.5: The Front Hoop must be no more than 250 mm forward of the steering wheel.\nF.5.7.5 The Front Hoop must be no more than 250 mm forward of the steering wheel.  \nThis distance is measured horizontally, on the vehicle centerline, from the rear surface of the \nFront Hoop to the forward most surface of the steering wheel rim with the steering in the \nstraight ahead position.\n            ",
+                "\n            RULE: f.1.5\n            TITLE: front hoop\n\n            CONTENT:\n            rule F.1.5: Front Hoop\nF.1.5 Front Hoop \nA roll bar located above the driver’s legs, in proximity to the steering wheel.\n            ",
+                "\n            RULE: t.7.2.3\n            TITLE: bodywork must not contain openings into the cockpit from the front of the vehicle back to the\n\n            CONTENT:\n            rule T.7.2.3: Bodywork must not contain openings into the cockpit from the front of the vehicle back to the\nT.7.2.3 Bodywork must not contain openings into the cockpit from the front of the vehicle back to the \nMain Hoop or Firewall.  The cockpit opening and minimal openings around the front \nsuspension components are allowed.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 70 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLO-world\",\n    \"slice_height\": 6000,\n    \"slice_width\": 6000,\n    \"overlap_height_ratio\": 0.5,\n    \"overlap_width_ratio\": 0.5,\n    \"keywords\": [\n        \"front hoop\",\n        \"roll hoop\",\n        \"side view\",\n        \"CAD view\",\n        \"structural element\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLO-world",
+            "slice_height": 6000,
+            "slice_width": 6000,
+            "overlap_height_ratio": 0.5,
+            "overlap_width_ratio": 0.5,
+            "keywords": [
+                "front hoop",
+                "roll hoop",
+                "side view",
+                "CAD view",
+                "structural element"
+            ]
+        },
+        "crop_image_path": "c:\\Users\\Nirvana\\NIR_project\\experiment_results\\q_168_focus.jpg",
+        "founded_objects": "CAD view"
+    },
+    "final_answer": "Yes",
+    "status": "success"
+}

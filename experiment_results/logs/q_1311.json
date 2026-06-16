@@ -1,0 +1,20 @@
+{
+    "question_number": 1311,
+    "timestamp": "2026-06-10 06:33:08",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.4",
+            "retrieved_context": [
+                "\n            RULE: d.4\n            TITLE: flags\n\n            CONTENT:\n            rule D.4: FLAGS\nD.4 FLAGS \nAny specific variations will be addressed at the drivers meeting.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.4: FLAGS D.4 FLAGS Any specific variations will be addressed at the drivers meeting.",
+    "status": "success"
+}

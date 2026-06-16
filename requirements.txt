@@ -1,0 +1,31 @@
+# Inference
+torch>=2.1.0
+ollama>=0.2.0
+
+# LangChain
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-huggingface>=0.1.0
+langchain-text-splitters>=0.3.0
+langchain-classic>=0.1.0
+
+# Embeddings & Vector Store
+sentence-transformers>=3.0.0
+chromadb>=0.5.0
+
+# Reranking & BM25
+flashrank>=0.2.9
+rank-bm25>=0.2.2
+
+# PDF parsing
+pypdf>=4.0.0
+
+# YOLO & Detection
+ultralytics>=8.2.0
+sahi>=0.11.19
+
+# Data & Images
+pandas>=2.0.0
+openpyxl>=3.1.0
+Pillow>=10.0.0

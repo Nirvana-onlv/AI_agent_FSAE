@@ -1,0 +1,20 @@
+{
+    "question_number": 610,
+    "timestamp": "2026-06-07 08:28:47",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.3.2.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.3.2.4",
+            "retrieved_context": [
+                "\n            RULE: t.3.2.4\n            TITLE: (ev only) additional requirements for electric vehicles:\n\n            CONTENT:\n            rule T.3.2.4: (EV only) Additional requirements for Electric Vehicles:\nT.3.2.4 (EV only) Additional requirements for Electric Vehicles: \na. The first 90% of the Brake Pedal travel may be used to regenerate energy without \nactuating the hydraulic brake system. \nb. The remaining Brake Pedal travel must directly actuate the hydraulic brake system.  \nBrake energy regeneration may stay active.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.3.2.4 (EV only) Additional requirements for Electric Vehicles: T.3.2.4 (EV only) Additional requirements for Electric Vehicles: a. The first 90% of the Brake Pedal travel may be used to regenerate energy without actuating the hydraulic brake system. b. The remaining Brake Pedal travel must directly actuate the hydraulic brake system. Brake energy regeneration may stay active.",
+    "status": "success"
+}

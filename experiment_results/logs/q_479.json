@@ -1,0 +1,20 @@
+{
+    "question_number": 479,
+    "timestamp": "2026-06-07 04:19:14",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.8.6.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.8.6.2",
+            "retrieved_context": [
+                "\n            RULE: f.8.6.2\n            TITLE: front wing and bodywork attachment\n\n            CONTENT:\n            rule F.8.6.2: Front Wing and Bodywork Attachment\nF.8.6.2 Front Wing and Bodywork Attachment \na. The front wing and front wing mounts must be able to move completely aft of the Anti \nIntrusion Plate and not touch the front bulkhead during a frontal impact  \nb. The attachment points for the front wing and bodywork mounts should be aft of the Anti \nIntrusion Plate \nc. Tabs for wing and bodywork attachment must not extend more than 25mm forward of \nthe Anti Intrusion Plate\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "F.8.6.2 Front Wing and Bodywork Attachment a. The front wing and front wing mounts must be able to move completely aft of the Anti Intrusion Plate and not touch the front bulkhead during a frontal impact b. The attachment points for the front wing and bodywork mounts should be aft of the Anti Intrusion Plate c. Tabs for wing and bodywork attachment must not extend more than 25mm forward of the Anti Intrusion Plate",
+    "status": "success"
+}

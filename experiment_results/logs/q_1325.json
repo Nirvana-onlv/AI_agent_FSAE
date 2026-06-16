@@ -1,0 +1,20 @@
+{
+    "question_number": 1325,
+    "timestamp": "2026-06-10 10:19:02",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.5.1.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.5.1.2",
+            "retrieved_context": [
+                "\n            RULE: d.5.1.2\n            TITLE: no adjustments will be made to times for running in differing operating conditions.\n\n            CONTENT:\n            rule D.5.1.2: No adjustments will be made to times for running in differing Operating Conditions.\nD.5.1.2 No adjustments will be made to times for running in differing Operating Conditions.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "No adjustments will be made to times for running in differing Operating Conditions.",
+    "status": "success"
+}

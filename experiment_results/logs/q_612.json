@@ -1,0 +1,20 @@
+{
+    "question_number": 612,
+    "timestamp": "2026-06-07 08:32:29",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.3.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.3.3.2",
+            "retrieved_context": [
+                "\n            RULE: t.3.3.2\n            TITLE: the bots must be a mechanical single pole, single throw (commonly known as a two position)\n\n            CONTENT:\n            rule T.3.3.2: The BOTS must be a mechanical single pole, single throw (commonly known as a two position)\nT.3.3.2 The BOTS must be a mechanical single pole, single throw (commonly known as a two position) \nswitch (push-pull or flip type).\nFormula SAE® Rules 2024 © 2023 SAE International  Page 64 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The BOTS must be a mechanical single pole, single throw (commonly known as a two position) switch (push-pull or flip type).",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 822,
+    "timestamp": "2026-06-08 12:45:49",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.3.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.3.4",
+            "retrieved_context": [
+                "\n            RULE: ic.5.3.4\n            TITLE: the fuel tank, by design, must not have a variable capacity.\n\n            CONTENT:\n            rule IC.5.3.4: The Fuel Tank, by design, must not have a variable capacity.\nIC.5.3.4 The Fuel Tank, by design, must not have a variable capacity.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "IC.5.3.4 The Fuel Tank, by design, must not have a variable capacity.",
+    "status": "success"
+}

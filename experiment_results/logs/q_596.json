@@ -1,0 +1,20 @@
+{
+    "question_number": 596,
+    "timestamp": "2026-06-07 08:02:43",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.8.5 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.8.5",
+            "retrieved_context": [
+                "\n            RULE: t.2.8.5\n            TITLE: for all drivers, the head restraint must be located and adjusted where:\n\n            CONTENT:\n            rule T.2.8.5: For all drivers, the Head Restraint must be located and adjusted where:\nT.2.8.5 For all drivers, the Head Restraint must be located and adjusted where:  \na. The Head Restraint is no more than 25 mm away from the back of the driver’s helmet, \nwith the driver in their normal driving position.   \nb. The contact point of the back of the driver’s helmet on the Head Restraint is no less than \n50 mm from any edge of the Head Restraint. \nApproximately 100 mm of longitudinal adjustment should accommodate range of specified \ndrivers.  Several Head Restraints with different thicknesses may be used\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.2.8.5 For all drivers, the Head Restraint must be located and adjusted where: a. The Head Restraint is no more than 25 mm away from the back of the driver’s helmet, with the driver in their normal driving position. b. The contact point of the back of the driver’s helmet on the Head Restraint is no less than 50 mm from any edge of the Head Restraint. Approximately 100 mm of longitudinal adjustment should accommodate range of specified drivers. Several Head Restraints with different thicknesses may be used",
+    "status": "success"
+}

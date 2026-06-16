@@ -1,0 +1,20 @@
+{
+    "question_number": 1373,
+    "timestamp": "2026-06-10 13:07:44",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.11.2.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.11.2.3",
+            "retrieved_context": [
+                "\n            RULE: d.11.2.3\n            TITLE: each autocross run is performed as follows:\n\n            CONTENT:\n            rule D.11.2.3: Each Autocross run is performed as follows:\nD.11.2.3 Each Autocross run is performed as follows: \na. The vehicle will be staged at a specific distance behind the starting line \nb. A Green Flag or light signal will give the approval to begin the run \nc. Timing starts when the vehicle crosses the starting line  \nd. Timing ends when the vehicle crosses the finish line\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "D.11.2.3 Each Autocross run is performed as follows: a. The vehicle will be staged at a specific distance behind the starting line b. A Green Flag or light signal will give the approval to begin the run c. Timing starts when the vehicle crosses the starting line d. Timing ends when the vehicle crosses the finish line",
+    "status": "success"
+}

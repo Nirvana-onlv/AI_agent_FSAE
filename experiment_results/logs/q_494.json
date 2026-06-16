@@ -1,0 +1,21 @@
+{
+    "question_number": 494,
+    "timestamp": "2026-06-07 04:51:18",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.9 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.9",
+            "retrieved_context": [
+                "\n            RULE: f.9\n            TITLE: fuel system (ic only)\n\n            CONTENT:\n            rule F.9: FUEL SYSTEM (IC ONLY)\nF.9 FUEL SYSTEM (IC ONLY) \nFuel System Location and Protection are subject to approval during SES review and Technical \nInspection.\n            ",
+                "\n            RULE: f.9.2\n            TITLE: protection\n\n            CONTENT:\n            rule F.9.2: Protection\nF.9.2 Protection \nAll Fuel Tanks must be shielded from side or rear impact\nFormula SAE® Rules 2024 © 2023 SAE International  Page 49 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "FUEL SYSTEM (IC ONLY) F.9 FUEL SYSTEM (IC ONLY) Fuel System Location and Protection are subject to approval during SES review and Technical Inspection.",
+    "status": "success"
+}

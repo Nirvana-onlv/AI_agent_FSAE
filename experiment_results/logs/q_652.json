@@ -1,0 +1,20 @@
+{
+    "question_number": 652,
+    "timestamp": "2026-06-07 09:49:24",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.5.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.5.3.2",
+            "retrieved_context": [
+                "\n            RULE: t.5.3.2\n            TITLE: a scatter shield must be included around the motor(s) when one or both:\n\n            CONTENT:\n            rule T.5.3.2: A Scatter Shield must be included around the Motor(s) when one or both:\nT.5.3.2 A Scatter Shield must be included around the Motor(s) when one or both: \n• The motor casing rotates around the stator \n• The motor case is perforated\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "A Scatter Shield must be included around the Motor(s) when one or both:\n* The motor casing rotates around the stator\n* The motor case is perforated",
+    "status": "success"
+}

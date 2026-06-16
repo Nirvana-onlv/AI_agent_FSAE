@@ -1,0 +1,20 @@
+{
+    "question_number": 347,
+    "timestamp": "2026-06-06 23:55:14",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.4.3.7 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.4.3.7",
+            "retrieved_context": [
+                "\n            RULE: f.4.3.7\n            TITLE: lap joint test\n\n            CONTENT:\n            rule F.4.3.7: Lap Joint Test\nF.4.3.7 Lap Joint Test \nThe Lap Joint Test measures the force required to pull apart a joint comprised of two laminate \nsamples that are bonded together. \na. Do two separate pull tests with different orientations of the adhesive joint: \n• Parallel to the pull direction, with the adhesive joint in pure shear \n• T peel normal to the pull direction, with the adhesive joint in peel  \nb. The samples used must: \n• Have skin thicknesses identical to those used in the actual monocoque \n• Be manufactured using the same materials and processes \n• Have the same overlap as used in the regulated structure. No scaling is permitted. \nc. The force and displacement data and photos of the test setup must be included in the \nSES. \nd. The shear strength of the bond must be more than the UTS of the skin\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.4.3.7: Lap Joint Test F.4.3.7 Lap Joint Test The Lap Joint Test measures the force required to pull apart a joint comprised of two laminate samples that are bonded together. a. Do two separate pull tests with different orientations of the adhesive joint: • Parallel to the pull direction, with the adhesive joint in pure shear • T peel normal to the pull direction, with the adhesive joint in peel b. The samples used must: • Have skin thicknesses identical to those used in the actual monocoque • Be manufactured using the same materials and processes • Have the same overlap as used in the regulated structure. No scaling is permitted. c. The force and displacement data and photos of the test setup must be included in the SES. d. The shear strength of the bond must be more than the UTS of the skin",
+    "status": "success"
+}

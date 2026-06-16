@@ -1,0 +1,20 @@
+{
+    "question_number": 267,
+    "timestamp": "2026-06-06 19:17:21",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.1.4.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.1.4.3",
+            "retrieved_context": [
+                "\n            RULE: v.1.4.3\n            TITLE: intentional or excessive ground contact of any portion of the vehicle other than the tires will\n\n            CONTENT:\n            rule V.1.4.3: Intentional or excessive ground contact of any portion of the vehicle other than the tires will\nV.1.4.3 Intentional or excessive ground contact of any portion of the vehicle other than the tires will \nforfeit a run or an entire dynamic event  \nThe intent is that sliding skirts or other devices that by design, fabrication or as a consequence \nof moving, contact the track surface are prohibited and any unintended contact with the \nground which causes damage, or in the opinion of the Dynamic Event Officials could result in \ndamage to the track, will result in forfeit of a run or an entire dynamic event\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule V.1.4.3: Intentional or excessive ground contact of any portion of the vehicle other than the tires will V.1.4.3 Intentional or excessive ground contact of any portion of the vehicle other than the tires will forfeit a run or an entire dynamic event The intent is that sliding skirts or other devices that by design, fabrication or as a consequence of moving, contact the track surface are prohibited and any unintended contact with the ground which causes damage, or in the opinion of the Dynamic Event Officials could result in damage to the track, will result in forfeit of a run or an entire dynamic event",
+    "status": "success"
+}

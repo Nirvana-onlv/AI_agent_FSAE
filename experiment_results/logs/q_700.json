@@ -1,0 +1,20 @@
+{
+    "question_number": 700,
+    "timestamp": "2026-06-07 11:11:31",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.8.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.8.1",
+            "retrieved_context": [
+                "\n            RULE: t.8.1\n            TITLE: critical fasteners\n\n            CONTENT:\n            rule T.8.1: Critical Fasteners\nT.8.1 Critical Fasteners \nA fastener (bolt, screw, pin, etc) used in a location specified in the applicable rule\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.8.1 Critical Fasteners A fastener (bolt, screw, pin, etc) used in a location specified in the applicable rule",
+    "status": "success"
+}

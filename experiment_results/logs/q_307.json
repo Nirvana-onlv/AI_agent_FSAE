@@ -1,0 +1,20 @@
+{
+    "question_number": 307,
+    "timestamp": "2026-06-06 22:34:22",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.1.8 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.1.8",
+            "retrieved_context": [
+                "\n            RULE: f.1.8\n            TITLE: front bulkhead\n\n            CONTENT:\n            rule F.1.8: Front Bulkhead\nF.1.8 Front Bulkhead \nA planar structure that provides protection for the driver’s feet.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Front Bulkhead A planar structure that provides protection for the driver’s feet.",
+    "status": "success"
+}

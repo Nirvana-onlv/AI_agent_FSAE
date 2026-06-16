@@ -1,0 +1,20 @@
+{
+    "question_number": 1404,
+    "timestamp": "2026-06-10 14:56:27",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12.8.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.12.8.1",
+            "retrieved_context": [
+                "\n            RULE: d.12.8.1\n            TITLE: the driver change will be performed in this sequence:\n\n            CONTENT:\n            rule D.12.8.1: The Driver Change will be performed in this sequence:\nD.12.8.1 The Driver Change will be performed in this sequence: \na. Vehicle will stop in Driver Change Area\nFormula SAE® Rules 2024 © 2023 SAE International  Page 136 of 140   \nVersion 1.0   1 Sep 2023 \nb. First Driver turns off the engine / Tractive System.  Driver Change time starts.   \nc. First Driver exits the vehicle  \nd. Any necessary adjustments may be made to the vehicle to fit the Second Driver IN.14.2.2 \ne. Second Driver is secured in the vehicle \nf. Second Driver is ready to start the engine / enable the Tractive System.  Driver Change \ntime stops.   \ng. Second Driver receives permission to continue \nh. The vehicle engine is started or Tractive System enabled.  See D.12.4 \ni. The vehicle stages to go back onto course, at the direction of the event officials\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "D.12.8.1 The Driver Change will be performed in this sequence: a. Vehicle will stop in Driver Change Area b. First Driver turns off the engine / Tractive System. Driver Change time starts. c. First Driver exits the vehicle d. Any necessary adjustments may be made to the vehicle to fit the Second Driver e. Second Driver is secured in the vehicle f. Second Driver is ready to start the engine / enable the Tractive System. Driver Change time stops. g. Second Driver receives permission to continue h. The vehicle engine is started or Tractive System enabled. See D.12.4 i. The vehicle stages to go back onto course, at the direction of the event officials",
+    "status": "success"
+}

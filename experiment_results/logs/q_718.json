@@ -1,0 +1,22 @@
+{
+    "question_number": 718,
+    "timestamp": "2026-06-07 11:43:46",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.9.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.9.3",
+            "retrieved_context": [
+                "\n            RULE: t.9.3\n            TITLE: master switches\n\n            CONTENT:\n            rule T.9.3: Master Switches\nT.9.3 Master Switches  \nEach Master Switch ( IC.9.3 /  EV.7.9 ) must meet the following:\n            ",
+                "\n            RULE: t.9.3.1\n            TITLE: location\n\n            CONTENT:\n            rule T.9.3.1: Location\nT.9.3.1 Location \na. On the driver’s right hand side of the vehicle \nb. In proximity to the Main Hoop \nc. At the driver's shoulder height  \nd. Able to be easily actuated from outside the vehicle\n            ",
+                "\n            RULE: t.9.3.2\n            TITLE: characteristics\n\n            CONTENT:\n            rule T.9.3.2: Characteristics\nT.9.3.2 Characteristics \na. Be of the rotary mechanical type  \nb. Be rigidly mounted to the vehicle and must not be removed during maintenance \nc. Mounted where the rotary axis of the key is near horizontal and across the vehicle \nd. The ON position must be in the horizontal position and must be marked accordingly  \ne. The OFF position must be clearly marked  \nf. (EV Only) Operated with a red removable key that must only be removable in the \nelectrically open position\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.9.3: Master Switches T.9.3 Master Switches Each Master Switch ( IC.9.3 / EV.7.9 ) must meet the following: | RULE INFO: RULE: t.9.3.1 TITLE: location CONTENT: rule T.9.3.1: Location T.9.3.1 Location a. On the driver’s right hand side of the vehicle b. In proximity to the Main Hoop c. At the driver's shoulder height d. Able to be easily actuated from outside the vehicle | RULE INFO: RULE: t.9.3.2 TITLE: characteristics CONTENT: rule T.9.3.2: Characteristics T.9.3.2 Characteristics a. Be of the rotary mechanical type b. Be rigidly mounted to the vehicle and must not be removed during maintenance c. Mounted where the rotary axis of the key is near horizontal and across the vehicle d. The ON position must be in the horizontal position and must be marked accordingly e. The OFF position must be clearly marked f. (EV Only) Operated with a red removable key that must only be removable in the electrically open position",
+    "status": "success"
+}

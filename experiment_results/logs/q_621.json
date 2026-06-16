@@ -1,0 +1,20 @@
+{
+    "question_number": 621,
+    "timestamp": "2026-06-07 08:47:27",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.4.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.4.1",
+            "retrieved_context": [
+                "\n            RULE: t.4.1\n            TITLE: applicability\n\n            CONTENT:\n            rule T.4.1: Applicability\nT.4.1 Applicability \nThis section T.4 applies only for: \n• IC vehicles using Electronic Throttle Control (ETC)   IC.4 \n• EV vehicles\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.4.1: Applicability T.4.1 Applicability This section T.4 applies only for: • IC vehicles using Electronic Throttle Control (ETC) IC.4 • EV vehicles",
+    "status": "success"
+}

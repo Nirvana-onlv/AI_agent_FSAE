@@ -1,0 +1,20 @@
+{
+    "question_number": 1441,
+    "timestamp": "2026-06-10 17:01:17",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.13.4.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.13.4.1",
+            "retrieved_context": [
+                "\n            RULE: d.13.4.1\n            TITLE: conversion factors\n\n            CONTENT:\n            rule D.13.4.1: Conversion Factors\nD.13.4.1 Conversion Factors \nEach fuel or energy used is converted using the factors: \na. Gasoline / Petrol  2.31 kg of CO2 per liter \nb. E85     1.65 kg of CO2 per liter \nc. Electric     0.65 kg of CO2 per kWh\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.13.4.1: Conversion Factors D.13.4.1 Conversion Factors Each fuel or energy used is converted using the factors: a. Gasoline / Petrol 2.31 kg of CO2 per liter b. E85 1.65 kg of CO2 per liter c. Electric 0.65 kg of CO2 per kWh",
+    "status": "success"
+}

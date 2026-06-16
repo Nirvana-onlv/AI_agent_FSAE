@@ -1,0 +1,20 @@
+{
+    "question_number": 444,
+    "timestamp": "2026-06-07 03:12:32",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.7.4.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.7.4.4",
+            "retrieved_context": [
+                "\n            RULE: f.7.4.4\n            TITLE: adhesive must not be the sole method of attaching the front hoop to the monocoque\n\n            CONTENT:\n            rule F.7.4.4: Adhesive must not be the sole method of attaching the Front Hoop to the monocoque\nF.7.4.4 Adhesive must not be the sole method of attaching the Front Hoop to the monocoque\nFormula SAE® Rules 2024 © 2023 SAE International  Page 41 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Adhesive must not be the sole method of attaching the Front Hoop to the monocoque",
+    "status": "success"
+}

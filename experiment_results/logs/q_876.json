@@ -1,0 +1,20 @@
+{
+    "question_number": 876,
+    "timestamp": "2026-06-08 15:29:38",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.9.4.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.9.4.2",
+            "retrieved_context": [
+                "\n            RULE: ic.9.4.2\n            TITLE: location – the cockpit main switch must be:\n\n            CONTENT:\n            rule IC.9.4.2: Location – The Cockpit Main Switch must be:\nIC.9.4.2 Location – The Cockpit Main Switch must be: \na. In easy reach of the driver when in a normal driving position wearing Harness  \nb. Adjacent to the Steering Wheel \nc. Unobstructed by the Steering Wheel or any other part of the vehicle\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.9.4.2: Location – The Cockpit Main Switch must be: a. In easy reach of the driver when in a normal driving position wearing Harness b. Adjacent to the Steering Wheel c. Unobstructed by the Steering Wheel or any other part of the vehicle",
+    "status": "success"
+}

@@ -1,0 +1,40 @@
+{
+    "question_number": 223,
+    "timestamp": "2026-06-06 13:25:15",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the seat visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\56.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "seat visibility",
+            "retrieved_context": [
+                "\n            RULE: v.2.2\n            TITLE: visibility\n\n            CONTENT:\n            rule V.2.2: Visibility\nV.2.2 Visibility \na. The driver must have sufficient visibility to the front and sides of the vehicle \nb. When seated in a normal driving position, the driver must have a minimum field of vision \nof 100° to both sides \nc. If mirrors are required for this rule, they must remain in place and adjusted to enable the \nrequired visibility throughout all dynamic events.\n            ",
+                "\n            RULE: t.2.5.4\n            TITLE: with an upright driving position:\n\n            CONTENT:\n            rule T.2.5.4: With an Upright Driving Position:\nT.2.5.4 With an Upright Driving Position:  \na. The Lap Belt Side View Angle must be between 45° and 65° to the horizontal.  \nb. The centerline of the Lap Belt at the seat bottom should be between 0 – 75 mm forward \nof the seat back to seat bottom junction.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 60 of 140   \nVersion 1.0   1 Sep 2023\n            ",
+                "\n            RULE: f.5.6.5\n            TITLE: driver template position\n\n            CONTENT:\n            rule F.5.6.5: Driver Template Position\nF.5.6.5 Driver Template Position \nThe Driver Template will be positioned as follows:   \n• The seat will be adjusted to the rearmost position \n• The pedals will be placed in the most forward position \n• The bottom 200 mm circle will be placed on the seat bottom where the distance \nbetween the center of this circle and the rearmost face of the pedals is no less than 915 \nmm \n• The middle 200 mm circle, representing the shoulders, will be positioned on the seat \nback \n• The upper 300 mm circle will be positioned no more than 25 mm away from the head \nrestraint (where the driver’s helmet would normally be located while driving)\n            ",
+                "\n            RULE: t.2.7.3\n            TITLE: installation of all anti-submarine belts must go in a straight line from the anti-submarine belt\n\n            CONTENT:\n            rule T.2.7.3: Installation of all Anti-Submarine Belts must go in a straight line from the Anti-Submarine Belt\nT.2.7.3 Installation of all Anti-Submarine Belts must go in a straight line from the Anti-Submarine Belt \nMounting Point(s) without touching any hole in the seat or any other intermediate structure \nuntil they reach: \na. The release buckle for the 5 Point Harness mounting per T.2.7.1 \nb. The first point where the belt touches the driver’s body for the 6 Point Harness mounting \nper T.2.7.2\n            ",
+                "\n            RULE: t.2.5.3\n            TITLE: the seat must be rolled or grommeted where the belts or harness pass through a hole in the\n\n            CONTENT:\n            rule T.2.5.3: The seat must be rolled or grommeted where the Belts or Harness pass through a hole in the\nT.2.5.3 The seat must be rolled or grommeted where the Belts or Harness pass through a hole in the \nseat\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLOv26\",\n    \"slice_height\": 4000,\n    \"slice_width\": 640,\n    \"overlap_height_ratio\": 0.9,\n    \"overlap_width_ratio\": 0.9,\n    \"keywords\": [\n        \"seat\",\n        \"seat cushion\",\n        \"seat back\",\n        \"belt\",\n        \"pedal\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLOv26",
+            "slice_height": 4000,
+            "slice_width": 640,
+            "overlap_height_ratio": 0.9,
+            "overlap_width_ratio": 0.9,
+            "keywords": [
+                "seat",
+                "seat cushion",
+                "seat back",
+                "belt",
+                "pedal"
+            ]
+        },
+        "crop_image_path": null,
+        "founded_objects": null
+    },
+    "final_answer": "no",
+    "status": "success"
+}

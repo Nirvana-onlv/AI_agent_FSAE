@@ -1,0 +1,20 @@
+{
+    "question_number": 680,
+    "timestamp": "2026-06-07 10:36:19",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.7.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.7.1.1",
+            "retrieved_context": [
+                "\n            RULE: t.7.1.1\n            TITLE: aerodynamic device\n\n            CONTENT:\n            rule T.7.1.1: Aerodynamic Device\nT.7.1.1 Aerodynamic Device \nA part on the vehicle which guides airflow for purposes including generation of downforce \nand/or change of drag.   \nExamples include but are not limited to: wings, undertray, splitter, endplates, vanes\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.7.1.1: Aerodynamic Device T.7.1.1 Aerodynamic Device A part on the vehicle which guides airflow for purposes including generation of downforce and/or change of drag. Examples include but are not limited to: wings, undertray, splitter, endplates, vanes",
+    "status": "success"
+}

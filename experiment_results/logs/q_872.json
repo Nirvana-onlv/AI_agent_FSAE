@@ -1,0 +1,20 @@
+{
+    "question_number": 872,
+    "timestamp": "2026-06-08 15:18:00",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.9.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.9.2.2",
+            "retrieved_context": [
+                "\n            RULE: ic.9.2.2\n            TITLE: when the shutdown circuit opens, it must:\n\n            CONTENT:\n            rule IC.9.2.2: When the Shutdown Circuit Opens, it must:\nIC.9.2.2 When the Shutdown Circuit Opens, it must: \na. Stop the engine \nb. Disconnect power to the: \n• Fuel Pump(s) \n• Ignition \n• (ETC only) Electronic Throttle  IC.4.1.1\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "IC.9.2.2 When the Shutdown Circuit Opens, it must: a. Stop the engine b. Disconnect power to the: • Fuel Pump(s) • Ignition • (ETC only) Electronic Throttle",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 277,
+    "timestamp": "2026-06-06 19:35:05",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.3.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.3.2.2",
+            "retrieved_context": [
+                "\n            RULE: v.3.2.2\n            TITLE: electrically actuated steering of the front wheels is prohibited\n\n            CONTENT:\n            rule V.3.2.2: Electrically actuated steering of the front wheels is prohibited\nV.3.2.2 Electrically actuated steering of the front wheels is prohibited\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule V.3.2.2: Electrically actuated steering of the front wheels is prohibited V.3.2.2 Electrically actuated steering of the front wheels is prohibited",
+    "status": "success"
+}

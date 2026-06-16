@@ -1,0 +1,20 @@
+{
+    "question_number": 816,
+    "timestamp": "2026-06-08 12:31:24",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.2.1",
+            "retrieved_context": [
+                "\n            RULE: ic.5.2.1\n            TITLE: the fuel system must meet the following design criteria:\n\n            CONTENT:\n            rule IC.5.2.1: The Fuel System must meet the following design criteria:\nIC.5.2.1 The Fuel System must meet the following design criteria: \na. The Fuel Tank is capable of being filled to capacity without manipulating the tank or the \nvehicle in any manner.   \nb. During refueling on a level surface, the formation of air cavities or other effects that \ncause the fuel level observed at the sight tube to drop after movement or operation of \nthe vehicle (other than due to consumption) are prevented. \nc. Spillage during refueling cannot contact the driver position, exhaust system, hot engine \nparts, or the ignition system.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Fuel System must meet the following design criteria: a. The Fuel Tank is capable of being filled to capacity without manipulating the tank or the vehicle in any manner. b. During refueling on a level surface, the formation of air cavities or other effects that cause the fuel level observed at the sight tube to drop after movement or operation of the vehicle (other than due to consumption) are prevented. c. Spillage during refueling cannot contact the driver position, exhaust system, hot engine parts, or the ignition system.",
+    "status": "success"
+}

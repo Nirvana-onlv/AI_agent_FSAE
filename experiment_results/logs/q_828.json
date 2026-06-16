@@ -1,0 +1,20 @@
+{
+    "question_number": 828,
+    "timestamp": "2026-06-08 13:05:11",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.4.5 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.4.5",
+            "retrieved_context": [
+                "\n            RULE: ic.5.4.5\n            TITLE: fuel level line - a permanent, non movable fuel level line must be located between 12 mm\n\n            CONTENT:\n            rule IC.5.4.5: Fuel Level Line - A permanent, non movable fuel level line must be located between 12 mm\nIC.5.4.5 Fuel Level Line - A permanent, non movable fuel level line must be located between 12 mm \nand 25 mm below the top of the visible portion of the sight tube.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 85 of 140   \nVersion 1.0   1 Sep 2023 \nThis line will be used as the fill line for the Tilt Test, and before and after Endurance to measure \nthe amount of fuel used during the Endurance Event.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "A permanent, non movable fuel level line must be located between 12 mm and 25 mm below the top of the visible portion of the sight tube.",
+    "status": "success"
+}

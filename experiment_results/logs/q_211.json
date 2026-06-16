@@ -1,0 +1,40 @@
+{
+    "question_number": 211,
+    "timestamp": "2026-06-06 12:49:35",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the front wing visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\44.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "front wing visibility",
+            "retrieved_context": [
+                "\n            RULE: f.8.6.2\n            TITLE: front wing and bodywork attachment\n\n            CONTENT:\n            rule F.8.6.2: Front Wing and Bodywork Attachment\nF.8.6.2 Front Wing and Bodywork Attachment \na. The front wing and front wing mounts must be able to move completely aft of the Anti \nIntrusion Plate and not touch the front bulkhead during a frontal impact  \nb. The attachment points for the front wing and bodywork mounts should be aft of the Anti \nIntrusion Plate \nc. Tabs for wing and bodywork attachment must not extend more than 25mm forward of \nthe Anti Intrusion Plate\n            ",
+                "\n            RULE: v.2.2\n            TITLE: visibility\n\n            CONTENT:\n            rule V.2.2: Visibility\nV.2.2 Visibility \na. The driver must have sufficient visibility to the front and sides of the vehicle \nb. When seated in a normal driving position, the driver must have a minimum field of vision \nof 100° to both sides \nc. If mirrors are required for this rule, they must remain in place and adjusted to enable the \nrequired visibility throughout all dynamic events.\n            ",
+                "\n            RULE: t.7.6.1\n            TITLE: when forward of the centerline of the front wheel axles:\n\n            CONTENT:\n            rule T.7.6.1: When forward of the centerline of the front wheel axles:\nT.7.6.1 When forward of the centerline of the front wheel axles:   \nInboard of two vertical planes parallel to the centerline of the chassis touching the outside of \nthe front tires at the height of the hubs.\n            ",
+                "\n            RULE: t.7.2.3\n            TITLE: bodywork must not contain openings into the cockpit from the front of the vehicle back to the\n\n            CONTENT:\n            rule T.7.2.3: Bodywork must not contain openings into the cockpit from the front of the vehicle back to the\nT.7.2.3 Bodywork must not contain openings into the cockpit from the front of the vehicle back to the \nMain Hoop or Firewall.  The cockpit opening and minimal openings around the front \nsuspension components are allowed.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 70 of 140   \nVersion 1.0   1 Sep 2023\n            ",
+                "\n            RULE: f.8.1.1\n            TITLE: forward of the front bulkhead there must be an impact attenuator with an anti intrusion\n\n            CONTENT:\n            rule F.8.1.1: Forward of the Front Bulkhead there must be an Impact Attenuator with an Anti Intrusion\nF.8.1.1 Forward of the Front Bulkhead there must be an Impact Attenuator with an Anti Intrusion \nPlate between the Impact Attenuator and the Front Bulkhead.\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLO-world\",\n    \"slice_height\": 6000,\n    \"slice_width\": 8000,\n    \"overlap_height_ratio\": 0.5,\n    \"overlap_width_ratio\": 0.5,\n    \"keywords\": [\n        \"front wing\",\n        \"Anti Intrusion Plate\",\n        \"front bulkhead\",\n        \"bodywork\",\n        \"attachment point\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLO-world",
+            "slice_height": 6000,
+            "slice_width": 8000,
+            "overlap_height_ratio": 0.5,
+            "overlap_width_ratio": 0.5,
+            "keywords": [
+                "front wing",
+                "Anti Intrusion Plate",
+                "front bulkhead",
+                "bodywork",
+                "attachment point"
+            ]
+        },
+        "crop_image_path": null,
+        "founded_objects": null
+    },
+    "final_answer": "no",
+    "status": "success"
+}

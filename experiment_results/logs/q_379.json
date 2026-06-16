@@ -1,0 +1,20 @@
+{
+    "question_number": 379,
+    "timestamp": "2026-06-07 01:06:15",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.8.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.8.2",
+            "retrieved_context": [
+                "\n            RULE: f.5.8.2\n            TITLE: the main hoop must extend from the lowest frame member / bottom of monocoque on one\n\n            CONTENT:\n            rule F.5.8.2: The Main Hoop must extend from the lowest Frame Member / bottom of Monocoque on one\nF.5.8.2 The Main Hoop must extend from the lowest Frame Member / bottom of Monocoque on one \nside of the Frame, up, over and down to the lowest Frame Member / bottom of Monocoque \non the other side of the Frame.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Main Hoop must extend from the lowest Frame Member / bottom of Monocoque on one side of the Frame, up, over and down to the lowest Frame Member / bottom of Monocoque on the other side of the Frame.",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 829,
+    "timestamp": "2026-06-08 13:07:57",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.4.6 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.4.6",
+            "retrieved_context": [
+                "\n            RULE: ic.5.4.6\n            TITLE: the sight tube and fuel level line must be clearly visible to two individuals (one to fill the tank,\n\n            CONTENT:\n            rule IC.5.4.6: The sight tube and fuel level line must be clearly visible to two individuals (one to fill the tank,\nIC.5.4.6 The sight tube and fuel level line must be clearly visible to two individuals (one to fill the tank, \nthe other to visually verify fill) without the need of assistance (artificial lighting, magnifiers, \netc) or the need to remove any parts (body panels, etc).\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The sight tube and fuel level line must be clearly visible to two individuals (one to fill the tank, the other to visually verify fill) without the need of assistance (artificial lighting, magnifiers, etc) or the need to remove any parts (body panels, etc).",
+    "status": "success"
+}

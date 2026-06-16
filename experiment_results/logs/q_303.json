@@ -1,0 +1,20 @@
+{
+    "question_number": 303,
+    "timestamp": "2026-06-06 22:27:26",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.1.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.1.4",
+            "retrieved_context": [
+                "\n            RULE: f.1.4\n            TITLE: main hoop\n\n            CONTENT:\n            rule F.1.4: Main Hoop\nF.1.4 Main Hoop \nA roll bar located alongside or immediately aft of the driver’s torso.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.1.4: Main Hoop F.1.4 Main Hoop A roll bar located alongside or immediately aft of the driver’s torso.",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 706,
+    "timestamp": "2026-06-07 11:21:56",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.8.3.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.8.3.1",
+            "retrieved_context": [
+                "\n            RULE: t.8.3.1\n            TITLE: positive locking mechanisms are defined as those which:\n\n            CONTENT:\n            rule T.8.3.1: Positive Locking Mechanisms are defined as those which:\nT.8.3.1 Positive Locking Mechanisms are defined as those which:  \na. Technical Inspectors / team members can see that the device/system is in place (visible). \nb. Do not rely on the clamping force to apply the locking or anti vibration feature.   \nMeaning If the fastener begins to loosen, the locking device still prevents the fastener coming \ncompletely loose\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.8.3.1 Positive Locking Mechanisms are defined as those which: a. Technical Inspectors / team members can see that the device/system is in place (visible). b. Do not rely on the clamping force to apply the locking or anti vibration feature. Meaning If the fastener begins to loosen, the locking device still prevents the fastener coming completely loose",
+    "status": "success"
+}

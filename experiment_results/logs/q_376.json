@@ -1,0 +1,20 @@
+{
+    "question_number": 376,
+    "timestamp": "2026-06-07 00:58:51",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.7.6 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.7.6",
+            "retrieved_context": [
+                "\n            RULE: f.5.7.6\n            TITLE: in side view, any part of the front hoop above the upper side impact structure must be\n\n            CONTENT:\n            rule F.5.7.6: In side view, any part of the Front Hoop above the Upper Side Impact Structure must be\nF.5.7.6 In side view, any part of the Front Hoop above the Upper Side Impact Structure must be \ninclined less than 20° from the vertical.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "In side view, any part of the Front Hoop above the Upper Side Impact Structure must be inclined less than 20° from the vertical.",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 317,
+    "timestamp": "2026-06-06 22:53:31",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.1.18 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.1.18",
+            "retrieved_context": [
+                "\n            RULE: f.1.18\n            TITLE: nonflammable material\n\n            CONTENT:\n            rule F.1.18: Nonflammable Material\nF.1.18 Nonflammable Material  \nMetal or a Non Metallic material which meets UL94-V0, FAR25 or approved equivalent\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.1.18: Nonflammable Material Metal or a Non Metallic material which meets UL94-V0, FAR25 or approved equivalent",
+    "status": "success"
+}

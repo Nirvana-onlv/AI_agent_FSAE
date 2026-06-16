@@ -1,0 +1,39 @@
+{
+    "question_number": 193,
+    "timestamp": "2026-06-06 10:37:30",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the steering column visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\26.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "steering column visible",
+            "retrieved_context": [
+                "\n            RULE: t.1.3.3\n            TITLE: all moving suspension and steering components and other sharp edges inside the cockpit\n\n            CONTENT:\n            rule T.1.3.3: All moving suspension and steering components and other sharp edges inside the cockpit\nT.1.3.3 All moving suspension and steering components and other sharp edges inside the cockpit \nbetween the Front Hoop and a vertical plane 100 mm rearward of the pedals must be covered \nby a shield made of a solid material.  \nMoving components include, but are not limited to springs, shock absorbers, rocker arms, anti-\nroll/sway bars, steering racks and steering column CV joints.\n            ",
+                "\n            RULE: v.3.3.2\n            TITLE: the steering wheel must be attached to the column with a quick disconnect.\n\n            CONTENT:\n            rule V.3.3.2: The Steering Wheel must be attached to the column with a quick disconnect.\nV.3.3.2 The Steering Wheel must be attached to the column with a quick disconnect.\n            ",
+                "\n            RULE: t.1.2.3\n            TITLE: during this test:\n\n            CONTENT:\n            rule T.1.2.3: During this test:\nT.1.2.3 During this test:   \na. If the pedals are adjustable, they must be in their most forward position. \nb. The steering wheel may be removed \nc. Padding may be removed if it can be easily removed without the use of tools with the \ndriver in the seat \nd. The seat and any seat insert(s) that may be used must stay in the cockpit \ne. Cables, wires, hoses, tubes, etc. must not block movement of the template \nf. The steering column and associated components may pass through the 50 mm wide \ncenter band of the template.    \nFor ease of use, the template may contain a full or partial slot in the shaded area shown on the \nfigure\n            ",
+                "\n            RULE: t.1.1.4\n            TITLE: during this test:\n\n            CONTENT:\n            rule T.1.1.4: During this test:\nT.1.1.4 During this test:  \na. The steering wheel, steering column, seat and all padding may be removed \nb. The shifter, shift mechanism, or clutch mechanism must not be removed unless it is \nintegral with the steering wheel and is removed with the steering wheel \nc. The firewall must not be moved or removed \nd. Cables, wires, hoses, tubes, etc. must not block movement of the template \nDuring inspection, the steering column, for practical purposes, will not be removed.  The \ntemplate may be maneuvered around the steering column, but not any fixed supports.   \nFor ease of use, the template may contain a slot at the front center that the steering column \nmay pass through.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 55 of 140   \nVersion 1.0   1 Sep 2023\n            ",
+                "\n            RULE: v.3.2.7\n            TITLE: joints between all components attaching the steering wheel to the steering rack must be\n\n            CONTENT:\n            rule V.3.2.7: Joints between all components attaching the Steering Wheel to the steering rack must be\nV.3.2.7 Joints between all components attaching the Steering Wheel to the steering rack must be \nmechanical and be visible at Technical Inspection. Bonded joints without a mechanical backup \nare not permitted.\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLOv26\",\n    \"slice_height\": 4000,\n    \"slice_width\": 640,\n    \"overlap_height_ratio\": 0.9,\n    \"overlap_width_ratio\": 0.9,\n    \"keywords\": [\n        \"steering column\",\n        \"steering wheel\",\n        \"suspension component\",\n        \"cockpit interior\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLOv26",
+            "slice_height": 4000,
+            "slice_width": 640,
+            "overlap_height_ratio": 0.9,
+            "overlap_width_ratio": 0.9,
+            "keywords": [
+                "steering column",
+                "steering wheel",
+                "suspension component",
+                "cockpit interior"
+            ]
+        },
+        "crop_image_path": "c:\\Users\\Nirvana\\NIR_project\\experiment_results\\q_193_focus.jpg",
+        "founded_objects": "suspension component, steering wheel"
+    },
+    "final_answer": "yes",
+    "status": "success"
+}

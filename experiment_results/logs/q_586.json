@@ -1,0 +1,20 @@
+{
+    "question_number": 586,
+    "timestamp": "2026-06-07 07:43:09",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.6.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.6.4",
+            "retrieved_context": [
+                "\n            RULE: t.2.6.4\n            TITLE: any bolt used to attach a shoulder belt, directly to the chassis or to an intermediate bracket, is\n\n            CONTENT:\n            rule T.2.6.4: Any bolt used to attach a Shoulder Belt, directly to the chassis or to an intermediate bracket, is\nT.2.6.4 Any bolt used to attach a Shoulder Belt, directly to the chassis or to an intermediate bracket, is \na Critical Fasteners, see T.8.2, with a minimum diameter that is the smaller of: \n• The bolt diameter specified by the manufacturer \n• 10 mm or 3/8”\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.2.6.4 Any bolt used to attach a Shoulder Belt, directly to the chassis or to an intermediate bracket, is T.2.6.4 Any bolt used to attach a Shoulder Belt, directly to the chassis or to an intermediate bracket, is a Critical Fasteners, see T.8.2, with a minimum diameter that is the smaller of: • The bolt diameter specified by the manufacturer • 10 mm or 3/8”",
+    "status": "success"
+}

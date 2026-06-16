@@ -1,0 +1,20 @@
+{
+    "question_number": 300,
+    "timestamp": "2026-06-06 22:22:53",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.1.1",
+            "retrieved_context": [
+                "\n            RULE: f.1.1\n            TITLE: chassis\n\n            CONTENT:\n            rule F.1.1: Chassis\nF.1.1 Chassis \nThe fabricated structural assembly that supports all functional vehicle systems.  \nThis assembly may be a single fabricated structure, multiple fabricated structures or a \ncombination of composite and welded structures.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "F.1.1 Chassis The fabricated structural assembly that supports all functional vehicle systems. This assembly may be a single fabricated structure, multiple fabricated structures or a combination of composite and welded structures.",
+    "status": "success"
+}

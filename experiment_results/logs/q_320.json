@@ -1,0 +1,20 @@
+{
+    "question_number": 320,
+    "timestamp": "2026-06-06 22:59:56",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.2.1.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.2.1.2",
+            "retrieved_context": [
+                "\n            RULE: f.2.1.2\n            TITLE: the ses provides the means to:\n\n            CONTENT:\n            rule F.2.1.2: The SES provides the means to:\nF.2.1.2 The SES provides the means to: \na. Document the Primary Structure and show compliance with the Formula SAE Rules \nb. Determine Equivalence to Formula SAE Rules using an accepted basis\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.2.1.2: The SES provides the means to: F.2.1.2 The SES provides the means to: a. Document the Primary Structure and show compliance with the Formula SAE Rules b. Determine Equivalence to Formula SAE Rules using an accepted basis",
+    "status": "success"
+}

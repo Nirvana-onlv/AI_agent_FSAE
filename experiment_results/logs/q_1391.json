@@ -1,0 +1,20 @@
+{
+    "question_number": 1391,
+    "timestamp": "2026-06-10 14:08:58",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.12.3.2",
+            "retrieved_context": [
+                "\n            RULE: d.12.3.2\n            TITLE: each team must keep track of the endurance run order and have their vehicle fueled, in line\n\n            CONTENT:\n            rule D.12.3.2: Each team must keep track of the Endurance Run Order and have their vehicle fueled, in line\nD.12.3.2 Each team must keep track of the Endurance Run Order and have their vehicle fueled, in line \nand prepared to start when their turn to run arrives.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Each team must keep track of the Endurance Run Order and have their vehicle fueled, in line and prepared to start when their turn to run arrives.",
+    "status": "success"
+}

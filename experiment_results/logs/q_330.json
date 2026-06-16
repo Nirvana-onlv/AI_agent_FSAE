@@ -1,0 +1,20 @@
+{
+    "question_number": 330,
+    "timestamp": "2026-06-06 23:17:30",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.3.4.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.3.4.2",
+            "retrieved_context": [
+                "\n            RULE: f.3.4.2\n            TITLE: properties for any steel material for calculations submitted in an ses must be:\n\n            CONTENT:\n            rule F.3.4.2: Properties for ANY steel material for calculations submitted in an SES must be:\nF.3.4.2 Properties for ANY steel material for calculations submitted in an SES must be: \na. Non Welded Properties for continuous material calculations: \nYoung’s Modulus (E) = 200 GPa (29,000 ksi)  \nYield Strength (Sy) = 305 MPa (44.2 ksi)  \nUltimate Strength (Su) = 365 MPa (52.9 ksi) \nb. Welded Properties for discontinuous material such as joint calculations:  \nYield Strength (Sy) = 180 MPa (26 ksi)  \nUltimate Strength (Su) = 300 MPa (43.5 ksi)\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Properties for ANY steel material for calculations submitted in an SES must be: a. Non Welded Properties for continuous material calculations: Young’s Modulus (E) = 200 GPa (29,000 ksi) Yield Strength (Sy) = 305 MPa (44.2 ksi) Ultimate Strength (Su) = 365 MPa (52.9 ksi) b. Welded Properties for discontinuous material such as joint calculations: Yield Strength (Sy) = 180 MPa (26 ksi) Ultimate Strength (Su) = 300 MPa (43.5 ksi)",
+    "status": "success"
+}

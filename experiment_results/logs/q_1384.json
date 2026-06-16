@@ -1,0 +1,20 @@
+{
+    "question_number": 1384,
+    "timestamp": "2026-06-10 13:45:23",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12.1.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.12.1.4",
+            "retrieved_context": [
+                "\n            RULE: d.12.1.4\n            TITLE: teams may not work on their vehicles once their endurance event has started\n\n            CONTENT:\n            rule D.12.1.4: Teams may not work on their vehicles once their Endurance event has started\nD.12.1.4 Teams may not work on their vehicles once their Endurance event has started\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Teams may not work on their vehicles once their Endurance event has started",
+    "status": "success"
+}

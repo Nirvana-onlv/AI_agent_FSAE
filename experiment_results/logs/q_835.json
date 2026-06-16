@@ -1,0 +1,20 @@
+{
+    "question_number": 835,
+    "timestamp": "2026-06-08 13:28:02",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.6.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.6.1",
+            "retrieved_context": [
+                "\n            RULE: ic.5.6.1\n            TITLE: venting systems for the fuel tank and fuel delivery system must not allow fuel to spill during\n\n            CONTENT:\n            rule IC.5.6.1: Venting systems for the fuel tank and fuel delivery system must not allow fuel to spill during\nIC.5.6.1 Venting systems for the fuel tank and fuel delivery system must not allow fuel to spill during \nhard cornering or acceleration.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Venting systems for the fuel tank and fuel delivery system must not allow fuel to spill during hard cornering or acceleration.",
+    "status": "success"
+}

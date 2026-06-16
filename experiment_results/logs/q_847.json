@@ -1,0 +1,20 @@
+{
+    "question_number": 847,
+    "timestamp": "2026-06-08 13:59:31",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.6.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.6.2.1",
+            "retrieved_context": [
+                "\n            RULE: ic.6.2.1\n            TITLE: definitions\n\n            CONTENT:\n            rule IC.6.2.1: Definitions\nIC.6.2.1 Definitions \na. High Pressure fuel systems - those functioning at 10 Bar pressure or above \nb. Direct Injection fuel systems - where the injection occurs directly into the combustion \nsystem \nDirect Injection systems often utilize a low pressure electric fuel pump and high pressure \nmechanical “boost” pump driven off the engine.   \nc. High Pressure Fuel Lines - those between the boost pump and injectors \nd. Low Pressure Fuel Lines - from the electric supply pump to the boost pump\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.6.2.1: Definitions IC.6.2.1 Definitions a. High Pressure fuel systems - those functioning at 10 Bar pressure or above b. Direct Injection fuel systems - where the injection occurs directly into the combustion system Direct Injection systems often utilize a low pressure electric fuel pump and high pressure mechanical “boost” pump driven off the engine. c. High Pressure Fuel Lines - those between the boost pump and injectors d. Low Pressure Fuel Lines - from the electric supply pump to the boost pump",
+    "status": "success"
+}

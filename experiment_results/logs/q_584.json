@@ -1,0 +1,20 @@
+{
+    "question_number": 584,
+    "timestamp": "2026-06-07 07:39:26",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.6.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.6.2",
+            "retrieved_context": [
+                "\n            RULE: t.2.6.2\n            TITLE: the shoulder belt mount spacing must be between 175 mm and 235 mm, center to center\n\n            CONTENT:\n            rule T.2.6.2: The Shoulder Belt Mount Spacing must be between 175 mm and 235 mm, center to center\nT.2.6.2 The Shoulder Belt Mount Spacing must be between 175 mm and 235 mm, center to center\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Shoulder Belt Mount Spacing must be between 175 mm and 235 mm, center to center",
+    "status": "success"
+}

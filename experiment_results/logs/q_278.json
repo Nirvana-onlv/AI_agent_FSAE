@@ -1,0 +1,20 @@
+{
+    "question_number": 278,
+    "timestamp": "2026-06-06 19:37:34",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.3.2.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.3.2.3",
+            "retrieved_context": [
+                "\n            RULE: v.3.2.3\n            TITLE: steering systems must use a rigid mechanical linkage capable of tension and compression\n\n            CONTENT:\n            rule V.3.2.3: Steering systems must use a rigid mechanical linkage capable of tension and compression\nV.3.2.3 Steering systems must use a rigid mechanical linkage capable of tension and compression \nloads for operation\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Steering systems must use a rigid mechanical linkage capable of tension and compression loads for operation",
+    "status": "success"
+}

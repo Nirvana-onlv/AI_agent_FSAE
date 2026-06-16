@@ -1,0 +1,20 @@
+{
+    "question_number": 722,
+    "timestamp": "2026-06-07 18:29:26",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.9.4.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.9.4.2",
+            "retrieved_context": [
+                "\n            RULE: t.9.4.2\n            TITLE: the inertia switch must be:\n\n            CONTENT:\n            rule T.9.4.2: The Inertia Switch must be:\nT.9.4.2 The Inertia Switch must be: \na. A Sensata Resettable Crash Sensor or equivalent  \nb. Mechanically and rigidly attached to the vehicle \nc. Removable to test functionality\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.9.4.2 The Inertia Switch must be: a. A Sensata Resettable Crash Sensor or equivalent b. Mechanically and rigidly attached to the vehicle c. Removable to test functionality",
+    "status": "success"
+}

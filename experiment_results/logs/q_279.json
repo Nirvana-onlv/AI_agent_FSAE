@@ -1,0 +1,20 @@
+{
+    "question_number": 279,
+    "timestamp": "2026-06-06 19:39:22",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.3.2.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.3.2.4",
+            "retrieved_context": [
+                "\n            RULE: v.3.2.4\n            TITLE: the steering system must have positive steering stops that prevent the steering linkages from\n\n            CONTENT:\n            rule V.3.2.4: The steering system must have positive steering stops that prevent the steering linkages from\nV.3.2.4 The steering system must have positive steering stops that prevent the steering linkages from \nlocking up (the inversion of a four bar linkage at one of the pivots). The stops: \na. Must prevent the wheels and tires from contacting suspension, bodywork, or Chassis \nduring the track events \nb. May be placed on the uprights or on the rack\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "V.3.2.4 The steering system must have positive steering stops that prevent the steering linkages from locking up (the inversion of a four bar linkage at one of the pivots). The stops: a. Must prevent the wheels and tires from contacting suspension, bodywork, or Chassis during the track events b. May be placed on the uprights or on the rack",
+    "status": "success"
+}

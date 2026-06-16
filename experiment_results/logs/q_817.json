@@ -1,0 +1,20 @@
+{
+    "question_number": 817,
+    "timestamp": "2026-06-08 12:33:48",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.2.2",
+            "retrieved_context": [
+                "\n            RULE: ic.5.2.2\n            TITLE: the fuel system location must meet ic.1.2 and f.9\n\n            CONTENT:\n            rule IC.5.2.2: The Fuel System location must meet IC.1.2 and F.9\nIC.5.2.2 The Fuel System location must meet IC.1.2 and F.9\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Fuel System location must meet IC.1.2 and F.9",
+    "status": "success"
+}

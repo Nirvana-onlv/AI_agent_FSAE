@@ -1,0 +1,20 @@
+{
+    "question_number": 571,
+    "timestamp": "2026-06-07 07:15:28",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.4.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.4.1",
+            "retrieved_context": [
+                "\n            RULE: t.2.4.1\n            TITLE: the lap belt, shoulder belts and anti-submarine belt(s) must be securely mounted to the\n\n            CONTENT:\n            rule T.2.4.1: The Lap Belt, Shoulder Belts and Anti-Submarine Belt(s) must be securely mounted to the\nT.2.4.1 The Lap Belt, Shoulder Belts and Anti-Submarine Belt(s) must be securely mounted to the \nPrimary Structure.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Lap Belt, Shoulder Belts and Anti-Submarine Belt(s) must be securely mounted to the Primary Structure.",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 1343,
+    "timestamp": "2026-06-10 11:22:36",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.8.1.7 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.8.1.7",
+            "retrieved_context": [
+                "\n            RULE: d.8.1.7\n            TITLE: oc – off course\n\n            CONTENT:\n            rule D.8.1.7: OC – Off Course\nD.8.1.7 OC – Off Course \na. The vehicle did not pass through a gate in the required direction.   \nb. The vehicle has all four wheels outside the course boundary as indicated by cones, edge \nmarking or the edge of the paved surface.    \nWhere more than one boundary indicator is used on the same course, the narrowest track will \nbe used when determining Off Course penalties.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.8.1.7: OC – Off Course a. The vehicle did not pass through a gate in the required direction. b. The vehicle has all four wheels outside the course boundary as indicated by cones, edge marking or the edge of the paved surface. Where more than one boundary indicator is used on the same course, the narrowest track will be used when determining Off Course penalties.",
+    "status": "success"
+}

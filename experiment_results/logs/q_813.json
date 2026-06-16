@@ -1,0 +1,20 @@
+{
+    "question_number": 813,
+    "timestamp": "2026-06-08 12:23:31",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.1.1",
+            "retrieved_context": [
+                "\n            RULE: ic.5.1.1\n            TITLE: vehicles must be operated with the fuels provided by the organizer at the competition.\n\n            CONTENT:\n            rule IC.5.1.1: Vehicles must be operated with the fuels provided by the organizer at the competition.\nIC.5.1.1 Vehicles must be operated with the fuels provided by the organizer at the competition.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Vehicles must be operated with the fuels provided by the organizer at the competition.",
+    "status": "success"
+}

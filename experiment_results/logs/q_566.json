@@ -1,0 +1,20 @@
+{
+    "question_number": 566,
+    "timestamp": "2026-06-07 07:06:40",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.2.6 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.2.6",
+            "retrieved_context": [
+                "\n            RULE: t.2.2.6\n            TITLE: all harness hardware must be used as received from the manufacturer.  no modification\n\n            CONTENT:\n            rule T.2.2.6: All Harness hardware must be used as received from the manufacturer.  No modification\nT.2.2.6 All Harness hardware must be used as received from the manufacturer.  No modification \n(including drilling, cutting, grinding, etc) is permitted.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 59 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "All Harness hardware must be used as received from the manufacturer. No modification (including drilling, cutting, grinding, etc) is permitted.",
+    "status": "success"
+}

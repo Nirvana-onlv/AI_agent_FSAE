@@ -1,0 +1,20 @@
+{
+    "question_number": 1368,
+    "timestamp": "2026-06-10 12:47:49",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.11 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "Rule D.11",
+            "retrieved_context": [
+                "\n            RULE: d.11\n            TITLE: autocross event\n\n            CONTENT:\n            rule D.11: AUTOCROSS EVENT\nD.11 AUTOCROSS EVENT \nThe Autocross event evaluates the vehicle maneuverability and handling qualities on a tight \ncourse\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.11: AUTOCROSS EVENT The Autocross event evaluates the vehicle maneuverability and handling qualities on a tight course",
+    "status": "success"
+}

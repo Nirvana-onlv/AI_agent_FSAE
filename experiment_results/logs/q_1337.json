@@ -1,0 +1,20 @@
+{
+    "question_number": 1337,
+    "timestamp": "2026-06-10 11:01:08",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.8.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.8.1.1",
+            "retrieved_context": [
+                "\n            RULE: d.8.1.1\n            TITLE: doo - cone is down or out when one or both:\n\n            CONTENT:\n            rule D.8.1.1: DOO - Cone is Down or Out when one or both:\nD.8.1.1 DOO - Cone is Down or Out when one or both:  \na. Cone has been knocked over (Down) \nb. The entire base of the cone lies outside the box marked around the cone in its \nundisturbed position (Out)\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "D.8.1.1 DOO - Cone is Down or Out when one or both: a. Cone has been knocked over (Down) b. The entire base of the cone lies outside the box marked around the cone in its undisturbed position (Out)",
+    "status": "success"
+}

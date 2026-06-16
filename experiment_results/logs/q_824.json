@@ -1,0 +1,20 @@
+{
+    "question_number": 824,
+    "timestamp": "2026-06-08 12:52:41",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.4.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.4.1",
+            "retrieved_context": [
+                "\n            RULE: ic.5.4.1\n            TITLE: all fuel tanks must have a fuel filler neck which must be:\n\n            CONTENT:\n            rule IC.5.4.1: All Fuel Tanks must have a Fuel Filler Neck which must be:\nIC.5.4.1 All Fuel Tanks must have a Fuel Filler Neck which must be:  \na. Minimum 35 mm inner diameter at any point between the Fuel Tank and the Fuel Filler \ncap\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.5.4.1: All Fuel Tanks must have a Fuel Filler Neck which must be: IC.5.4.1 All Fuel Tanks must have a Fuel Filler Neck which must be: a. Minimum 35 mm inner diameter at any point between the Fuel Tank and the Fuel Filler cap",
+    "status": "success"
+}

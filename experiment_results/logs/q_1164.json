@@ -1,0 +1,20 @@
+{
+    "question_number": 1164,
+    "timestamp": "2026-06-09 15:31:35",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.11.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.11.1",
+            "retrieved_context": [
+                "\n            RULE: in.11.1\n            TITLE: rain test requirements\n\n            CONTENT:\n            rule IN.11.1: Rain Test Requirements\nIN.11.1 Rain Test Requirements \n• Tractive System must be Active \n• The vehicle must not be in Ready to Drive mode (EV.7) \n• Any driven wheels must not touch the ground \n• A driver must not be seated in the vehicle\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Rain Test Requirements • Tractive System must be Active • The vehicle must not be in Ready to Drive mode (EV.7) • Any driven wheels must not touch the ground • A driver must not be seated in the vehicle",
+    "status": "success"
+}

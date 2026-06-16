@@ -1,0 +1,20 @@
+{
+    "question_number": 723,
+    "timestamp": "2026-06-07 18:33:14",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.9.4.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.9.4.3",
+            "retrieved_context": [
+                "\n            RULE: t.9.4.3\n            TITLE: inertia switch operation:\n\n            CONTENT:\n            rule T.9.4.3: Inertia Switch operation:\nT.9.4.3 Inertia Switch operation: \na. Must trigger due to a longitudinal impact load which decelerates the vehicle at between \n8 g and 11 g depending on the duration of the deceleration (refer to spec sheet of the \nSensata device) \nb. Must Open the Shutdown Circuit IC.9.2.2 / EV.7.2.2 if triggered \nc. Must latch until manually reset  \nd. May be reset by the driver from inside the driver's cell\nFormula SAE® Rules 2024 © 2023 SAE International  Page 74 of 140   \nVersion 1.0   1 Sep 2023 \nVE - VEHICLE AND DRIVER EQUIPMENT\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.9.4.3 Inertia Switch operation: a. Must trigger due to a longitudinal impact load which decelerates the vehicle at between 8 g and 11 g depending on the duration of the deceleration (refer to spec sheet of the Sensata device) b. Must Open the Shutdown Circuit IC.9.2.2 / EV.7.2.2 if triggered c. Must latch until manually reset d. May be reset by the driver from inside the driver's cell",
+    "status": "success"
+}

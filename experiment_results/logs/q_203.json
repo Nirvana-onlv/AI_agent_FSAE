@@ -1,0 +1,40 @@
+{
+    "question_number": 203,
+    "timestamp": "2026-06-06 11:01:13",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the aero package or the aerodynamic package or the aero devices or the aerodynamic devices visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\36.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "aerodynamic package",
+            "retrieved_context": [
+                "\n            RULE: t.7.7.1\n            TITLE: any part of any aerodynamic device that is located:\n\n            CONTENT:\n            rule T.7.7.1: Any part of any Aerodynamic Device that is located:\nT.7.7.1 Any part of any Aerodynamic Device that is located:   \na. In the Rear Aerodynamic Zone must be no higher than 1200 mm above the ground  \nb. Outside of the Rear Aerodynamic Zone must be no higher than 500 mm above the \nground\nFormula SAE® Rules 2024 © 2023 SAE International  Page 71 of 140   \nVersion 1.0   1 Sep 2023 \nc. Forward of the centerline of the front wheel axles and outboard of two vertical planes \nparallel to the centerline of the chassis touching the inside of the front tires at the height \nof the hubs must be no higher than 250 mm above the ground\n            ",
+                "\n            RULE: t.7.2.2\n            TITLE: bodywork, a nose cone, or another component mounted to the vehicle is an aerodynamic\n\n            CONTENT:\n            rule T.7.2.2: Bodywork, a nose cone, or another component mounted to the vehicle is an Aerodynamic\nT.7.2.2 Bodywork, a nose cone, or another component mounted to the vehicle is an Aerodynamic \nDevice if is designed to, or may possibly, produce force due to aerodynamic effects\n            ",
+                "\n            RULE: in.8.2.1\n            TITLE: any aerodynamic devices may be checked by pushing on the device in any direction and at\n\n            CONTENT:\n            rule IN.8.2.1: Any Aerodynamic Devices may be checked by pushing on the device in any direction and at\nIN.8.2.1 Any Aerodynamic Devices may be checked by pushing on the device in any direction and at \nany point.   \nThe following is guidance, but actual conformance will be up to technical inspectors at the \nrespective competitions. The intent is to reduce the likelihood of wings detaching\n            ",
+                "\n            RULE: t.7.1.1\n            TITLE: aerodynamic device\n\n            CONTENT:\n            rule T.7.1.1: Aerodynamic Device\nT.7.1.1 Aerodynamic Device \nA part on the vehicle which guides airflow for purposes including generation of downforce \nand/or change of drag.   \nExamples include but are not limited to: wings, undertray, splitter, endplates, vanes\n            ",
+                "\n            RULE: t.7.1.3\n            TITLE: all aerodynamic devices must meet:\n\n            CONTENT:\n            rule T.7.1.3: All Aerodynamic Devices must meet:\nT.7.1.3 All Aerodynamic Devices must meet:  \na. The mounting system provides sufficient rigidity in the static condition  \nb. The Aerodynamic Devices do not oscillate or move excessively when the vehicle is \nmoving.   Refer to IN.8.2\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLO-world\",\n    \"slice_height\": 6000,\n    \"slice_width\": 8000,\n    \"overlap_height_ratio\": 0.5,\n    \"overlap_width_ratio\": 0.5,\n    \"keywords\": [\n        \"aerodynamic device\",\n        \"bodywork\",\n        \"chassis\",\n        \"wheel outline\",\n        \"component\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLO-world",
+            "slice_height": 6000,
+            "slice_width": 8000,
+            "overlap_height_ratio": 0.5,
+            "overlap_width_ratio": 0.5,
+            "keywords": [
+                "aerodynamic device",
+                "bodywork",
+                "chassis",
+                "wheel outline",
+                "component"
+            ]
+        },
+        "crop_image_path": null,
+        "founded_objects": null
+    },
+    "final_answer": "Yes",
+    "status": "success"
+}

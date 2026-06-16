@@ -1,0 +1,20 @@
+{
+    "question_number": 321,
+    "timestamp": "2026-06-06 23:01:36",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.2.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.2.2.1",
+            "retrieved_context": [
+                "\n            RULE: f.2.2.1\n            TITLE: all teams must submit a structural equivalency spreadsheet (ses) as given in section dr -\n\n            CONTENT:\n            rule F.2.2.1: All teams must submit a Structural Equivalency Spreadsheet (SES) as given in section DR -\nF.2.2.1 All teams must submit a Structural Equivalency Spreadsheet (SES) as given in section DR - \nDocument Requirements\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "All teams must submit a Structural Equivalency Spreadsheet (SES) as given in section DR - F.2.2.1 All teams must submit a Structural Equivalency Spreadsheet (SES) as given in section DR - Document Requirements",
+    "status": "success"
+}

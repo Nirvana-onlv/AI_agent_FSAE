@@ -1,0 +1,20 @@
+{
+    "question_number": 1149,
+    "timestamp": "2026-06-09 14:43:29",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.10.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.10.1.1",
+            "retrieved_context": [
+                "\n            RULE: in.10.1.1\n            TITLE: the sound level will be measured during a stationary test, with the vehicle gearbox in neutral\n\n            CONTENT:\n            rule IN.10.1.1: The sound level will be measured during a stationary test, with the vehicle gearbox in neutral\nIN.10.1.1 The sound level will be measured during a stationary test, with the vehicle gearbox in neutral \nat the defined Test Speed\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The sound level will be measured during a stationary test, with the vehicle gearbox in neutral at the defined Test Speed",
+    "status": "success"
+}

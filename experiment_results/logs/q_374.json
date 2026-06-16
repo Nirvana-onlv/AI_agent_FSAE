@@ -1,0 +1,20 @@
+{
+    "question_number": 374,
+    "timestamp": "2026-06-07 00:53:19",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.7.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.7.4",
+            "retrieved_context": [
+                "\n            RULE: f.5.7.4\n            TITLE: the top-most surface of the front hoop must be no lower than the top of the steering wheel\n\n            CONTENT:\n            rule F.5.7.4: The top-most surface of the Front Hoop must be no lower than the top of the steering wheel\nF.5.7.4 The top-most surface of the Front Hoop must be no lower than the top of the steering wheel \nin any angular position.   See figure following F.5.9.6 below\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The top-most surface of the Front Hoop must be no lower than the top of the steering wheel in any angular position.",
+    "status": "success"
+}

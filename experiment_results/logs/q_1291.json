@@ -1,0 +1,20 @@
+{
+    "question_number": 1291,
+    "timestamp": "2026-06-10 05:28:55",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.2.2",
+            "retrieved_context": [
+                "\n            RULE: d.2.2\n            TITLE: fueling and charging\n\n            CONTENT:\n            rule D.2.2: Fueling and Charging\nD.2.2 Fueling and Charging \n(IC only) Officials must conduct all fueling activities in the designated location.   \n(EV only) Accumulator charging must be done in the designated location  EV.11.5\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.2.2: Fueling and Charging D.2.2 Fueling and Charging (IC only) Officials must conduct all fueling activities in the designated location. (EV only) Accumulator charging must be done in the designated location EV.11.5",
+    "status": "success"
+}

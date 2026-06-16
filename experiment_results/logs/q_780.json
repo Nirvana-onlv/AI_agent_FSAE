@@ -1,0 +1,20 @@
+{
+    "question_number": 780,
+    "timestamp": "2026-06-08 10:54:57",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.3.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.3.3.2",
+            "retrieved_context": [
+                "\n            RULE: ic.3.3.2\n            TITLE: the throttle actuation system must use two or more return springs located at the throttle\n\n            CONTENT:\n            rule IC.3.3.2: The throttle actuation system must use two or more return springs located at the throttle\nIC.3.3.2 The throttle actuation system must use two or more return springs located at the throttle \nbody.   \nThrottle Position Sensors (TPS) are NOT acceptable as return springs\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The throttle actuation system must use two or more return springs located at the throttle body. Throttle Position Sensors (TPS) are NOT acceptable as return springs",
+    "status": "success"
+}

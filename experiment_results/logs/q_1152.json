@@ -1,0 +1,20 @@
+{
+    "question_number": 1152,
+    "timestamp": "2026-06-09 14:52:02",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.10.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.10.2.2",
+            "retrieved_context": [
+                "\n            RULE: in.10.2.2\n            TITLE: exhaust outlets that are not parallel to the ground may be tested outside of the horizontal\n\n            CONTENT:\n            rule IN.10.2.2: Exhaust Outlets that are not parallel to the ground may be tested outside of the horizontal\nIN.10.2.2 Exhaust Outlets that are not parallel to the ground may be tested outside of the horizontal \nplane.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Exhaust Outlets that are not parallel to the ground may be tested outside of the horizontal plane.",
+    "status": "success"
+}

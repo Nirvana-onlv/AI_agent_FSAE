@@ -1,0 +1,20 @@
+{
+    "question_number": 305,
+    "timestamp": "2026-06-06 22:31:11",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.1.6 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.1.6",
+            "retrieved_context": [
+                "\n            RULE: f.1.6\n            TITLE: roll hoop(s)\n\n            CONTENT:\n            rule F.1.6: Roll Hoop(s)\nF.1.6 Roll Hoop(s) \nReferring to both the Front Hoop AND the Main Hoop\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.1.6: Roll Hoop(s) F.1.6 Roll Hoop(s) Referring to both the Front Hoop AND the Main Hoop",
+    "status": "success"
+}

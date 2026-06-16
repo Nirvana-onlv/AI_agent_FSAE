@@ -1,0 +1,36 @@
+{
+    "question_number": 111,
+    "timestamp": "2026-06-06 06:09:17",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image that shows an engineering drawing of the vehicle on the top accompanied by six CAD views of the vehicle on the bottom. The six CAD views each feature a different orientation of our design, so that 3D information about our design can be inferred. In the CAD views, the relevant aerodynamic devices are highlighted in pink. The CAD views are provided to contextualize the engineering drawing, which has the same orientation as one of the six CAD views. All units displayed in the engineering drawing have units of mm. Based on the engineering drawing, does our design comply with rule T.7.5.b specified in the FSAE rule document? To answer the question, use the scale bar shown at the top of the engineering drawing to compute necessary dimensions in the drawing.  First provide an explanation for your answer (begin it with 'Explanation:'). Then provide just a yes/no answer (begin it with 'Answer:') that summarizes your response.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_compliance\\rule_dimension_qa\\detailed_context\\T.7.5.bc.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.7.5.b",
+            "retrieved_context": [
+                "\n            RULE: t.7.5\n            TITLE: length\n\n            CONTENT:\n            rule T.7.5: Length\nT.7.5 Length \nIn plan view, any part of any Aerodynamic Device must be:  \na. No more than 700 mm forward of the fronts of the front tires \nb. No more than 250 mm rearward of the rear of the rear tires\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLOv26\",\n    \"slice_height\": 4000,\n    \"slice_width\": 640,\n    \"overlap_height_ratio\": 0.9,\n    \"overlap_width_ratio\": 0.9,\n    \"keywords\": [\n        \"dimension line\",\n        \"dimension arrow\",\n        \"scale bar\",\n        \"text label\",\n        \"view outline\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLOv26",
+            "slice_height": 4000,
+            "slice_width": 640,
+            "overlap_height_ratio": 0.9,
+            "overlap_width_ratio": 0.9,
+            "keywords": [
+                "dimension line",
+                "dimension arrow",
+                "scale bar",
+                "text label",
+                "view outline"
+            ]
+        },
+        "crop_image_path": "c:\\Users\\Nirvana\\NIR_project\\experiment_results\\q_111_focus.jpg",
+        "founded_objects": "dimension arrow, dimension line, view outline"
+    },
+    "final_answer": "Explanation:The relevant rule is T.7.5.b, which stipulates that in the plan view, any part of any Aerodynamic Device must be no more than 250 mm rearward of the rear of the rear tires. Observing the plan view of the engineering drawing, the aerodynamic bodywork (highlighted in pink in the CAD views) extends significantly rearward of the rear tires. This overhang is visibly greater than the maximum allowable limit of 250 mm. Therefore, the design fails to comply with rule T.7.5.b.\nAnswer:No",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 1091,
+    "timestamp": "2026-06-09 11:32:20",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.1.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.1.2.1",
+            "retrieved_context": [
+                "\n            RULE: in.1.2.1\n            TITLE: the exact procedures and instruments used for inspection and testing are entirely at the\n\n            CONTENT:\n            rule IN.1.2.1: The exact procedures and instruments used for inspection and testing are entirely at the\nIN.1.2.1 The exact procedures and instruments used for inspection and testing are entirely at the \ndiscretion of the Chief Technical Inspector(s).\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The exact procedures and instruments used for inspection and testing are entirely at the discretion of the Chief Technical Inspector(s).",
+    "status": "success"
+}

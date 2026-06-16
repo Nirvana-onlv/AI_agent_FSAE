@@ -1,0 +1,39 @@
+{
+    "question_number": 174,
+    "timestamp": "2026-06-06 09:56:56",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the main hoop visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\7.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "main hoop visibility",
+            "retrieved_context": [
+                "\n            RULE: f.5.9.3\n            TITLE: in the side view of the frame, the main hoop and the main hoop braces must not lie on the\n\n            CONTENT:\n            rule F.5.9.3: In the side view of the Frame, the Main Hoop and the Main Hoop Braces must not lie on the\nF.5.9.3 In the side view of the Frame, the Main Hoop and the Main Hoop Braces must not lie on the \nsame side of the vertical line through the top of the Main Hoop.   \n(If the Main Hoop leans forward, the Braces must be forward of the Main Hoop, and if the \nMain Hoop leans rearward, the Braces must be rearward of the Main Hoop)\n            ",
+                "\n            RULE: f.5.6.2\n            TITLE: the main hoop and front hoop must be triangulated into the primary structure with\n\n            CONTENT:\n            rule F.5.6.2: The Main Hoop and Front Hoop must be Triangulated into the Primary Structure with\nF.5.6.2 The Main Hoop and Front Hoop must be Triangulated into the Primary Structure with \nStructural Tubing  \nThe Triangulation must be at a node in side view for: \na. Bends in side view \nb. Bends in front view below the Upper Side Impact Structure  F.6.4, F.7.5\n            ",
+                "\n            RULE: f.1.4\n            TITLE: main hoop\n\n            CONTENT:\n            rule F.1.4: Main Hoop\nF.1.4 Main Hoop \nA roll bar located alongside or immediately aft of the driver’s torso.\n            ",
+                "\n            RULE: f.5.9.5\n            TITLE: the included angle formed by the main hoop and the main hoop braces must be 30° or more.\n\n            CONTENT:\n            rule F.5.9.5: The included angle formed by the Main Hoop and the Main Hoop Braces must be 30° or more.\nF.5.9.5 The included angle formed by the Main Hoop and the Main Hoop Braces must be 30° or more.\n            ",
+                "\n            RULE: f.5.8.3\n            TITLE: in the side view of the vehicle,\n\n            CONTENT:\n            rule F.5.8.3: In the side view of the vehicle,\nF.5.8.3 In the side view of the vehicle,  \na. The part of the Main Hoop that lies above its attachment point to the upper Side Impact \nTube must be less than 10° from vertical.  \nb. Any bends in the Main Hoop above its attachment point to the Major Structure of the \nChassis must be braced to a node or Attachment point F.7.8 with tubing meeting \nF.3.2.1.h and F.5.9.5  \nc. The part of the Main Hoop below the Upper Side Impact Member attachment: \n• May be forward at any angle \n• Must not be rearward more than 10° from vertical\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLO-world\",\n    \"slice_height\": 6000,\n    \"slice_width\": 8000,\n    \"overlap_height_ratio\": 0.5,\n    \"overlap_width_ratio\": 0.5,\n    \"keywords\": [\n        \"main hoop\",\n        \"frame\",\n        \"side view\",\n        \"hoop braces\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLO-world",
+            "slice_height": 6000,
+            "slice_width": 8000,
+            "overlap_height_ratio": 0.5,
+            "overlap_width_ratio": 0.5,
+            "keywords": [
+                "main hoop",
+                "frame",
+                "side view",
+                "hoop braces"
+            ]
+        },
+        "crop_image_path": "c:\\Users\\Nirvana\\NIR_project\\experiment_results\\q_174_focus.jpg",
+        "founded_objects": "main hoop"
+    },
+    "final_answer": "yes",
+    "status": "success"
+}

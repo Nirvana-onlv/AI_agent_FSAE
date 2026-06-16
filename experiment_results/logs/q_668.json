@@ -1,0 +1,20 @@
+{
+    "question_number": 668,
+    "timestamp": "2026-06-07 10:15:52",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.6.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.6.1.1",
+            "retrieved_context": [
+                "\n            RULE: t.6.1.1\n            TITLE: working gas - the working gas must be non flammable\n\n            CONTENT:\n            rule T.6.1.1: Working Gas - The working gas must be non flammable\nT.6.1.1 Working Gas - The working gas must be non flammable\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Working Gas - The working gas must be non flammable",
+    "status": "success"
+}

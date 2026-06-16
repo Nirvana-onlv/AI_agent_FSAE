@@ -1,0 +1,20 @@
+{
+    "question_number": 312,
+    "timestamp": "2026-06-06 22:42:07",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.1.13 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.1.13",
+            "retrieved_context": [
+                "\n            RULE: f.1.13\n            TITLE: rollover protection envelope\n\n            CONTENT:\n            rule F.1.13: Rollover Protection Envelope\nF.1.13 Rollover Protection Envelope \nThe Primary Structure plus a plane from the top of the Main Hoop to the top of the Front \nHoop, plus a plane from the top of the Main Hoop to the rearmost Triangulated structural \ntube, or monocoque equivalent.   \n* If there are no Triangulated Structural members aft of the Main Hoop, the Rollover \nProtection Envelope ends at the rear plane of the Main Hoop\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.1.13: Rollover Protection Envelope F.1.13 Rollover Protection Envelope The Primary Structure plus a plane from the top of the Main Hoop to the top of the Front Hoop, plus a plane from the top of the Main Hoop to the rearmost Triangulated structural tube, or monocoque equivalent. * If there are no Triangulated Structural members aft of the Main Hoop, the Rollover Protection Envelope ends at the rear plane of the Main Hoop",
+    "status": "success"
+}

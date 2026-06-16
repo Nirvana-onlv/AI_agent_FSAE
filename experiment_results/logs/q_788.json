@@ -1,0 +1,20 @@
+{
+    "question_number": 788,
+    "timestamp": "2026-06-08 11:17:09",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.4.3.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.4.3.1",
+            "retrieved_context": [
+                "\n            RULE: ic.4.3.1\n            TITLE: the etc notice of intent:\n\n            CONTENT:\n            rule IC.4.3.1: The ETC Notice of Intent:\nIC.4.3.1 The ETC Notice of Intent:  \n• Must be submitted to inform the organizer of the intent to run ETC \n• May be used to screen which teams are allowed to use ETC\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.4.3.1: The ETC Notice of Intent: IC.4.3.1 The ETC Notice of Intent: • Must be submitted to inform the organizer of the intent to run ETC • May be used to screen which teams are allowed to use ETC",
+    "status": "success"
+}

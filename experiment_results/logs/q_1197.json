@@ -1,0 +1,20 @@
+{
+    "question_number": 1197,
+    "timestamp": "2026-06-09 17:17:47",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule S.2.2.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "S.2.2.4",
+            "retrieved_context": [
+                "\n            RULE: s.2.2.4\n            TITLE: the team presentation must relate specifically to the vehicle as entered in the competition\n\n            CONTENT:\n            rule S.2.2.4: The team presentation must relate specifically to the vehicle as entered in the competition\nS.2.2.4 The team presentation must relate specifically to the vehicle as entered in the competition\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The team presentation must relate specifically to the vehicle as entered in the competition",
+    "status": "success"
+}

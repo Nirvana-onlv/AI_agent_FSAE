@@ -1,0 +1,20 @@
+{
+    "question_number": 364,
+    "timestamp": "2026-06-07 00:29:19",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.5.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.5.2",
+            "retrieved_context": [
+                "\n            RULE: f.5.5.2\n            TITLE: document the adhesive choice, age and expiration date, substrate preparation, and the\n\n            CONTENT:\n            rule F.5.5.2: Document the adhesive choice, age and expiration date, substrate preparation, and the\nF.5.5.2 Document the adhesive choice, age and expiration date, substrate preparation, and the \nequivalency of the bonded joint in the SES\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Document the adhesive choice, age and expiration date, substrate preparation, and the equivalency of the bonded joint in the SES",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 861,
+    "timestamp": "2026-06-08 14:43:21",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.7.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.7.4",
+            "retrieved_context": [
+                "\n            RULE: ic.7.4\n            TITLE: connections to exhaust\n\n            CONTENT:\n            rule IC.7.4: Connections to Exhaust\nIC.7.4 Connections to Exhaust \nCrankcase breathers that pass through the oil catch tank(s) to exhaust systems, or vacuum \ndevices that connect directly to the exhaust system, are prohibited.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Connections to Exhaust Crankcase breathers that pass through the oil catch tank(s) to exhaust systems, or vacuum devices that connect directly to the exhaust system, are prohibited.",
+    "status": "success"
+}

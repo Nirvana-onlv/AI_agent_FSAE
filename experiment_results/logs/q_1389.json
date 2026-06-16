@@ -1,0 +1,22 @@
+{
+    "question_number": 1389,
+    "timestamp": "2026-06-10 14:01:14",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.12.3",
+            "retrieved_context": [
+                "\n            RULE: d.12.3\n            TITLE: endurance run order\n\n            CONTENT:\n            rule D.12.3: Endurance Run Order\nD.12.3 Endurance Run Order \nThe Endurance Run Order is established to let vehicles of similar speed potential be on track \ntogether to reduce the need for passing.\n            ",
+                "\n            RULE: d.12.3.2\n            TITLE: each team must keep track of the endurance run order and have their vehicle fueled, in line\n\n            CONTENT:\n            rule D.12.3.2: Each team must keep track of the Endurance Run Order and have their vehicle fueled, in line\nD.12.3.2 Each team must keep track of the Endurance Run Order and have their vehicle fueled, in line \nand prepared to start when their turn to run arrives.\n            ",
+                "\n            RULE: d.12.3.1\n            TITLE: the endurance run order:\n\n            CONTENT:\n            rule D.12.3.1: The Endurance Run Order:\nD.12.3.1 The Endurance Run Order:  \na. Should be primarily based on the Autocross event finish order \nb. Should include the teams eligible for Endurance which did not compete in the Autocross \nevent.   \nc. May be altered by the organizer to accommodate specific circumstances or event \nconsiderations\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.12.3: Endurance Run Order D.12.3 Endurance Run Order The Endurance Run Order is established to let vehicles of similar speed potential be on track together to reduce the need for passing.",
+    "status": "success"
+}

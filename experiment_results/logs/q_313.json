@@ -1,0 +1,20 @@
+{
+    "question_number": 313,
+    "timestamp": "2026-06-06 22:45:18",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.1.14 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.1.14",
+            "retrieved_context": [
+                "\n            RULE: f.1.14\n            TITLE: tire surface envelope\n\n            CONTENT:\n            rule F.1.14: Tire Surface Envelope\nF.1.14 Tire Surface Envelope \nThe volume enclosed by tangent lines between the Main Hoop and the outside edge of each \nof the four tires.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.1.14: Tire Surface Envelope F.1.14 Tire Surface Envelope The volume enclosed by tangent lines between the Main Hoop and the outside edge of each of the four tires.",
+    "status": "success"
+}

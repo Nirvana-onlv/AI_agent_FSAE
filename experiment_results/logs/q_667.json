@@ -1,0 +1,24 @@
+{
+    "question_number": 667,
+    "timestamp": "2026-06-07 10:14:11",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.6.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.6.1",
+            "retrieved_context": [
+                "\n            RULE: t.6.1.9\n            TITLE: the driver must be protected from failure of the cylinder/tank and regulator\n\n            CONTENT:\n            rule T.6.1.9: The driver must be protected from failure of the cylinder/tank and regulator\nT.6.1.9 The driver must be protected from failure of the cylinder/tank and regulator\n            ",
+                "\n            RULE: t.6.1.1\n            TITLE: working gas - the working gas must be non flammable\n\n            CONTENT:\n            rule T.6.1.1: Working Gas - The working gas must be non flammable\nT.6.1.1 Working Gas - The working gas must be non flammable\n            ",
+                "\n            RULE: t.6.1.4\n            TITLE: lines and fittings - the gas lines and fittings must be appropriate for the maximum possible\n\n            CONTENT:\n            rule T.6.1.4: Lines and Fittings - The gas lines and fittings must be appropriate for the maximum possible\nT.6.1.4 Lines and Fittings - The gas lines and fittings must be appropriate for the maximum possible \noperating pressure of the system.\n            ",
+                "\n            RULE: t.6.1.5\n            TITLE: insulation - the gas cylinder/tank must be insulated from any heat sources\n\n            CONTENT:\n            rule T.6.1.5: Insulation - The gas cylinder/tank must be insulated from any heat sources\nT.6.1.5 Insulation - The gas cylinder/tank must be insulated from any heat sources\n            ",
+                "\n            RULE: t.6.1\n            TITLE: compressed gas cylinders and lines\n\n            CONTENT:\n            rule T.6.1: Compressed Gas Cylinders and Lines\nT.6.1 Compressed Gas Cylinders and Lines \nAny system on the vehicle that uses a compressed gas as an actuating medium must meet the \nfollowing:\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.6.1 Compressed Gas Cylinders and Lines Any system on the vehicle that uses a compressed gas as an actuating medium must meet the following:",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 1181,
+    "timestamp": "2026-06-09 16:25:41",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.14.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.14.1",
+            "retrieved_context": [
+                "\n            RULE: in.14.1\n            TITLE: prior to inspection approval\n\n            CONTENT:\n            rule IN.14.1: Prior to Inspection Approval\nIN.14.1 Prior to Inspection Approval \nOnce the vehicle has been presented for judging in the Cost or Design Events, or submitted for \nTechnical Inspection, and until the vehicle has the full Inspection Approval, the only \nmodifications permitted to the vehicle are those directed by the Inspector(s) and noted on the \nInspection Form.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Prior to Inspection Approval Once the vehicle has been presented for judging in the Cost or Design Events, or submitted for Technical Inspection, and until the vehicle has the full Inspection Approval, the only modifications permitted to the vehicle are those directed by the Inspector(s) and noted on the Inspection Form.",
+    "status": "success"
+}

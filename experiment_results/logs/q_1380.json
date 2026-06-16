@@ -1,0 +1,21 @@
+{
+    "question_number": 1380,
+    "timestamp": "2026-06-10 13:32:26",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "Rule D.12",
+            "retrieved_context": [
+                "\n            RULE: d.12\n            TITLE: endurance event\n\n            CONTENT:\n            rule D.12: ENDURANCE EVENT\nD.12 ENDURANCE EVENT \nThe Endurance event evaluates the overall performance of the vehicle and tests the durability \nand reliability.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 134 of 140   \nVersion 1.0   1 Sep 2023\n            ",
+                "\n            RULE: d.12.3\n            TITLE: endurance run order\n\n            CONTENT:\n            rule D.12.3: Endurance Run Order\nD.12.3 Endurance Run Order \nThe Endurance Run Order is established to let vehicles of similar speed potential be on track \ntogether to reduce the need for passing.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "D.12 ENDURANCE EVENT The Endurance event evaluates the overall performance of the vehicle and tests the durability and reliability.",
+    "status": "success"
+}

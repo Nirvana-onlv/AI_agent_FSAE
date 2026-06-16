@@ -1,0 +1,20 @@
+{
+    "question_number": 1393,
+    "timestamp": "2026-06-10 14:17:32",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12.4.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.12.4.2",
+            "retrieved_context": [
+                "\n            RULE: d.12.4.2\n            TITLE: following driver change, the vehicle will be allowed up to 120 seconds (two minutes) to (ic)\n\n            CONTENT:\n            rule D.12.4.2: Following Driver Change, the vehicle will be allowed up to 120 seconds (two minutes) to (IC)\nD.12.4.2 Following Driver Change, the vehicle will be allowed up to 120 seconds (two minutes) to (IC) \nrestart the engine or to (EV) enable the Tractive System. \na. The time will start when the driver first tries to restart the engine or to enable the \nTractive System.  \nb. The time to attempt start / restart is not counted towards the Endurance time\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "D.12.4.2 Following Driver Change, the vehicle will be allowed up to 120 seconds (two minutes) to restart the engine or to enable the Tractive System. a. The time will start when the driver first tries to restart the engine or to enable the Tractive System. b. The time to attempt start / restart is not counted towards the Endurance time",
+    "status": "success"
+}

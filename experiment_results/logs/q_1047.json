@@ -1,0 +1,20 @@
+{
+    "question_number": 1047,
+    "timestamp": "2026-06-09 06:49:48",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule EV.7.10.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "EV.7.10.4",
+            "retrieved_context": [
+                "\n            RULE: ev.7.10.4\n            TITLE: one shutdown button must be mounted in the cockpit which:\n\n            CONTENT:\n            rule EV.7.10.4: One Shutdown Button must be mounted in the cockpit which:\nEV.7.10.4 One Shutdown Button must be mounted in the cockpit which:  \na. Is located in easy reach of the belted in driver, adjacent to the steering wheel, and \nunobstructed by the steering wheel or any other part of the vehicle \nb. Has diameter of 24 mm minimum\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "EV.7.10.4 One Shutdown Button must be mounted in the cockpit which: a. Is located in easy reach of the belted in driver, adjacent to the steering wheel, and unobstructed by the steering wheel or any other part of the vehicle b. Has diameter of 24 mm minimum",
+    "status": "success"
+}

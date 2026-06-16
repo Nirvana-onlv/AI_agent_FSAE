@@ -1,0 +1,20 @@
+{
+    "question_number": 1292,
+    "timestamp": "2026-06-10 05:32:43",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.2.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.2.3",
+            "retrieved_context": [
+                "\n            RULE: d.2.3\n            TITLE: powertrain operation\n\n            CONTENT:\n            rule D.2.3: Powertrain Operation\nD.2.3 Powertrain Operation \nIn the paddock, (IC) Engines may be run or (EV) Tractive System may be Active if all three:   \na. The vehicle has passed Technical Inspection up to and including the Tilt Test OR a \nTechnical Inspector gives permission  \nb. The vehicle is supported on a stand  \nc. The drive wheels are minimum 10 cm off the ground, OR the drive wheels are removed\nFormula SAE® Rules 2024 © 2023 SAE International  Page 126 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "D.2.3 Powertrain Operation In the paddock, (IC) Engines may be run or (EV) Tractive System may be Active if all three: a. The vehicle has passed Technical Inspection up to and including the Tilt Test OR a Technical Inspector gives permission b. The vehicle is supported on a stand c. the drive wheels are minimum 10 cm off the ground, OR the drive wheels are removed",
+    "status": "success"
+}

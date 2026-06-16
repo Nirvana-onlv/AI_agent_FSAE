@@ -1,0 +1,40 @@
+{
+    "question_number": 205,
+    "timestamp": "2026-06-06 11:07:24",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the rear wing visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\38.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "rear wing visibility",
+            "retrieved_context": [
+                "\n            RULE: t.7.6.2\n            TITLE: when between the centerlines of the front and rear wheel axles:\n\n            CONTENT:\n            rule T.7.6.2: When between the centerlines of the front and rear wheel axles:\nT.7.6.2 When between the centerlines of the front and rear wheel axles:   \nInboard of a line drawn connecting the outer surfaces of the front and rear tires at the height \nof the wheel centers\n            ",
+                "\n            RULE: v.2.2\n            TITLE: visibility\n\n            CONTENT:\n            rule V.2.2: Visibility\nV.2.2 Visibility \na. The driver must have sufficient visibility to the front and sides of the vehicle \nb. When seated in a normal driving position, the driver must have a minimum field of vision \nof 100° to both sides \nc. If mirrors are required for this rule, they must remain in place and adjusted to enable the \nrequired visibility throughout all dynamic events.\n            ",
+                "\n            RULE: t.7.5\n            TITLE: length\n\n            CONTENT:\n            rule T.7.5: Length\nT.7.5 Length \nIn plan view, any part of any Aerodynamic Device must be:  \na. No more than 700 mm forward of the fronts of the front tires \nb. No more than 250 mm rearward of the rear of the rear tires\n            ",
+                "\n            RULE: t.7.6.3\n            TITLE: when rearward of the centerline of the rear wheel axles:\n\n            CONTENT:\n            rule T.7.6.3: When rearward of the centerline of the rear wheel axles:\nT.7.6.3 When rearward of the centerline of the rear wheel axles: \nIn the Rear Aerodynamic Zone\n            ",
+                "\n            RULE: t.3.4.1\n            TITLE: the vehicle must have a brake light that is clearly visible from the rear in very bright sunlight.\n\n            CONTENT:\n            rule T.3.4.1: The vehicle must have a Brake Light that is clearly visible from the rear in very bright sunlight.\nT.3.4.1 The vehicle must have a Brake Light that is clearly visible from the rear in very bright sunlight.\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\"detection_model\": \"YOLO-world\", \"slice_height\": 6000, \"slice_width\": 8000, \"overlap_height_ratio\": 0.5, \"overlap_width_ratio\": 0.5, \"keywords\": [\"rear wing\", \"aerodynamic device\", \"vehicle body\", \"wheel outline\", \"chassis\"]}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLO-world",
+            "slice_height": 6000,
+            "slice_width": 8000,
+            "overlap_height_ratio": 0.5,
+            "overlap_width_ratio": 0.5,
+            "keywords": [
+                "rear wing",
+                "aerodynamic device",
+                "vehicle body",
+                "wheel outline",
+                "chassis"
+            ]
+        },
+        "crop_image_path": null,
+        "founded_objects": null
+    },
+    "final_answer": "no",
+    "status": "success"
+}

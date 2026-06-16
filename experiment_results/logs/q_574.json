@@ -1,0 +1,20 @@
+{
+    "question_number": 574,
+    "timestamp": "2026-06-07 07:20:31",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.4.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.4.4",
+            "retrieved_context": [
+                "\n            RULE: t.2.4.4\n            TITLE: attachment of tabs or brackets must meet the following:\n\n            CONTENT:\n            rule T.2.4.4: Attachment of tabs or brackets must meet the following:\nT.2.4.4 Attachment of tabs or brackets must meet the following: \na. Where brackets are fastened to the chassis, no less than two 6 mm or 1/4” minimum \ndiameter Critical Fasteners, see T.8.2 or stronger must be used to attach the bracket to \nthe chassis. \nb. Where a single shear tab is welded to the chassis, the tab to tube welding must be on \nboth sides of the base of the tab. \nDouble shear attachments are preferred.  Tabs and brackets for double shear mounts should \nbe welded on both sides.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.2.4.4 Attachment of tabs or brackets must meet the following: a. Where brackets are fastened to the chassis, no less than two 6 mm or 1/4” minimum diameter Critical Fasteners, see T.8.2 or stronger must be used to attach the bracket to the chassis. b. Where a single shear tab is welded to the chassis, the tab to tube welding must be on both sides of the base of the tab. Double shear attachments are preferred. Tabs and brackets for double shear mounts should be welded on both sides.",
+    "status": "success"
+}

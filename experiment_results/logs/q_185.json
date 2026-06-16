@@ -1,0 +1,39 @@
+{
+    "question_number": 185,
+    "timestamp": "2026-06-06 10:20:25",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the rocker arms or the rocker arm visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\18.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "rocker arm",
+            "retrieved_context": [
+                "\n            RULE: ve.3.3.7\n            TITLE: arm restraints\n\n            CONTENT:\n            rule VE.3.3.7: Arm Restraints\nVE.3.3.7 Arm Restraints \na. Arm restraints must be worn in a way that the driver can release them and exit the \nvehicle unassisted regardless of the vehicle’s position.   \nb. Arm restraints must be commercially manufactured.  Arm restraints certified to SFI Spec \n3.3 and labeled as such meet this requirement.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 78 of 140   \nVersion 1.0   1 Sep 2023 \nIC - INTERNAL COMBUSTION ENGINE VEHICLES\n            ",
+                "\n            RULE: t.1.3.3\n            TITLE: all moving suspension and steering components and other sharp edges inside the cockpit\n\n            CONTENT:\n            rule T.1.3.3: All moving suspension and steering components and other sharp edges inside the cockpit\nT.1.3.3 All moving suspension and steering components and other sharp edges inside the cockpit \nbetween the Front Hoop and a vertical plane 100 mm rearward of the pedals must be covered \nby a shield made of a solid material.  \nMoving components include, but are not limited to springs, shock absorbers, rocker arms, anti-\nroll/sway bars, steering racks and steering column CV joints.\n            ",
+                "\n            RULE: t.1.7.1\n            TITLE: all vehicles must have a floor closeout to prevent track debris from entering\n\n            CONTENT:\n            rule T.1.7.1: All vehicles must have a Floor Closeout to prevent track debris from entering\nT.1.7.1 All vehicles must have a Floor Closeout to prevent track debris from entering\n            ",
+                "\n            RULE: t.1.6.3\n            TITLE: the design must address all three types of heat transfer between the heat source (examples\n\n            CONTENT:\n            rule T.1.6.3: The design must address all three types of heat transfer between the heat source (examples\nT.1.6.3 The design must address all three types of heat transfer between the heat source (examples \ninclude but are not limited to:  exhaust pipe, coolant hose/tube, Accumulator Container) and \nthe panel that the driver could contact (seat or floor): \na. Conduction Isolation by one of the following: \n• No direct contact between the heat source and the panel \n• A heat resistant, conduction isolation material with a minimum thickness of 8 mm \nbetween the heat source and the panel  \nb. Convection Isolation by a minimum air gap of 25 mm between the heat source and the \npanel \nc. Radiation Isolation by one of the following: \n• A solid metal heat shield with a minimum thickness of 0.4 mm \n• Reflective foil or tape when combined with conduction insulation\n            ",
+                "\n            RULE: ve.2.1.2\n            TITLE: the jacking point must be:\n\n            CONTENT:\n            rule VE.2.1.2: The Jacking Point must be:\nVE.2.1.2 The Jacking Point must be:  \na. Capable of supporting the vehicle weight and of engaging the organizer Quick Jacks  \nb. Visible to a person standing 1 m behind the vehicle \nc. Color:  Orange \nd. Oriented laterally and perpendicular to the centerline of the vehicle \ne. Made from round, 25 - 30 mm OD aluminum or steel tube  \nf. Exposed around the lower 180° of its circumference over a minimum length of 280 mm  \ng. Access from the rear of the tube must be unobstructed for 300 mm or more of its length \nh. The height of the tube must allow 75 mm minimum clearance from the bottom of the \ntube to the ground \ni. When the vehicle is raised to where the bottom of the tube is 200 mm above ground, the \nwheels do not touch the ground when they are in full rebound\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLOv26\",\n    \"slice_height\": 4000,\n    \"slice_width\": 640,\n    \"overlap_height_ratio\": 0.9,\n    \"overlap_width_ratio\": 0.9,\n    \"keywords\": [\n        \"component label\",\n        \"dimension line\",\n        \"view box\",\n        \"cross-section view\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLOv26",
+            "slice_height": 4000,
+            "slice_width": 640,
+            "overlap_height_ratio": 0.9,
+            "overlap_width_ratio": 0.9,
+            "keywords": [
+                "component label",
+                "dimension line",
+                "view box",
+                "cross-section view"
+            ]
+        },
+        "crop_image_path": null,
+        "founded_objects": null
+    },
+    "final_answer": "No",
+    "status": "success"
+}

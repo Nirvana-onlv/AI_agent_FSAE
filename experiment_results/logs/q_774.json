@@ -1,0 +1,20 @@
+{
+    "question_number": 774,
+    "timestamp": "2026-06-08 10:38:36",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.2.5.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.2.5.3",
+            "retrieved_context": [
+                "\n            RULE: ic.2.5.3\n            TITLE: plenums must not be located anywhere upstream of the throttle body\n\n            CONTENT:\n            rule IC.2.5.3: Plenums must not be located anywhere upstream of the throttle body\nIC.2.5.3 Plenums must not be located anywhere upstream of the throttle body \nFor the purpose of definition, a plenum is any tank or volume that is a significant enlargement \nof the normal intake runner system.  Teams may submit their designs via a Rules Question for \nreview prior to competition if the legality of their proposed system is in doubt.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.2.5.3: Plenums must not be located anywhere upstream of the throttle body For the purpose of definition, a plenum is any tank or volume that is a significant enlargement of the normal intake runner system.",
+    "status": "success"
+}

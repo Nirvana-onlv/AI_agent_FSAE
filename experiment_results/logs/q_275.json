@@ -1,0 +1,20 @@
+{
+    "question_number": 275,
+    "timestamp": "2026-06-06 19:31:08",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.3.1.5 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.3.1.5",
+            "retrieved_context": [
+                "\n            RULE: v.3.1.5\n            TITLE: all spherical rod ends and spherical bearings on the suspension and steering must be one of:\n\n            CONTENT:\n            rule V.3.1.5: All spherical rod ends and spherical bearings on the suspension and steering must be one of:\nV.3.1.5 All spherical rod ends and spherical bearings on the suspension and steering must be one of: \n• Mounted in double shear  \n• Captured by having a screw/bolt head or washer with an outside diameter that is larger \nthan spherical bearing housing inside diameter.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "All spherical rod ends and spherical bearings on the suspension and steering must be one of: V.3.1.5 All spherical rod ends and spherical bearings on the suspension and steering must be one of: • Mounted in double shear • Captured by having a screw/bolt head or washer with an outside diameter that is larger than spherical bearing housing inside diameter.",
+    "status": "success"
+}

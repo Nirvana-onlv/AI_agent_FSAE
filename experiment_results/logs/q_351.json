@@ -1,0 +1,24 @@
+{
+    "question_number": 351,
+    "timestamp": "2026-06-07 00:02:35",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5",
+            "retrieved_context": [
+                "\n            RULE: f.5.2\n            TITLE: are met.\n\n            CONTENT:\n            rule F.5.2: are met.\nF.5.2 are met. \nd. Examples of acceptable configurations of members may be found in the SES.\n            ",
+                "\n            RULE: f.5.10\n            TITLE: head restraint protection\n\n            CONTENT:\n            rule F.5.10: Head Restraint Protection\nF.5.10 Head Restraint Protection  \nAn additional frame member may be added to meet T.2.8.3.b\n            ",
+                "\n            RULE: f.5.16\n            TITLE: component protection\n\n            CONTENT:\n            rule F.5.16: Component Protection\nF.5.16 Component Protection  \nWhen specified in the rules, components must be protected by one or both of:  \na. Fully Triangulated structure with tubes meeting F.3.2.1.n  \nb. Structure Equivalent to the above, as determined per F.4.1.3\n            ",
+                "\n            RULE: f.5.14\n            TITLE: steering protection\n\n            CONTENT:\n            rule F.5.14: Steering Protection\nF.5.14 Steering Protection \nSteering system racks or mounting components that are external (vertically above or below) \nto the Primary Structure must be protected from frontal impact.  The protective structure \nmust:  \na. Meet  F.3.2.1.n or Equivalent \nb. Extend to the vertical limit of the steering component(s) \nc. Extend to the local width of the Chassis\n            ",
+                "\n            RULE: f.5\n            TITLE: chassis requirements\n\n            CONTENT:\n            rule F.5: CHASSIS REQUIREMENTS\nF.5 CHASSIS REQUIREMENTS  \nThis section applies to all Chassis, regardless of material or construction\nFormula SAE® Rules 2024 © 2023 SAE International  Page 31 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "F.5 CHASSIS REQUIREMENTS This section applies to all Chassis, regardless of material or construction",
+    "status": "success"
+}

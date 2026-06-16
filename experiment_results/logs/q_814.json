@@ -1,0 +1,20 @@
+{
+    "question_number": 814,
+    "timestamp": "2026-06-08 12:25:52",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.1.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.1.2",
+            "retrieved_context": [
+                "\n            RULE: ic.5.1.2\n            TITLE: fuels provided are expected to be gasoline and e85.  consult the individual competition\n\n            CONTENT:\n            rule IC.5.1.2: Fuels provided are expected to be Gasoline and E85.  Consult the individual competition\nIC.5.1.2 Fuels provided are expected to be Gasoline and E85.  Consult the individual competition \nwebsites for fuel specifics and other information.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Fuels provided are expected to be Gasoline and E85. Consult the individual competition websites for fuel specifics and other information.",
+    "status": "success"
+}

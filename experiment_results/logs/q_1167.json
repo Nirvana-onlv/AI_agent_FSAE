@@ -1,0 +1,20 @@
+{
+    "question_number": 1167,
+    "timestamp": "2026-06-09 15:40:56",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.12.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.12.1",
+            "retrieved_context": [
+                "\n            RULE: in.12.1\n            TITLE: objective\n\n            CONTENT:\n            rule IN.12.1: Objective\nIN.12.1 Objective \nThe brake system will be dynamically tested and must demonstrate the capability of locking all \nfour wheels when stopping the vehicle in a straight line at the end of an acceleration run \nspecified by the brake inspectors\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The brake system will be dynamically tested and must demonstrate the capability of locking all four wheels when stopping the vehicle in a straight line at the end of an acceleration run specified by the brake inspectors",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 776,
+    "timestamp": "2026-06-08 10:44:13",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.2.6 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.2.6",
+            "retrieved_context": [
+                "\n            RULE: ic.2.6\n            TITLE: connections to intake\n\n            CONTENT:\n            rule IC.2.6: Connections to Intake\nIC.2.6 Connections to Intake \nAny crankcase or engine lubrication vent lines routed to the intake system must be connected \nupstream of the intake system restrictor.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 80 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Any crankcase or engine lubrication vent lines routed to the intake system must be connected upstream of the intake system restrictor.",
+    "status": "success"
+}

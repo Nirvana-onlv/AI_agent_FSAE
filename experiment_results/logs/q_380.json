@@ -1,0 +1,20 @@
+{
+    "question_number": 380,
+    "timestamp": "2026-06-07 01:08:36",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.8.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.8.3",
+            "retrieved_context": [
+                "\n            RULE: f.5.8.3\n            TITLE: in the side view of the vehicle,\n\n            CONTENT:\n            rule F.5.8.3: In the side view of the vehicle,\nF.5.8.3 In the side view of the vehicle,  \na. The part of the Main Hoop that lies above its attachment point to the upper Side Impact \nTube must be less than 10° from vertical.  \nb. Any bends in the Main Hoop above its attachment point to the Major Structure of the \nChassis must be braced to a node or Attachment point F.7.8 with tubing meeting \nF.3.2.1.h and F.5.9.5  \nc. The part of the Main Hoop below the Upper Side Impact Member attachment: \n• May be forward at any angle \n• Must not be rearward more than 10° from vertical\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.5.8.3: In the side view of the vehicle, F.5.8.3 In the side view of the vehicle, a. The part of the Main Hoop that lies above its attachment point to the upper Side Impact Tube must be less than 10° from vertical. b. Any bends in the Main Hoop above its attachment point to the Major Structure of the Chassis must be braced to a node or Attachment point F.7.8 with tubing meeting F.3.2.1.h and F.5.9.5 c. The part of the Main Hoop below the Upper Side Impact Member attachment: • May be forward at any angle • Must not be rearward more than 10° from vertical",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 587,
+    "timestamp": "2026-06-07 07:45:15",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.7.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.7.1",
+            "retrieved_context": [
+                "\n            RULE: t.2.7.1\n            TITLE: the anti-submarine belt of a 5 point harness must be mounted with the mounting point in\n\n            CONTENT:\n            rule T.2.7.1: The Anti-Submarine Belt of a 5 point harness must be mounted with the mounting point in\nT.2.7.1 The Anti-Submarine Belt of a 5 point harness must be mounted with the mounting point in \nline with or slightly forward of the driver’s Chest to Groin Line with an Anti-Submarine Belt \nSide View Angle no more than 20°\nFormula SAE® Rules 2024 © 2023 SAE International  Page 61 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Anti-Submarine Belt of a 5 point harness must be mounted with the mounting point in line with or slightly forward of the driver’s Chest to Groin Line with an Anti-Submarine Belt Side View Angle no more than 20°",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 289,
+    "timestamp": "2026-06-06 22:04:26",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.3.3.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.3.3.4",
+            "retrieved_context": [
+                "\n            RULE: v.3.3.4\n            TITLE: the steering wheel must have a continuous perimeter that is near circular or near oval.\n\n            CONTENT:\n            rule V.3.3.4: The Steering Wheel must have a continuous perimeter that is near circular or near oval.\nV.3.3.4 The Steering Wheel must have a continuous perimeter that is near circular or near oval.   \nThe outer perimeter profile may have some straight sections, but no concave sections. “H”, \n“Figure 8”, or cutout wheels are not allowed.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The Steering Wheel must have a continuous perimeter that is near circular or near oval. The outer perimeter profile may have some straight sections, but no concave sections. “H”, “Figure 8”, or cutout wheels are not allowed.",
+    "status": "success"
+}

@@ -1,0 +1,23 @@
+{
+    "question_number": 694,
+    "timestamp": "2026-06-07 11:01:35",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.7.6 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.7.6",
+            "retrieved_context": [
+                "\n            RULE: t.7.6\n            TITLE: width\n\n            CONTENT:\n            rule T.7.6: Width\nT.7.6 Width \nIn plan view, any part of any Aerodynamic Device must be:\n            ",
+                "\n            RULE: t.7.6.3\n            TITLE: when rearward of the centerline of the rear wheel axles:\n\n            CONTENT:\n            rule T.7.6.3: When rearward of the centerline of the rear wheel axles:\nT.7.6.3 When rearward of the centerline of the rear wheel axles: \nIn the Rear Aerodynamic Zone\n            ",
+                "\n            RULE: t.7.6.1\n            TITLE: when forward of the centerline of the front wheel axles:\n\n            CONTENT:\n            rule T.7.6.1: When forward of the centerline of the front wheel axles:\nT.7.6.1 When forward of the centerline of the front wheel axles:   \nInboard of two vertical planes parallel to the centerline of the chassis touching the outside of \nthe front tires at the height of the hubs.\n            ",
+                "\n            RULE: t.7.6.2\n            TITLE: when between the centerlines of the front and rear wheel axles:\n\n            CONTENT:\n            rule T.7.6.2: When between the centerlines of the front and rear wheel axles:\nT.7.6.2 When between the centerlines of the front and rear wheel axles:   \nInboard of a line drawn connecting the outer surfaces of the front and rear tires at the height \nof the wheel centers\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.7.6: Width In plan view, any part of any Aerodynamic Device must be:",
+    "status": "success"
+}

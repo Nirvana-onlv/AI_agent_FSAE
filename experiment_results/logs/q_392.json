@@ -1,0 +1,20 @@
+{
+    "question_number": 392,
+    "timestamp": "2026-06-07 01:34:49",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.11.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.11.1",
+            "retrieved_context": [
+                "\n            RULE: f.5.11.1\n            TITLE: any item which meets all three of:\n\n            CONTENT:\n            rule F.5.11.1: Any item which meets all three of:\nF.5.11.1 Any item which meets all three of: \n• Located outside the Component Envelope  F.1.15 \n• Located above 350 mm from the ground  \n• Could load the Main Hoop, Main Hoop Brace, or Shoulder Harness Mounting during a \nrollover\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Any item which meets all three of: • Located outside the Component Envelope F.1.15 • Located above 350 mm from the ground • Could load the Main Hoop, Main Hoop Brace, or Shoulder Harness Mounting during a rollover",
+    "status": "success"
+}

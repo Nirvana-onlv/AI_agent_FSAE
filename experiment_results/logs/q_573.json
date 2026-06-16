@@ -1,0 +1,20 @@
+{
+    "question_number": 573,
+    "timestamp": "2026-06-07 07:18:46",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.4.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.4.3",
+            "retrieved_context": [
+                "\n            RULE: t.2.4.3\n            TITLE: each tab or bracket to which any part of the harness is attached must:\n\n            CONTENT:\n            rule T.2.4.3: Each tab or bracket to which any part of the Harness is attached must:\nT.2.4.3 Each tab or bracket to which any part of the Harness is attached must: \na. Support a minimum load in pullout and tearout before failure of:  \n• If one belt is attached to the tab or bracket    15 kN \n• If two belts are attached to the tab or bracket   30 kN \nb. Be 1.6 mm minimum thickness \nc. Not be in bending when the attached part of the Harness is put under load  \nd. Not cause abrasion to the belt webbing\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.2.4.3: Each tab or bracket to which any part of the Harness is attached must: a. Support a minimum load in pullout and tearout before failure of: • If one belt is attached to the tab or bracket 15 kN • If two belts are attached to the tab or bracket 30 kN b. Be 1.6 mm minimum thickness c. Not be in bending when the attached part of the Harness is put under load d. Not cause abrasion to the belt webbing",
+    "status": "success"
+}

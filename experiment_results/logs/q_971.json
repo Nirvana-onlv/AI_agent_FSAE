@@ -1,0 +1,20 @@
+{
+    "question_number": 971,
+    "timestamp": "2026-06-09 02:47:40",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule EV.6.2.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "EV.6.2.1",
+            "retrieved_context": [
+                "\n            RULE: ev.6.2.1\n            TITLE: insulation material must:\n\n            CONTENT:\n            rule EV.6.2.1: Insulation material must:\nEV.6.2.1 Insulation material must:  \na. Be appropriate for the expected surrounding temperatures \nb. Have a minimum temperature rating of 90°C\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule EV.6.2.1: Insulation material must: EV.6.2.1 Insulation material must: a. Be appropriate for the expected surrounding temperatures b. Have a minimum temperature rating of 90°C",
+    "status": "success"
+}

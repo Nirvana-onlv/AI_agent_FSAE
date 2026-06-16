@@ -1,0 +1,20 @@
+{
+    "question_number": 660,
+    "timestamp": "2026-06-07 10:03:06",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.5.5.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.5.5.4",
+            "retrieved_context": [
+                "\n            RULE: t.5.5.4\n            TITLE: two holes of minimum diameter 25 mm each must be provided in the structure or belly pan at\n\n            CONTENT:\n            rule T.5.5.4: Two holes of minimum diameter 25 mm each must be provided in the structure or belly pan at\nT.5.5.4 Two holes of minimum diameter 25 mm each must be provided in the structure or belly pan at \nthe locations: \na. The lowest point of the chassis  \nb. Rearward of the driver position, forward of a fuel tank or other liquid source \nc. If the lowest point of the chassis obeys T.5.5.4.b, then only one set of holes T.5.5.4.a is \nnecessary\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.5.5.4: Two holes of minimum diameter 25 mm each must be provided in the structure or belly pan at T.5.5.4 Two holes of minimum diameter 25 mm each must be provided in the structure or belly pan at the locations: a. The lowest point of the chassis b. Rearward of the driver position, forward of a fuel tank or other liquid source c. If the lowest point of the chassis obeys T.5.5.4.b, then only one set of holes T.5.5.4.a is necessary",
+    "status": "success"
+}

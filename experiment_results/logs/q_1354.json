@@ -1,0 +1,20 @@
+{
+    "question_number": 1354,
+    "timestamp": "2026-06-10 11:59:57",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.9.4.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.9.4.1",
+            "retrieved_context": [
+                "\n            RULE: d.9.4.1\n            TITLE: scoring term definitions:\n\n            CONTENT:\n            rule D.9.4.1: Scoring Term Definitions:\nD.9.4.1 Scoring Term Definitions: \n• Corrected Time = Acceleration Run Time + ( DOO * 2 ) \n• Tyour  -  the best Corrected Time for the team  \n• Tmin  -  the lowest Corrected Time recorded for any team \n• Tmax  - 150% of Tmin\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.9.4.1: Scoring Term Definitions: D.9.4.1 Scoring Term Definitions: • Corrected Time = Acceleration Run Time + ( DOO * 2 ) • Tyour - the best Corrected Time for the team • Tmin - the lowest Corrected Time recorded for any team • Tmax - 150% of Tmin",
+    "status": "success"
+}

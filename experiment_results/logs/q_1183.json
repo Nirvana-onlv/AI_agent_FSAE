@@ -1,0 +1,20 @@
+{
+    "question_number": 1183,
+    "timestamp": "2026-06-09 16:32:00",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IN.14.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IN.14.2.2",
+            "retrieved_context": [
+                "\n            RULE: in.14.2.2\n            TITLE: changes to fit the vehicle to different drivers are allowed.  permitted changes are:\n\n            CONTENT:\n            rule IN.14.2.2: Changes to fit the vehicle to different drivers are allowed.  Permitted changes are:\nIN.14.2.2 Changes to fit the vehicle to different drivers are allowed.  Permitted changes are: \n• Adjustment of the driver restraint system, Head Restraint, seat and pedal assembly \n• Substitution of the Head Restraint or seat insert  \n• Adjustment of mirrors\nFormula SAE® Rules 2024 © 2023 SAE International  Page 117 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "IN.14.2.2 TITLE: changes to fit the vehicle to different drivers are allowed. permitted changes are: CONTENT: rule IN.14.2.2: Changes to fit the vehicle to different drivers are allowed. Permitted changes are: • Adjustment of the driver restraint system, Head Restraint, seat and pedal assembly • Substitution of the Head Restraint or seat insert • Adjustment of mirrors",
+    "status": "success"
+}

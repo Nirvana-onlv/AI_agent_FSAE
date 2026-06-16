@@ -1,0 +1,20 @@
+{
+    "question_number": 767,
+    "timestamp": "2026-06-08 10:20:19",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.2.4.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.2.4.2",
+            "retrieved_context": [
+                "\n            RULE: ic.2.4.2\n            TITLE: the only allowed sequence of components are the following:\n\n            CONTENT:\n            rule IC.2.4.2: The only allowed sequence of components are the following:\nIC.2.4.2 The only allowed sequence of components are the following:  \na. For naturally aspirated engines, the sequence must be: throttle body, restrictor, and \nengine. \nb. For turbocharged or supercharged engines, the sequence must be: restrictor, \ncompressor, throttle body, engine.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.2.4.2: The only allowed sequence of components are the following: IC.2.4.2 The only allowed sequence of components are the following: a. For naturally aspirated engines, the sequence must be: throttle body, restrictor, and engine. b. For turbocharged or supercharged engines, the sequence must be: restrictor, compressor, throttle body, engine.",
+    "status": "success"
+}

@@ -1,0 +1,40 @@
+{
+    "question_number": 188,
+    "timestamp": "2026-06-06 10:27:00",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the wheel centers or the wheel center visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\21.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "wheel center",
+            "retrieved_context": [
+                "\n            RULE: t.7.6.3\n            TITLE: when rearward of the centerline of the rear wheel axles:\n\n            CONTENT:\n            rule T.7.6.3: When rearward of the centerline of the rear wheel axles:\nT.7.6.3 When rearward of the centerline of the rear wheel axles: \nIn the Rear Aerodynamic Zone\n            ",
+                "\n            RULE: t.7.6.2\n            TITLE: when between the centerlines of the front and rear wheel axles:\n\n            CONTENT:\n            rule T.7.6.2: When between the centerlines of the front and rear wheel axles:\nT.7.6.2 When between the centerlines of the front and rear wheel axles:   \nInboard of a line drawn connecting the outer surfaces of the front and rear tires at the height \nof the wheel centers\n            ",
+                "\n            RULE: t.7.6.1\n            TITLE: when forward of the centerline of the front wheel axles:\n\n            CONTENT:\n            rule T.7.6.1: When forward of the centerline of the front wheel axles:\nT.7.6.1 When forward of the centerline of the front wheel axles:   \nInboard of two vertical planes parallel to the centerline of the chassis touching the outside of \nthe front tires at the height of the hubs.\n            ",
+                "\n            RULE: v.1.1\n            TITLE: open wheel\n\n            CONTENT:\n            rule V.1.1: Open Wheel\nV.1.1 Open Wheel \nOpen Wheel vehicles must satisfy all of the following criteria: \na. The top 180° of the wheels/tires must be unobstructed when viewed from vertically \nabove the wheel. \nb. The wheels/tires must be unobstructed when viewed from the side. \nc. No part of the vehicle may enter a keep out zone defined by two lines extending \nvertically from positions 75 mm in front of and 75 mm aft of, the outer diameter of the \nfront and rear tires in the side view elevation of the vehicle, with tires steered straight \nahead. This keep out zone will extend laterally from the outside plane of the wheel/tire \nto the inboard plane of the wheel/tire.\n            ",
+                "\n            RULE: v.3.2.10\n            TITLE: rear wheel steering may be used.\n\n            CONTENT:\n            rule V.3.2.10: Rear wheel steering may be used.\nV.3.2.10 Rear wheel steering may be used.   \na. Rear wheel steering must incorporate mechanical stops to limit the range of angular \nmovement of the rear wheels to a maximum of six degrees (6°).  \nb. The team must provide the ability for the steering angle range to be verified at Technical \nInspection with a driver in the vehicle.  \nc. Rear wheel steering may be electrically actuated.\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLOv26\",\n    \"slice_height\": 640,\n    \"slice_width\": 4000,\n    \"overlap_height_ratio\": 0.9,\n    \"overlap_width_ratio\": 0.9,\n    \"keywords\": [\n        \"wheel center\",\n        \"wheel axle\",\n        \"tires\",\n        \"chassis lines\",\n        \"dimension lines\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLOv26",
+            "slice_height": 640,
+            "slice_width": 4000,
+            "overlap_height_ratio": 0.9,
+            "overlap_width_ratio": 0.9,
+            "keywords": [
+                "wheel center",
+                "wheel axle",
+                "tires",
+                "chassis lines",
+                "dimension lines"
+            ]
+        },
+        "crop_image_path": null,
+        "founded_objects": null
+    },
+    "final_answer": "yes",
+    "status": "success"
+}

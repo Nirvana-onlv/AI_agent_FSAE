@@ -1,0 +1,20 @@
+{
+    "question_number": 369,
+    "timestamp": "2026-06-07 00:41:05",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.6.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.6.4",
+            "retrieved_context": [
+                "\n            RULE: f.5.6.4\n            TITLE: driver template\n\n            CONTENT:\n            rule F.5.6.4: Driver Template\nF.5.6.4 Driver Template \nA two dimensional template used to represent the 95th percentile male is made to the \nfollowing dimensions (see figure below):  \n• A circle of diameter 200 mm will represent the hips and buttocks.  \n• A circle of diameter 200 mm will represent the shoulder/cervical region.  \n• A circle of diameter 300 mm will represent the head (with helmet).  \n• A straight line measuring 490 mm will connect the centers of the two 200 mm circles.  \n• A straight line measuring 280 mm will connect the centers of the upper 200 mm circle \nand the 300 mm head circle.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 33 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.5.6.4: Driver Template F.5.6.4 Driver Template A two dimensional template used to represent the 95th percentile male is made to the following dimensions (see figure below): • A circle of diameter 200 mm will represent the hips and buttocks. • A circle of diameter 200 mm will represent the shoulder/cervical region. • A circle of diameter 300 mm will represent the head (with helmet). • A straight line measuring 490 mm will connect the centers of the two 200 mm circles. • A straight line measuring 280 mm will connect the centers of the upper 200 mm circle and the 300 mm head circle.",
+    "status": "success"
+}

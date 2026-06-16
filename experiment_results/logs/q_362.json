@@ -1,0 +1,20 @@
+{
+    "question_number": 362,
+    "timestamp": "2026-06-07 00:25:10",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.5.4.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.5.4.3",
+            "retrieved_context": [
+                "\n            RULE: f.5.4.3\n            TITLE: bolted connections in the primary structure using tabs or brackets must have an edge\n\n            CONTENT:\n            rule F.5.4.3: Bolted connections in the Primary Structure using tabs or brackets must have an edge\nF.5.4.3 Bolted connections in the Primary Structure using tabs or brackets must have an edge \ndistance ratio “e/D” of 1.5 or higher  \n“D” equals the hole diameter.  “e” equals the distance from the edge of the hole to the nearest \nfree edge \nTabs attaching the Suspension to the Primary Structure are NOT “in the Primary Structure”\nFormula SAE® Rules 2024 © 2023 SAE International  Page 32 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule F.5.4.3: Bolted connections in the Primary Structure using tabs or brackets must have an edge distance ratio “e/D” of 1.5 or higher “D” equals the hole diameter. “e” equals the distance from the edge of the hole to the nearest free edge Tabs attaching the Suspension to the Primary Structure are NOT “in the Primary Structure”",
+    "status": "success"
+}

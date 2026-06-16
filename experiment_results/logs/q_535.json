@@ -1,0 +1,20 @@
+{
+    "question_number": 535,
+    "timestamp": "2026-06-07 06:12:45",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.1.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.1.2.2",
+            "retrieved_context": [
+                "\n            RULE: t.1.2.2\n            TITLE: conduct of the test.  the template:\n\n            CONTENT:\n            rule T.1.2.2: Conduct of the test.  The template:\nT.1.2.2 Conduct of the test.  The template:  \na. Will be held vertically and inserted into the cockpit opening rearward of the rearmost \nportion of the steering column.   \nb. Will then be passed horizontally through the cockpit to a point 100 mm rearwards of the \nface of the rearmost pedal when in the inoperative position \nc. May be moved vertically inside the cockpit\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.1.2.2 Conduct of the test. a. Will be held vertically and inserted into the cockpit opening rearward of the rearmost portion of the steering column. b. Will then be passed horizontally through the cockpit to a point 100 mm rearwards of the face of the rearmost pedal when in the inoperative position c. May be moved vertically inside the cockpit",
+    "status": "success"
+}

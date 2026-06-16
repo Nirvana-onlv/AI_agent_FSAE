@@ -1,0 +1,20 @@
+{
+    "question_number": 821,
+    "timestamp": "2026-06-08 12:43:20",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.3.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.3.2",
+            "retrieved_context": [
+                "\n            RULE: ic.5.3.2\n            TITLE: any fuel tank that is made from a flexible material, for example a bladder fuel cell or a bag\n\n            CONTENT:\n            rule IC.5.3.2: Any Fuel Tank that is made from a flexible material, for example a bladder fuel cell or a bag\nIC.5.3.2 Any Fuel Tank that is made from a flexible material, for example a bladder fuel cell or a bag \ntank: \na. Must be enclosed inside a rigid fuel tank container which is securely attached to the \nvehicle structure.   \nb. The Fuel Tank container may be load carrying\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Any Fuel Tank that is made from a flexible material, for example a bladder fuel cell or a bag IC.5.3.2 Any Fuel Tank that is made from a flexible material, for example a bladder fuel cell or a bag tank: a. Must be enclosed inside a rigid fuel tank container which is securely attached to the vehicle structure. b. The Fuel Tank container may be load carrying",
+    "status": "success"
+}

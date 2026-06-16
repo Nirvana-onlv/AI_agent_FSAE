@@ -1,0 +1,20 @@
+{
+    "question_number": 336,
+    "timestamp": "2026-06-06 23:30:54",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule F.4.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "F.4.1.1",
+            "retrieved_context": [
+                "\n            RULE: f.4.1.1\n            TITLE: documentation of material type, (purchase receipt, shipping document or letter of donation)\n\n            CONTENT:\n            rule F.4.1.1: Documentation of material type, (purchase receipt, shipping document or letter of donation)\nF.4.1.1 Documentation of material type, (purchase receipt, shipping document or letter of donation) \nand the material properties.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Documentation of material type, (purchase receipt, shipping document or letter of donation) and the material properties.",
+    "status": "success"
+}

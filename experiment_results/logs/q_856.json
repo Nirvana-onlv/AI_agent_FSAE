@@ -1,0 +1,20 @@
+{
+    "question_number": 856,
+    "timestamp": "2026-06-08 14:27:40",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.7.2.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.7.2.3",
+            "retrieved_context": [
+                "\n            RULE: ic.7.2.3\n            TITLE: any exhaust components (headers, mufflers, etc.) that protrude from the side of the body in\n\n            CONTENT:\n            rule IC.7.2.3: Any exhaust components (headers, mufflers, etc.) that protrude from the side of the body in\nIC.7.2.3 Any exhaust components (headers, mufflers, etc.) that protrude from the side of the body in \nfront of the Main Hoop must be shielded to prevent contact by persons approaching the \nvehicle or a driver exiting the vehicle\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Any exhaust components (headers, mufflers, etc.) that protrude from the side of the body in front of the Main Hoop must be shielded to prevent contact by persons approaching the vehicle or a driver exiting the vehicle",
+    "status": "success"
+}

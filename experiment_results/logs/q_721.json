@@ -1,0 +1,20 @@
+{
+    "question_number": 721,
+    "timestamp": "2026-06-07 11:49:34",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.9.4.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.9.4.1",
+            "retrieved_context": [
+                "\n            RULE: t.9.4.1\n            TITLE: inertia switch requirement\n\n            CONTENT:\n            rule T.9.4.1: Inertia Switch Requirement\nT.9.4.1 Inertia Switch Requirement  \n• (EV) Must have an Inertia Switch \n• (IC) Should have an Inertia Switch\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.9.4.1: Inertia Switch Requirement T.9.4.1 Inertia Switch Requirement • (EV) Must have an Inertia Switch • (IC) Should have an Inertia Switch",
+    "status": "success"
+}

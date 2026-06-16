@@ -1,0 +1,24 @@
+{
+    "question_number": 570,
+    "timestamp": "2026-06-07 07:13:37",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.4",
+            "retrieved_context": [
+                "\n            RULE: t.2.4\n            TITLE: belt, strap and harness installation - general\n\n            CONTENT:\n            rule T.2.4: Belt, Strap and Harness Installation - General\nT.2.4 Belt, Strap and Harness Installation - General\n            ",
+                "\n            RULE: t.2.4.2\n            TITLE: any guide or support for the belts must be material meeting f.3.2.1.j\n\n            CONTENT:\n            rule T.2.4.2: Any guide or support for the belts must be material meeting F.3.2.1.j\nT.2.4.2 Any guide or support for the belts must be material meeting F.3.2.1.j\n            ",
+                "\n            RULE: t.2.4.1\n            TITLE: the lap belt, shoulder belts and anti-submarine belt(s) must be securely mounted to the\n\n            CONTENT:\n            rule T.2.4.1: The Lap Belt, Shoulder Belts and Anti-Submarine Belt(s) must be securely mounted to the\nT.2.4.1 The Lap Belt, Shoulder Belts and Anti-Submarine Belt(s) must be securely mounted to the \nPrimary Structure.\n            ",
+                "\n            RULE: t.2.4.3\n            TITLE: each tab or bracket to which any part of the harness is attached must:\n\n            CONTENT:\n            rule T.2.4.3: Each tab or bracket to which any part of the Harness is attached must:\nT.2.4.3 Each tab or bracket to which any part of the Harness is attached must: \na. Support a minimum load in pullout and tearout before failure of:  \n• If one belt is attached to the tab or bracket    15 kN \n• If two belts are attached to the tab or bracket   30 kN \nb. Be 1.6 mm minimum thickness \nc. Not be in bending when the attached part of the Harness is put under load  \nd. Not cause abrasion to the belt webbing\n            ",
+                "\n            RULE: t.2.4.4\n            TITLE: attachment of tabs or brackets must meet the following:\n\n            CONTENT:\n            rule T.2.4.4: Attachment of tabs or brackets must meet the following:\nT.2.4.4 Attachment of tabs or brackets must meet the following: \na. Where brackets are fastened to the chassis, no less than two 6 mm or 1/4” minimum \ndiameter Critical Fasteners, see T.8.2 or stronger must be used to attach the bracket to \nthe chassis. \nb. Where a single shear tab is welded to the chassis, the tab to tube welding must be on \nboth sides of the base of the tab. \nDouble shear attachments are preferred.  Tabs and brackets for double shear mounts should \nbe welded on both sides.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "T.2.4 Belt, Strap and Harness Installation - General",
+    "status": "success"
+}

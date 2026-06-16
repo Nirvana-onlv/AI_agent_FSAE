@@ -1,0 +1,20 @@
+{
+    "question_number": 832,
+    "timestamp": "2026-06-08 13:19:02",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.5.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.5.1",
+            "retrieved_context": [
+                "\n            RULE: ic.5.5.1\n            TITLE: b. if the fuel level changes after refuelling:\n\n            CONTENT:\n            rule IC.5.5.1: b. If the fuel level changes after refuelling:\nIC.5.5.1  \nb. If the fuel level changes after refuelling: \n• Additional fuel will be added to return the fuel tank level to the fuel level line.  \n• Twice this amount will be added to the previously measured fuel consumption \nc. If damage or a potential environmental hazard (example - Fuel Tank leakage) exists, the \nFuel Tank will not be refilled  D.13.3.4\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.5.5.1: b. If the fuel level changes after refuelling: IC.5.5.1 b. If the fuel level changes after refuelling: • Additional fuel will be added to return the fuel tank level to the fuel level line. • Twice this amount will be added to the previously measured fuel consumption c. If damage or a potential environmental hazard (example - Fuel Tank leakage) exists, the Fuel Tank will not be refilled D.13.3.4",
+    "status": "success"
+}

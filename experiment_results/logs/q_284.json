@@ -1,0 +1,20 @@
+{
+    "question_number": 284,
+    "timestamp": "2026-06-06 21:56:28",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule V.3.2.9 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "V.3.2.9",
+            "retrieved_context": [
+                "\n            RULE: v.3.2.9\n            TITLE: spherical rod ends and spherical bearings in the steering must meet v.3.1.5 above\n\n            CONTENT:\n            rule V.3.2.9: Spherical rod ends and spherical bearings in the steering must meet V.3.1.5 above\nV.3.2.9 Spherical rod ends and spherical bearings in the steering must meet V.3.1.5 above\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Spherical rod ends and spherical bearings in the steering must meet V.3.1.5 above",
+    "status": "success"
+}

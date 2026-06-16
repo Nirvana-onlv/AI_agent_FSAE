@@ -1,0 +1,20 @@
+{
+    "question_number": 1381,
+    "timestamp": "2026-06-10 13:35:34",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12.1.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.12.1.1",
+            "retrieved_context": [
+                "\n            RULE: d.12.1.1\n            TITLE: the organizer may establish one or more requirements to allow teams to compete in the\n\n            CONTENT:\n            rule D.12.1.1: The organizer may establish one or more requirements to allow teams to compete in the\nD.12.1.1 The organizer may establish one or more requirements to allow teams to compete in the \nEndurance event.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule D.12.1.1: The organizer may establish one or more requirements to allow teams to compete in the Endurance event.",
+    "status": "success"
+}

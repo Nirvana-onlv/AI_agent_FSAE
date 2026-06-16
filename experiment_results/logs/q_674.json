@@ -1,0 +1,20 @@
+{
+    "question_number": 674,
+    "timestamp": "2026-06-07 10:26:17",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.6.1.7 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.6.1.7",
+            "retrieved_context": [
+                "\n            RULE: t.6.1.7\n            TITLE: cylinder location - the gas cylinder/tank and the pressure regulator must be:\n\n            CONTENT:\n            rule T.6.1.7: Cylinder Location - The gas cylinder/tank and the pressure regulator must be:\nT.6.1.7 Cylinder Location - The gas cylinder/tank and the pressure regulator must be:  \na. Securely mounted inside the Chassis  \nb. Located outside of the Cockpit \nc. In a position below the height of the Shoulder Belt Mount T.2.6 \nd. Aligned so the axis of the gas cylinder/tank does not point at the driver\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule T.6.1.7: Cylinder Location - The gas cylinder/tank and the pressure regulator must be: T.6.1.7 Cylinder Location - The gas cylinder/tank and the pressure regulator must be: a. Securely mounted inside the Chassis b. Located outside of the Cockpit c. In a position below the height of the Shoulder Belt Mount T.2.6 d. Aligned so the axis of the gas cylinder/tank does not point at the driver",
+    "status": "success"
+}

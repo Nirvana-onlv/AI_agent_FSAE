@@ -1,0 +1,20 @@
+{
+    "question_number": 687,
+    "timestamp": "2026-06-07 10:48:43",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.7.2.3 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.7.2.3",
+            "retrieved_context": [
+                "\n            RULE: t.7.2.3\n            TITLE: bodywork must not contain openings into the cockpit from the front of the vehicle back to the\n\n            CONTENT:\n            rule T.7.2.3: Bodywork must not contain openings into the cockpit from the front of the vehicle back to the\nT.7.2.3 Bodywork must not contain openings into the cockpit from the front of the vehicle back to the \nMain Hoop or Firewall.  The cockpit opening and minimal openings around the front \nsuspension components are allowed.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 70 of 140   \nVersion 1.0   1 Sep 2023\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Bodywork must not contain openings into the cockpit from the front of the vehicle back to the Main Hoop or Firewall. The cockpit opening and minimal openings around the front suspension components are allowed.",
+    "status": "success"
+}

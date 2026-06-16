@@ -1,0 +1,20 @@
+{
+    "question_number": 1348,
+    "timestamp": "2026-06-10 11:38:05",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.9.1.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.9.1.4",
+            "retrieved_context": [
+                "\n            RULE: d.9.1.4\n            TITLE: cone locations are not marked on the pavement\n\n            CONTENT:\n            rule D.9.1.4: Cone locations are not marked on the pavement\nD.9.1.4 Cone locations are not marked on the pavement\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "D.9.1.4 Cone locations are not marked on the pavement",
+    "status": "success"
+}

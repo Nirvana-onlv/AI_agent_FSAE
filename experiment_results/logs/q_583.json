@@ -1,0 +1,20 @@
+{
+    "question_number": 583,
+    "timestamp": "2026-06-07 07:37:30",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.6.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.6.1",
+            "retrieved_context": [
+                "\n            RULE: t.2.6.1\n            TITLE: from the driver’s shoulders rearwards to the mounting point or structural guide, the shoulder\n\n            CONTENT:\n            rule T.2.6.1: From the driver’s shoulders rearwards to the mounting point or structural guide, the Shoulder\nT.2.6.1 From the driver’s shoulders rearwards to the mounting point or structural guide, the Shoulder \nBelt Side View Angle must be between 10° above the horizontal and 20° below the horizontal.\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "From the driver’s shoulders rearwards to the mounting point or structural guide, the Shoulder Belt Side View Angle must be between 10° above the horizontal and 20° below the horizontal.",
+    "status": "success"
+}

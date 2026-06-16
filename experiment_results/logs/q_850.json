@@ -1,0 +1,20 @@
+{
+    "question_number": 850,
+    "timestamp": "2026-06-08 14:07:04",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.6.2.4 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.6.2.4",
+            "retrieved_context": [
+                "\n            RULE: ic.6.2.4\n            TITLE: fuel rail mounting requirements:\n\n            CONTENT:\n            rule IC.6.2.4: Fuel rail mounting requirements:\nIC.6.2.4 Fuel rail mounting requirements: \na. The fuel rail must be securely attached to the engine block or cylinder head with brackets \nand mechanical fasteners.  Hose clamps, plastic ties, or safety wires do not meet this \nrequirement.  \nb. The fastening method must be sufficient to hold the fuel rail in place with the maximum \nregulated pressure acting on the injector internals and neglecting any assistance from \ncylinder pressure acting on the injector tip.  \nc. Threaded fasteners used to secure the fuel rail are  Critical Fasteners, see T.8.2\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "rule IC.6.2.4: Fuel rail mounting requirements: IC.6.2.4 Fuel rail mounting requirements: a. The fuel rail must be securely attached to the engine block or cylinder head with brackets and mechanical fasteners. Hose clamps, plastic ties, or safety wires do not meet this requirement. b. The fastening method must be sufficient to hold the fuel rail in place with the maximum regulated pressure acting on the injector internals and neglecting any assistance from cylinder pressure acting on the injector tip. c. Threaded fasteners used to secure the fuel rail are Critical Fasteners, see T.8.2",
+    "status": "success"
+}

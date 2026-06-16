@@ -1,0 +1,39 @@
+{
+    "question_number": 220,
+    "timestamp": "2026-06-06 13:16:24",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. Also attached is an image showing seven CAD views (each boxed in black) of our vehicle design. The top, big view shows a close-up view of the design. The six smaller views on the bottom of the image show different complete views of the CAD of the vehicle and are provided for context. Note that the close-up view orientation matches one of the six complete view orientations. The close-up view may also have some components hidden (with respect to the corresponding complete view) for visualization of specific components. Looking at the close-up view, is/are any part of the the ARBs or the anti-roll bars or the anti-roll bar visible in the close-up view? Answer simply with yes or no.",
+        "image_path": "C:\\Users\\Nirvana\\NIR_project\\design_qa\\dataset\\rule_comprehension\\rule_presence_qa\\53.jpg"
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "anti-roll bar visible",
+            "retrieved_context": [
+                "\n            RULE: f.1.4\n            TITLE: main hoop\n\n            CONTENT:\n            rule F.1.4: Main Hoop\nF.1.4 Main Hoop \nA roll bar located alongside or immediately aft of the driver’s torso.\n            ",
+                "\n            RULE: f.1.5\n            TITLE: front hoop\n\n            CONTENT:\n            rule F.1.5: Front Hoop\nF.1.5 Front Hoop \nA roll bar located above the driver’s legs, in proximity to the steering wheel.\n            ",
+                "\n            RULE: t.2.9\n            TITLE: roll bar padding\n\n            CONTENT:\n            rule T.2.9: Roll Bar Padding\nT.2.9 Roll Bar Padding  \nAny portion of the roll bar, roll bar bracing or Chassis which might be contacted by the driver’s \nhelmet must be covered with a minimum thickness of 12 mm of padding which meets SFI Spec \n45.1 or FIA 8857-2001.\nFormula SAE® Rules 2024 © 2023 SAE International  Page 63 of 140   \nVersion 1.0   1 Sep 2023\n            ",
+                "\n            RULE: in.2.3\n            TITLE: visible access\n\n            CONTENT:\n            rule IN.2.3: Visible Access\nIN.2.3 Visible Access  \nAll items on the Technical Inspection Form must be clearly visible to the technical inspectors \nwithout using instruments such as endoscopes or mirrors.  \nMethods to provide visible access include but are not limited to removable body panels, access \npanels, and other components\n            ",
+                "\n            RULE: t.3.4.1\n            TITLE: the vehicle must have a brake light that is clearly visible from the rear in very bright sunlight.\n\n            CONTENT:\n            rule T.3.4.1: The vehicle must have a Brake Light that is clearly visible from the rear in very bright sunlight.\nT.3.4.1 The vehicle must have a Brake Light that is clearly visible from the rear in very bright sunlight.\n            "
+            ],
+            "rag_k": 5
+        },
+        "yolo_config_raw": "{\n    \"detection_model\": \"YOLO-world\",\n    \"slice_height\": 6000,\n    \"slice_width\": 8000,\n    \"overlap_height_ratio\": 0.5,\n    \"overlap_width_ratio\": 0.5,\n    \"keywords\": [\n        \"roll bar\",\n        \"chassis\",\n        \"anti-roll bar\",\n        \"bodywork\"\n    ]\n}",
+        "yolo_config_parsed": {
+            "detection_model": "YOLO-world",
+            "slice_height": 6000,
+            "slice_width": 8000,
+            "overlap_height_ratio": 0.5,
+            "overlap_width_ratio": 0.5,
+            "keywords": [
+                "roll bar",
+                "chassis",
+                "anti-roll bar",
+                "bodywork"
+            ]
+        },
+        "crop_image_path": null,
+        "founded_objects": null
+    },
+    "final_answer": "No",
+    "status": "success"
+}

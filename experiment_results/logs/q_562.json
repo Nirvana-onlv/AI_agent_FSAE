@@ -1,0 +1,20 @@
+{
+    "question_number": 562,
+    "timestamp": "2026-06-07 07:00:11",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule T.2.2.2 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "T.2.2.2",
+            "retrieved_context": [
+                "\n            RULE: t.2.2.2\n            TITLE: the belts must have the original manufacturers labels showing the specification and\n\n            CONTENT:\n            rule T.2.2.2: The belts must have the original manufacturers labels showing the specification and\nT.2.2.2 The belts must have the original manufacturers labels showing the specification and \nexpiration date\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "The belts must have the original manufacturers labels showing the specification and expiration date",
+    "status": "success"
+}

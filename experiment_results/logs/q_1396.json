@@ -1,0 +1,20 @@
+{
+    "question_number": 1396,
+    "timestamp": "2026-06-10 14:29:16",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule D.12.5.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "D.12.5.1",
+            "retrieved_context": [
+                "\n            RULE: d.12.5.1\n            TITLE: vehicles will be staged per the endurance run order\n\n            CONTENT:\n            rule D.12.5.1: Vehicles will be staged per the Endurance Run Order\nD.12.5.1 Vehicles will be staged per the Endurance Run Order\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Vehicles will be staged per the Endurance Run Order",
+    "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+    "question_number": 820,
+    "timestamp": "2026-06-08 12:40:49",
+    "input": {
+        "question": "We are a student engineering team designing a vehicle for the FSAE competition. Attached is the FSAE rules document. What does rule IC.5.3.1 state exactly? Answer with only the text of the rule and no other words.",
+        "image_path": null
+    },
+    "intermediate_steps": {
+        "rag": {
+            "search_query": "IC.5.3.1",
+            "retrieved_context": [
+                "\n            RULE: ic.5.3.1\n            TITLE: fuel tanks made of a rigid material must:\n\n            CONTENT:\n            rule IC.5.3.1: Fuel Tanks made of a rigid material must:\nIC.5.3.1 Fuel Tanks made of a rigid material must: \na. Be securely attached to the vehicle structure.  The mounting method must not allow \nchassis flex to load the Fuel Tank. \nb. Not be used to carry any structural loads; from Roll Hoops, suspension, engine or \ngearbox mounts\n            "
+            ],
+            "rag_k": 5
+        },
+        "detection": "skipped (text-only)"
+    },
+    "final_answer": "Fuel Tanks made of a rigid material must: IC.5.3.1 Fuel Tanks made of a rigid material must: a. Be securely attached to the vehicle structure. The mounting method must not allow chassis flex to load the Fuel Tank. b. Not be used to carry any structural loads; from Roll Hoops, suspension, engine or gearbox mounts",
+    "status": "success"
+}
