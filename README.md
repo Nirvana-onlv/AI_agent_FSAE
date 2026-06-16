@@ -98,12 +98,13 @@ print(answer)
 | Claude-Opus-RAG | 0.173 | 0.288 | 0.423 | 0.500 | 0.508 | 0.875 | — |
 
 
-### Dimension: прямые vs масштабные вопросы
+### Definition по категориям упоминания
 
-| Тип | Accuracy |
+| Категория | F1 BoC |
 |---|---|
-| Direct (размер явно указан) | 0.513 |
-| Scale-bar (вычисление через масштабную линейку) | 0.325 |
+| Definition (компонент определён в правилах) | 0.495 |
+| Mentioned (упоминается в правилах) | 0.364 |
+| No-mention (не встречается в правилах) | 0.295 |
 
 ### Presence по категориям упоминания
 
@@ -119,12 +120,24 @@ print(answer)
 
 ```
 AI_agent_FSAE/
-├── agent.ipynb              # Основной ноутбук с пайплайном агента
-├── Eval_answers.ipynb       # Подготовка CSV для официальной оценки
+├── Agent_notebook.ipynb          # Основной ноутбук с пайплайном агента
+├── preparing_data.xlsx           # Подготовка данных для оценки
+├── final_results.txt             # Итоговые результаты оценки DesignQA
 ├── requirements.txt
+├── assets/                       # Изображения для README
+├── data/                         # Подмножества датасета DesignQA
+│   ├── rule_compliance/
+│   │   ├── rule_dimension_qa/
+│   │   │   ├── context/          # Вопросы с контекстом (direct + scale-bar)
+│   │   │   └── detailed_context/ # Вопросы с детальным контекстом
+│   │   └── rule_functional_performance_qa/
+│   │       └── images/           # Изображения FEA-симуляций
+│   └── rule_comprehension/
+│       ├── rule_definition_qa/   # Изображения CAD с розовой подсветкой
+│       └── rule_presence_qa/     # Изображения CAD (close-up + 6 видов)
 ├── experiment_results/
-│   └── logs/                # JSON-логи по каждому вопросу (q_1.json, ...)
-└── fsae_chroma/             # ChromaDB индекс (создаётся автоматически)
+│   └── logs/                     # JSON-логи по каждому вопросу (q_1.json, ...)
+└── fsae_chroma/                  # ChromaDB индекс (создаётся автоматически)
 ```
 
 ### Формат лога
