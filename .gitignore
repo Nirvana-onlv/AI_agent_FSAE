@@ -27,3 +27,4 @@ env/
 *.gguf
 fsae_yolov26_task.pt
 fsae_world_task.pt.idea/
+.idea/
